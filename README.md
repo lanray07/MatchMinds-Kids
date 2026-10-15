@@ -63,4 +63,4 @@ Run `python tools/generate_assets.py` to regenerate editable brand assets and th
 
 ## Release status
 
-This is a buildable implementation, not a store-approved release. Read `docs/RELEASE.md`, `docs/PRIVACY-REVIEW.md` and `docs/VERIFICATION.md`. Do not publish until all remaining real-device, billing, content, legal and asset checks are complete. Run `python tools/check_release.py`; missing evidence deliberately fails the check.
+This is a buildable implementation, not a store-approved release. Read `docs/RELEASE.md`, `docs/PRIVACY-REVIEW.md` and `docs/VERIFICATION.md`. Native host renders now supply sixteen SEO-captioned store screenshots, editable masters, square Amazon icon variants and a promotional banner; see `docs/STORE-ASSETS.md`. Amazon draft creation is currently blocked on the required public support email. Do not publish until remaining device, billing, content, legal and asset checks are complete. Run `python tools/check_release.py`; missing evidence deliberately fails the check.

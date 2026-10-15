@@ -25,6 +25,7 @@ import androidx.compose.ui.text.font.*
 import androidx.compose.ui.text.input.*
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.*
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.lifecycle.*
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.matchminds.core.*
@@ -81,6 +82,7 @@ class MainActivity : ComponentActivity() {
     val local by vm.local.collectAsStateWithLifecycle()
     val play by vm.play.collectAsStateWithLifecycle()
     val bill by billing.state.collectAsStateWithLifecycle()
+    val compact=LocalConfiguration.current.screenWidthDp<600
     var mic by remember { mutableStateOf(false) }
     var voiceStatus by remember { mutableStateOf("") }
     val permission=rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
@@ -117,13 +119,13 @@ class MainActivity : ComponentActivity() {
                 val entrance by animateFloatAsState(if(appeared) 1f else .85f,animationSpec=androidx.compose.animation.core.tween(if(local.settings.reducedMotion) 0 else 650),label="Milo welcome")
                 Column(Modifier.fillMaxSize().alpha(entrance).scale(entrance),Arrangement.Center,Alignment.CenterHorizontally) { Milo(Modifier.size(200.dp)); Heading("MatchMinds Kids"); UiText("Little matches. Big discoveries.",color=Teal) }
         } else Column(Modifier.fillMaxSize().safeDrawingPadding()) {
-            Row(Modifier.fillMaxWidth().padding(horizontal=24.dp,vertical=10.dp),verticalAlignment=Alignment.CenterVertically) {
-                if(play.screen!=Screen.WELCOME) TextButton(onClick={back()}) { UiText("‹  Back",fontSize=17.sp) }
-                Art("fox",Modifier.size(42.dp))
-                Column(Modifier.padding(start=8.dp).weight(1f)) { UiText("MatchMinds",fontWeight=FontWeight.ExtraBold,fontSize=22.sp,color=Ink); UiText("K I D S  •  PLAY & DISCOVER",fontSize=9.sp,color=Teal,fontWeight=FontWeight.Bold) }
+            Row(Modifier.fillMaxWidth().padding(horizontal=if(compact) 12.dp else 24.dp,vertical=10.dp),verticalAlignment=Alignment.CenterVertically) {
+                if(play.screen!=Screen.WELCOME) TextButton(onClick={back()},modifier=Modifier.semantics {contentDescription="Go back"}) { UiText(if(compact) "‹" else "‹  Back",fontSize=if(compact) 25.sp else 17.sp) }
+                Art("fox",Modifier.size(if(compact) 32.dp else 42.dp))
+                Column(Modifier.padding(start=8.dp).weight(1f)) { UiText("MatchMinds",fontWeight=FontWeight.ExtraBold,fontSize=if(compact) 18.sp else 22.sp,color=Ink,maxLines=1); UiText(if(compact) "KIDS" else "K I D S  •  PLAY & DISCOVER",fontSize=9.sp,color=Teal,fontWeight=FontWeight.Bold,maxLines=1) }
                 if(play.screen !in setOf(Screen.PARENTS,Screen.GATE,Screen.PREMIUM,Screen.LANGUAGE,Screen.ACCESSIBILITY)) {
-                    TextButton(onClick={if(play.screen==Screen.GAME) vm.pause();vm.navigate(Screen.REWARDS)}) { UiText("★ ${local.stars}",fontSize=20.sp,color=Teal) }
-                    TextButton(onClick={if(play.screen==Screen.GAME) vm.pause();vm.navigate(Screen.GATE)}) { UiText("Parents",fontSize=16.sp) }
+                    TextButton(onClick={if(play.screen==Screen.GAME) vm.pause();vm.navigate(Screen.REWARDS)}) { UiText("★ ${local.stars}",fontSize=if(compact) 17.sp else 20.sp,color=Teal) }
+                    TextButton(onClick={if(play.screen==Screen.GAME) vm.pause();vm.navigate(Screen.GATE)}) { UiText("Parents",fontSize=if(compact) 14.sp else 16.sp) }
                 }
             }
             Box(Modifier.weight(1f).fillMaxWidth(),contentAlignment=Alignment.TopCenter) {
@@ -208,8 +210,11 @@ private fun checkPermission(context: android.content.Context,permission: String)
                 }
             }
             Spacer(Modifier.height(32.dp))
-            Row(Modifier.fillMaxWidth().clip(RoundedCornerShape(22.dp)).background(Pale).padding(18.dp),verticalAlignment=Alignment.CenterVertically) {
+            if(wide) Row(Modifier.fillMaxWidth().clip(RoundedCornerShape(22.dp)).background(Pale).padding(18.dp),verticalAlignment=Alignment.CenterVertically) {
                 Art("star",Modifier.size(40.dp)); UiText("A small adventure, at your own pace.",Modifier.weight(1f).padding(start=12.dp),fontSize=15.sp,color=Ink)
+                TextButton(onClick={vm.navigate(Screen.PROGRESS)}) { UiText("My discoveries  →") }
+            } else Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(22.dp)).background(Pale).padding(18.dp)) {
+                Row(verticalAlignment=Alignment.CenterVertically) { Art("star",Modifier.size(36.dp));UiText("A small adventure, at your own pace.",Modifier.weight(1f).padding(start=12.dp),fontSize=15.sp,color=Ink) }
                 TextButton(onClick={vm.navigate(Screen.PROGRESS)}) { UiText("My discoveries  →") }
             }
         }
@@ -273,9 +278,9 @@ private val worldDescriptions=listOf("A cosy place to begin","Make a splash with
         val cols=if(wide) if((p.board?.cards?.size ?: 0)>12) 5 else 4 else if((p.board?.cards?.size ?: 0)>12) 4 else 3
         Column(Modifier.widthIn(max=1100.dp).fillMaxSize().align(Alignment.TopCenter),verticalArrangement=Arrangement.spacedBy(8.dp)) {
             Row(Modifier.fillMaxWidth(),verticalAlignment=Alignment.CenterVertically) {
-                Column(Modifier.weight(1f)) { UiText(p.mode.title,fontSize=26.sp,fontWeight=FontWeight.ExtraBold,color=Ink); UiText("${worldNames[p.world]}  •  Level ${p.board?.level ?: p.patternLevel}",fontSize=13.sp,color=Teal) }
-                UiText(if(p.mode==Mode.PATTERNS) "${p.round} / 5" else "${(p.board?.matched?.size ?: 0)/2} / ${(p.board?.cards?.size ?: 0)/2} pairs",fontSize=18.sp,fontWeight=FontWeight.Bold,color=Teal)
-                TextButton(onClick={vm.pause()}) { UiText("Ⅱ  Pause",fontSize=16.sp) }
+                Column(Modifier.weight(1f)) { UiText(p.mode.title,fontSize=if(wide) 26.sp else 20.sp,fontWeight=FontWeight.ExtraBold,color=Ink,maxLines=1); UiText(if(wide) "${worldNames[p.world]}  •  Level ${p.board?.level ?: p.patternLevel}" else "Level ${p.board?.level ?: p.patternLevel}",fontSize=if(wide) 13.sp else 12.sp,color=Teal) }
+                UiText(if(p.mode==Mode.PATTERNS) "${p.round} / 5" else "${(p.board?.matched?.size ?: 0)/2} / ${(p.board?.cards?.size ?: 0)/2} pairs",fontSize=if(wide) 18.sp else 14.sp,fontWeight=FontWeight.Bold,color=Teal)
+                TextButton(onClick={vm.pause()},modifier=Modifier.semantics {contentDescription="Pause game"}) { UiText(if(wide) "Ⅱ  Pause" else "Pause",fontSize=16.sp) }
             }
             Row(Modifier.fillMaxWidth().clip(RoundedCornerShape(20.dp)).background(Pale).padding(10.dp),verticalAlignment=Alignment.CenterVertically) {
                 Milo(Modifier.size(if(wide) 72.dp else 48.dp),if(p.message.startsWith("Wonderful")) "celebrating" else "explaining")
@@ -333,7 +338,7 @@ private val worldDescriptions=listOf("A cosy place to begin","Make a splash with
                     }
                 }
                 Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.Center,verticalAlignment=Alignment.CenterVertically) {
-                    UiText("Take your time. Every try is a discovery.",Modifier.weight(1f),fontSize=12.sp,color=Ink)
+                    if(wide) UiText("Take your time. Every try is a discovery.",Modifier.weight(1f),fontSize=12.sp,color=Ink) else Spacer(Modifier.weight(1f))
                     TextButton(onClick={vm.hint()}) { UiText("A little hint  ✦",fontSize=16.sp) }
                 }
             }
@@ -361,7 +366,7 @@ private val worldDescriptions=listOf("A cosy place to begin","Make a splash with
             badges.forEach { (name,art,threshold) -> Panel(Modifier.width(230.dp),if(local.completed>=threshold) Pale else Color(0xFFF1EEE7)) {
                 Art(art,Modifier.size(90.dp).align(Alignment.CenterHorizontally).alpha(if(local.completed>=threshold) 1f else .35f))
                 UiText(name,fontSize=18.sp,fontWeight=FontWeight.Bold,color=Ink)
-                UiText(if(local.completed>=threshold) "Discovered!" else "Discover $threshold levels",color=Teal,fontSize=14.sp)
+                UiText(if(local.completed>=threshold) "Discovered!" else "Discover $threshold ${if(threshold==1) "level" else "levels"}",color=Teal,fontSize=14.sp)
             } }
         }
     }

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuite name="com.matchminds.kids.StoreCaptureTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-15T13:43:48.204Z" time="21.959">
+  <properties />
+  <testcase name="tablet" classname="com.matchminds.kids.StoreCaptureTest" time="19.187" />
+  <testcase name="phone" classname="com.matchminds.kids.StoreCaptureTest" time="2.772" />
+  <system-out />
+  <system-err>Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+</system-err>
+</testsuite>

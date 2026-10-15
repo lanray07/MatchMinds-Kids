@@ -2,7 +2,7 @@
 from pathlib import Path
 import json, hashlib, xml.etree.ElementTree as ET, subprocess, sys, re
 root=Path(__file__).resolve().parents[1]
-results={'date':'2026-10-15','jvm_suites':[],'python_suites':[],'apks':[],'device_tests':'Not run: no authorised device/emulator; emulator requires unavailable hardware acceleration and software launch exited.','screenshots':'0 captured; both manifests record the blocker.'}
+results={'date':'2026-10-15','jvm_suites':[],'python_suites':[],'apks':[],'device_tests':'Not run: no authorised device/emulator; hardware acceleration unavailable and software emulator crashes.','screenshots':'16 host-native production-UI renders. Physical device capture count remains zero.'}
 for folder in ['core/build/test-results/test','app/build/test-results/testDebugUnitTest']:
     for file in (root/folder).glob('TEST-*.xml'):
         suite=ET.parse(file).getroot()
@@ -11,6 +11,10 @@ for folder in ['tools','server']:
     test=subprocess.run([sys.executable,'-m','unittest','discover','-s',folder,'-p','test_*.py'],cwd=root,text=True,capture_output=True)
     count=re.search(r'Ran (\d+) tests?',test.stderr)
     results['python_suites'].append({'suite':folder,'tests':int(count.group(1)) if count else 0,'passed':test.returncode==0})
+capture=root/'artifacts/host-render-tests.xml'
+if capture.exists():
+    suite=ET.parse(capture).getroot()
+    results['host_render_tests']={key:suite.attrib[key] for key in ['name','tests','failures','errors']}
 lint=root/'app/build/reports/lint-results-debug.xml'
 if lint.exists():
     issues=ET.parse(lint).getroot().findall('issue')

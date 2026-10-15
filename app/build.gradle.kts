@@ -13,6 +13,13 @@ android {
         buildConfigField("boolean", "VOICE_APPROVED", providers.gradleProperty("voiceApproved").orElse("false").get())
     }
     buildFeatures { compose = true; buildConfig = true }
+    testOptions { unitTests.isIncludeAndroidResources = true; unitTests.all {
+        it.systemProperty("storeCapture", providers.gradleProperty("storeCapture").orElse("false").get())
+        it.systemProperty("roborazzi.test.record", providers.gradleProperty("storeCapture").orElse("false").get())
+        it.systemProperty("robolectric.pixelCopyRenderMode", "hardware")
+        if (!project.hasProperty("storeCapture")) it.exclude("**/StoreCaptureTest*")
+        it.maxHeapSize = "3g"
+    } }
     buildTypes {
         debug { applicationIdSuffix = ".debug" }
         release { isMinifyEnabled = true; proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro") }
@@ -33,6 +40,11 @@ dependencies {
     implementation("com.amazon.device:amazon-appstore-sdk:3.0.9")
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.json:json:20240303")
+    testImplementation("org.robolectric:robolectric:4.14.1")
+    testImplementation("androidx.compose.ui:ui-test-junit4")
+    testImplementation("androidx.test:core:1.6.1")
+    testImplementation("io.github.takahirom.roborazzi:roborazzi:1.46.1")
+    testImplementation("io.github.takahirom.roborazzi:roborazzi-compose:1.46.1")
     debugImplementation("androidx.compose.ui:ui-tooling")
     androidTestImplementation(platform("androidx.compose:compose-bom:2025.04.01"))
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")

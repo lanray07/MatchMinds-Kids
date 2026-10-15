@@ -29,28 +29,34 @@
   "apks": [
     {
       "path": "app\\build\\outputs\\apk\\debug\\app-debug.apk",
-      "bytes": 13199107,
-      "sha256": "83a58a5af7451d77078155ffa7501cca3f6cf0938f1d54a6035db973c2c947e7",
+      "bytes": 13372003,
+      "sha256": "718fd8753727ede13776c0338db4d37edcdd4d3572fedb851fde27371cd52cdc",
       "release_signed": "debug key"
     },
     {
       "path": "app\\build\\outputs\\apk\\androidTest\\debug\\app-debug-androidTest.apk",
-      "bytes": 1086939,
-      "sha256": "a7b778bfd30177f84e72358f4144af5523b9358833aec0f0a26a64ecdb4d2761",
+      "bytes": 1092185,
+      "sha256": "2623b0c3713815d51bbe32c5a859d65e05e1a8d4e3bab34f8d99c542ce805a75",
       "release_signed": "debug key"
     },
     {
       "path": "app\\build\\outputs\\apk\\release\\app-release-unsigned.apk",
       "bytes": 3499845,
-      "sha256": "6a093e6bef51687694884ec27d91b2307a584bdebeaf3ecee1776db8bbac399c",
+      "sha256": "48622c7d199e5175972202c93c295757a58cd7d5b8340a1563764fb9001925f4",
       "release_signed": false
     }
   ],
-  "device_tests": "Not run: no authorised device/emulator; emulator requires unavailable hardware acceleration and software launch exited.",
-  "screenshots": "0 captured; both manifests record the blocker.",
+  "device_tests": "Not run: no authorised device/emulator; hardware acceleration unavailable and software emulator crashes.",
+  "screenshots": "16 host-native production-UI renders. Physical device capture count remains zero.",
+  "host_render_tests": {
+    "name": "com.matchminds.kids.StoreCaptureTest",
+    "tests": "2",
+    "failures": "0",
+    "errors": "0"
+  },
   "lint": {
     "errors": 0,
-    "warnings": 11
+    "warnings": 16
   },
   "final_gradle_build_passed": true
 }

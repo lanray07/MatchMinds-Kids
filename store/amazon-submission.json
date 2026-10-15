@@ -1,0 +1,28 @@
+{
+  "status": "Blocked before draft creation: required public customer-support email is missing",
+  "console_url": "https://developer.amazon.com/apps-and-games/console/app/new.html",
+  "saved": false,
+  "submitted": false,
+  "app_title": "MatchMinds Kids Memory Games and Learning",
+  "app_sku": "matchminds-kids",
+  "category": "Kids",
+  "subcategory": "Education",
+  "support_email": null,
+  "support_phone": null,
+  "support_website": null,
+  "validated_in_console": {
+    "title": "The initial punctuated title was rejected. The plain-text title above passes client-side title validation; uniqueness is not established until a successful save.",
+    "support_email": "Required field; the account has no default support information."
+  },
+  "listing_copy": "store/en-GB.json",
+  "keyword_matrix": "store/keywords.csv",
+  "image_assets": "artifacts/store-assets/manifest.json",
+  "image_upload_status": "Not uploaded: later submission screens are inaccessible until the new-app form is saved",
+  "remaining_inputs_or_checks": [
+    "Public customer-support email to save the initial form",
+    "Published app-specific privacy-policy URL and final publisher disclosures",
+    "Signed, configured release binary and Amazon billing setup",
+    "Accurate privacy, content-rating and territory declarations in the subsequent forms",
+    "Publisher rights/child-safety review before any final certification or submission"
+  ]
+}

@@ -9,3 +9,4 @@ __pycache__/
 artifacts/raw/
 artifacts/delivery/
 artifacts/*.log
+artifacts/submission/

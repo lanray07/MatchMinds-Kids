@@ -20,7 +20,7 @@ class AppTest {
         compose.onAllNodesWithText("Explore  →")[0].performClick()
         compose.onAllNodesWithText("Play level 1  →")[0].performClick()
         compose.onNodeWithContentDescription("Card 1, face down").performClick()
-        compose.onNodeWithText("Ⅱ  Pause").performClick()
+        compose.onNodeWithContentDescription("Pause game").performClick()
         compose.onNodeWithText("Adventure paused").assertIsDisplayed()
         compose.onNodeWithText("Keep playing").performClick()
         compose.onNodeWithText("A little hint  ✦").assertIsDisplayed()

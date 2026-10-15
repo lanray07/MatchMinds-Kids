@@ -18,7 +18,7 @@ The source project and debug APK are delivered for development and testing. Stor
 | Billing | SDK 3.0.9, localised prices, restore pagination, RVS proxy, cancellation handling | Publisher PEM, real product, verifier deployment, signing, App Tester/DevTest/LAT; no successful live transaction tested |
 | Localisation | English UK/US selection; provider-configurable extraction/candidate/validation reports | Ten requested non-English locales remain unapproved; runtime string integration, native content and speech review, plurals and RTL QA remain |
 | Assets | Vector in-app illustrations; six editable Milo poses, icon layers, card-back, backgrounds and PNG brand exports | More elaborate original illustrations/animation and full store banner set can be commissioned; visual UI review not performed on device |
-| Screenshots | Actual-device capture/composition tooling, eight captions, SVG masters generated only from real captures | Zero gameplay screenshots captured here; phone/tablet manifests record the device blocker |
+| Screenshots | Eight tablet and eight phone compositions from actual production-UI host renders, editable SVGs, square store icons and a 1024×500 banner; connected-device pipeline retained | Physical Fire captures and hardware QA remain blocked; see docs/STORE-ASSETS.md for host-render provenance |
 | Listing | English descriptions, feature bullets, keyword CSV, captions, release notes, parent copy | Non-English listings, title availability, trademark clearance and console validation |
 | Privacy | Minimal local data, backup/transfer exclusions, no ads/tracking, no cloud recogniser fallback | Named publisher/contact details, hosting policy, jurisdictional assessment and legal approval |
 
