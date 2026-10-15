@@ -20,7 +20,6 @@
   "image_upload_status": "Eight English tablet screenshots, icons and banner; localized additions saved for German, French, Spanish, Spanish (Mexico), Italian and Portuguese (Brazil). Other markets use English fallback.",
   "remaining_inputs_or_checks": [
     "Amazon app review and approval",
-    "Final signed APK physical launch awaits working USB-debug authorization; prior six offline Fire tests and sandbox purchase/restore passed",
     "Native educational/pronunciation review and broader device/accessibility/performance sign-off"
   ],
   "app_id": "amzn1.devportal.mobileapp.999497c006704f4181ae2d7eb3d8128a",
@@ -44,5 +43,6 @@
   "iap_localization_status": "All twelve available IAP locale drafts completed with titles, descriptions and both icons; item Approved; native review remains pending",
   "iap_status": "Submitted to Test and Live; Amazon dashboard shows Approved, Oct 15 2026",
   "export_certification": "Publisher explicitly certified and authorized submission in chat; declaration selected",
-  "estimated_appstore_date": "Oct 20 2026, 10:30 AM PDT (Amazon estimate; not approval)"
+  "estimated_appstore_date": "Oct 20 2026, 10:30 AM PDT (Amazon estimate; not approval)",
+  "signed_release_device_check": "Passed: installed and launched on physical KFTRWI API 28, welcome screen reviewed, no matching crash-log entry"
 }

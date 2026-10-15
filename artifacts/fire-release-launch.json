@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-15",
+  "device_model": "KFTRWI",
+  "android_api": 28,
+  "package": "com.matchminds.kids",
+  "apk_sha256": "9a25af9689793c890b83b4ace88420a1e479cd1cd5db062ca88903f36e1df6e6",
+  "install": "Success",
+  "activity_start": "ok",
+  "foreground_activity": "com.matchminds.kids/.MainActivity",
+  "welcome_screen_visually_reviewed": true,
+  "matching_crash_log_entries": 0,
+  "scope": "Signed production APK installation and launch smoke check; earlier offline gameplay and sandbox purchase/restore evidence is separate"
+}
