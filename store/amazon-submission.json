@@ -1,5 +1,5 @@
 {
-  "status": "Draft: fifteen descriptions complete, privacy saved, signed APK uploaded for validation",
+  "status": "Draft ready except publisher export certification; final signed APK device launch awaiting USB authorization",
   "console_url": "https://developer.amazon.com/apps-and-games/console/app/amzn1.devportal.mobileapp.999497c006704f4181ae2d7eb3d8128a/release/amzn1.devportal.apprelease.d3c7b5637b7e45528951c84f60ca51e6/submission/appstore-details",
   "saved": true,
   "submitted": false,
@@ -17,12 +17,11 @@
   "listing_copy": "store/en-GB.json",
   "keyword_matrix": "store/keywords.csv",
   "image_assets": "artifacts/store-assets/manifest.json",
-  "image_upload_status": "Verified in Amazon: eight tablet screenshots, 512px and 114px icons, promotional image; English (U.S.) multimedia marked Complete",
+  "image_upload_status": "Eight English tablet screenshots, icons and banner; localized additions saved for German, French, Spanish, Spanish (Mexico), Italian and Portuguese (Brazil). Other markets use English fallback.",
   "remaining_inputs_or_checks": [
-    "Final signed-build launch on reconnected Fire tablet",
-    "Binary validation and compatible device targeting",
-    "Publisher export-compliance certification and final submission",
-    "Native translation and broader release sign-off"
+    "Final signed APK launch after USB debugging authorization",
+    "Publisher export-compliance certification and final app submission",
+    "Native translation, broader device and human release sign-off"
   ],
   "app_id": "amzn1.devportal.mobileapp.999497c006704f4181ae2d7eb3d8128a",
   "release_id": "amzn1.devportal.apprelease.d3c7b5637b7e45528951c84f60ca51e6",
@@ -33,8 +32,16 @@
   "content_rating_status": "Complete",
   "description_status": "All fifteen available listing locales Complete; translated copy awaits native review",
   "pricing": "Free app; one-time ENTITLED IAP draft, GBP base price 3.99",
-  "reviewer_instructions": "Saved prerelease test instructions; no login required",
+  "reviewer_instructions": "Prepared in store/reviewer-instructions.txt. Amazon review form does not persist these before submission; refill immediately before Submit App.",
   "privacy_questionnaire_status": "Saved for review",
-  "binary_upload_status": "Publisher-signed production APK uploaded; Amazon validation pending",
-  "published_support_page": "https://github.com/lanray07/MatchMinds-Kids/blob/main/DATA-DELETION.md"
+  "binary_upload_status": "Validated: app-release.apk version code 1 accepted by Amazon",
+  "published_support_page": "https://github.com/lanray07/MatchMinds-Kids/blob/main/DATA-DELETION.md",
+  "targeted_devices": {
+    "Fire Tablets": 12,
+    "Fire TV": 0,
+    "Automotive": 0
+  },
+  "iap_localization_status": "All twelve available IAP locale drafts completed with titles, descriptions and both icons; item Approved; native review remains pending",
+  "iap_status": "Submitted to Test and Live; Amazon dashboard shows Approved, Oct 15 2026",
+  "export_certification": "Unchecked; explicit publisher confirmation requested"
 }

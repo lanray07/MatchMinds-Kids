@@ -41,7 +41,7 @@ python tools/capture_screenshots.py --variant tablet
 python tools/capture_screenshots.py --variant phone
 ```
 
-The six domain tests cover 9,000 matching boards, 3,600 pattern puzzles, invalid taps, match resolution, counts, access rules, commands and receipt identities. Android JVM tests cover persistence, profile scoping and PIN hashing. Instrumented UI tests are included; compilation is distinct from execution. See `docs/VERIFICATION.md` for the actual run results.
+The six original domain tests cover 9,000 matching boards, 3,600 pattern puzzles, invalid taps, match resolution, counts, access rules, commands and receipt identities. Android JVM tests cover persistence, profile scoping and PIN hashing. Instrumented UI tests are included; compilation is distinct from execution. See `docs/VERIFICATION.md` for the actual run results.
 
 ## Billing setup
 

@@ -17,7 +17,9 @@ with zipfile.ZipFile(source,'w',zipfile.ZIP_DEFLATED) as archive:
     for name in ['README.md','PRIVACY.md','DATA-DELETION.md','.gitignore','settings.gradle.kts','build.gradle.kts','gradle.properties','gradlew','gradlew.bat']:
         archive.write(root/name,name)
     if (root/'artifacts/verification.json').exists(): archive.write(root/'artifacts/verification.json','artifacts/verification.json')
-    if (root/'artifacts/final-build.log').exists(): archive.write(root/'artifacts/final-build.log','artifacts/final-build.log')
+    for evidence in ['fire-offline-tests.xml','fire-sandbox-verification.json','fire-voice-availability.json','release-signature.txt','final-localized-checks.log','signed-release-build.log']:
+        item=root/'artifacts'/evidence
+        if item.exists(): archive.write(item,'artifacts/'+evidence)
 debug=root/'app/build/outputs/apk/debug/app-debug.apk'
 if debug.exists(): shutil.copy2(debug,out/'MatchMindsKids-debug.apk')
 release=root/'app/build/outputs/apk/release/app-release-unsigned.apk'
