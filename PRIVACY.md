@@ -1,6 +1,6 @@
 # MatchMinds Kids privacy policy
 
-Updated: 15 October 2026. Publisher: Lanray. Contact: [banksmi@email.com](mailto:banksmi@email.com).
+Updated: 15 October 2026. Publisher: Lanray. Contact: [banksmi@mail.com](mailto:banksmi@mail.com).
 
 This policy describes MatchMinds Kids and its current prerelease configuration. The app is designed for children and family play. Adults should manage settings, purchases and support requests.
 
@@ -30,7 +30,7 @@ Before this service is enabled, this policy must be updated with the verificatio
 
 ## Support and privacy requests
 
-An adult can email [banksmi@email.com](mailto:banksmi@email.com) for support or a privacy request. Information you choose to send by email is handled through the support email service and is used to respond to the request. Do not send children's real names, recordings, PINs, payment-card details or passwords. Start with the app version, device model and a brief description; we can discuss any further information needed privately.
+An adult can email [banksmi@mail.com](mailto:banksmi@mail.com) for support or a privacy request. Information you choose to send by email is handled through the support email service and is used to respond to the request. Do not send children's real names, recordings, PINs, payment-card details or passwords. Start with the app version, device model and a brief description; we can discuss any further information needed privately.
 
 For local data removal and support requests, see [Data deletion](DATA-DELETION.md). The publisher cannot remotely retrieve or erase play records that exist only on your device. Amazon controls its own account and transaction records.
 

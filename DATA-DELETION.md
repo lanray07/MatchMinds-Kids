@@ -16,7 +16,7 @@ Removing local play data does not cancel an Amazon purchase, issue a refund or d
 
 ## Ask for help or request deletion
 
-An adult can email **[banksmi@email.com](mailto:banksmi@email.com?subject=MatchMinds%20Kids%20data%20deletion%20request)** with the subject **MatchMinds Kids data deletion request**. Say whether the request concerns local play data, a previous support message or purchase verification. Do not include a child's real name, voice recording, parent PIN, password or payment-card details. We will respond through that email conversation and explain any information needed to identify a relevant support or verification record.
+An adult can email **[banksmi@mail.com](mailto:banksmi@mail.com?subject=MatchMinds%20Kids%20data%20deletion%20request)** with the subject **MatchMinds Kids data deletion request**. Say whether the request concerns local play data, a previous support message or purchase verification. Do not include a child's real name, voice recording, parent PIN, password or payment-card details. We will respond through that email conversation and explain any information needed to identify a relevant support or verification record.
 
 The publisher cannot remotely access or erase local play records. For information held by Amazon, use Amazon's account privacy and customer-support controls. The current prerelease build has no active publisher purchase-verification service. Before one is enabled, its operator, hosting and retention details must be added to the [privacy policy](PRIVACY.md).
 
