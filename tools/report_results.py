@@ -2,13 +2,13 @@
 from pathlib import Path
 import json, hashlib, xml.etree.ElementTree as ET, subprocess, sys, re
 root=Path(__file__).resolve().parents[1]
-results={'date':'2026-10-15','jvm_suites':[],'python_suites':[],'apks':[],'screenshots':'16 English host-native UI renders; 36 locale host renders and 30 localized store compositions are review previews.'}
+results={'date':'2026-10-15','jvm_suites':[],'python_suites':[],'apks':[],'screenshots':'16 English host-native UI renders; 36 locale host renders and 30 localized store compositions plus 72 large-text host scenes are review previews.'}
 device=root/'artifacts/fire-offline-tests.xml'
 if device.exists():
     suite=ET.parse(device).getroot()
     results['device_tests']={key:suite.attrib[key] for key in ['name','tests','failures','errors']}
     results['device_tests']['configuration']='Physical KFTRWI API 28; Wi-Fi disabled during offline suite'
-for name in ['fire-sandbox-verification','fire-voice-availability','fire-release-launch']:
+for name in ['fire-sandbox-verification','fire-voice-availability','fire-release-launch','fire-extended-verification','fire-billing-callbacks','fire-release-performance','accessibility-contrast','store-follow-up']:
     evidence=root/f'artifacts/{name}.json'
     if evidence.exists(): results[name]=json.loads(evidence.read_text(encoding='utf-8-sig'))
 for folder in ['core/build/test-results/test','app/build/test-results/testDebugUnitTest']:
@@ -27,7 +27,7 @@ lint=root/'app/build/reports/lint-results-debug.xml'
 if lint.exists():
     issues=ET.parse(lint).getroot().findall('issue')
     results['lint']={'errors':sum(x.attrib.get('severity') in ['Fatal','Error'] for x in issues),'warnings':sum(x.attrib.get('severity')=='Warning' for x in issues)}
-log=root/'artifacts/final-localized-checks.log'
+log=root/'artifacts/extended-final-checks.log'
 results['final_gradle_build_passed']=log.exists() and 'BUILD SUCCESSFUL' in log.read_text(encoding='utf-8',errors='replace')
 for file in (root/'app/build/outputs/apk').rglob('*.apk'):
     signing=None

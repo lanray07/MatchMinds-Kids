@@ -14,14 +14,32 @@
       "errors": "0"
     },
     {
+      "name": "com.matchminds.kids.StoreCaptureTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0"
+    },
+    {
       "name": "com.matchminds.kids.StateTest",
       "tests": "5",
       "failures": "0",
       "errors": "0"
     },
     {
+      "name": "com.matchminds.kids.AccessibilityCaptureTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0"
+    },
+    {
       "name": "com.matchminds.kids.TranslationsTest",
       "tests": "4",
+      "failures": "0",
+      "errors": "0"
+    },
+    {
+      "name": "com.matchminds.kids.LocaleCaptureTest",
+      "tests": "1",
       "failures": "0",
       "errors": "0"
     }
@@ -34,7 +52,7 @@
     },
     {
       "suite": "server",
-      "tests": 7,
+      "tests": 11,
       "passed": true
     }
   ],
@@ -42,13 +60,13 @@
     {
       "path": "app\\build\\outputs\\apk\\debug\\app-debug.apk",
       "bytes": 13181993,
-      "sha256": "4d727114caffb46f9600cc970ba3e8fd7bb2853d3c4e506ac0d103f55549a36a",
+      "sha256": "d9015e774b63ca65bcaa85a15a09710a651fbda92716adeaa5153af4a6477cd2",
       "release_signing": "debug key"
     },
     {
       "path": "app\\build\\outputs\\apk\\androidTest\\debug\\app-debug-androidTest.apk",
-      "bytes": 1104626,
-      "sha256": "4373c4aca5dc47611524d775503f95d8f97337ee20ed01c8f53f117cd8d2e975",
+      "bytes": 1114043,
+      "sha256": "5c62669d3505313ec7d004637a0f75a8078f4c229e7d1a5b0245e057a2d03cb0",
       "release_signing": "debug key"
     },
     {
@@ -58,7 +76,7 @@
       "release_signing": "Verified by Android apksigner"
     }
   ],
-  "screenshots": "16 English host-native UI renders; 36 locale host renders and 30 localized store compositions are review previews.",
+  "screenshots": "16 English host-native UI renders; 36 locale host renders and 30 localized store compositions plus 72 large-text host scenes are review previews.",
   "device_tests": {
     "name": "com.matchminds.kids.AppTest",
     "tests": "6",
@@ -127,6 +145,91 @@
     "welcome_screen_visually_reviewed": true,
     "matching_crash_log_entries": 0,
     "scope": "Signed production APK installation and launch smoke check; earlier offline gameplay and sandbox purchase/restore evidence is separate"
+  },
+  "fire-extended-verification": {
+    "passed": false,
+    "status": "Blocked pending tablet unlock",
+    "device_model": "KFTRWI",
+    "android_api": 28,
+    "target_duration_ms": 900000,
+    "completed_duration_ms": null,
+    "last_attempt_seconds": 12.423,
+    "last_attempt": "No Compose hierarchies; dumpsys showed Asleep, StatusBar focus and dreaming lockscreen",
+    "earlier_attempt_seconds": 327.729,
+    "earlier_attempt": "Interrupted with no Compose hierarchy; no completed-soak assertion",
+    "harness_change": "Removed repeated Activity recreation from soak, retained screen-on flag, added running checkpoints. Separate offline suite already covers recreation. Fresh test APK built and installed.",
+    "scope": "Debug QA fixture; no passing long-session or low-RAM result is claimed."
+  },
+  "fire-billing-callbacks": {
+    "device_model": "KFTRWI",
+    "android_api": 28,
+    "passed": true,
+    "instrumentation_tests": 1,
+    "seconds": 2.137,
+    "cases": [
+      "same-account cached access retained",
+      "different fixture account revokes cached premium",
+      "failed purchase never grants",
+      "failed restore never grants",
+      "failed user lookup preserves previous offline access"
+    ],
+    "scope": "Actual Android instrumentation with simulated Amazon SDK callbacks and fixture account IDs. No real account switching, checkout, refund or production receipt evidence. Debug verifier disabled."
+  },
+  "accessibility-contrast": {
+    "method": "sRGB relative luminance; sampled source palette pairs, not a full rendered-pixel audit",
+    "pairs": [
+      {
+        "pair": "Primary text on cream",
+        "contrast_ratio": 11.02,
+        "normal_text_4_5": true
+      },
+      {
+        "pair": "Teal labels on cream",
+        "contrast_ratio": 4.73,
+        "normal_text_4_5": true
+      },
+      {
+        "pair": "White action text on teal",
+        "contrast_ratio": 4.95,
+        "normal_text_4_5": true
+      },
+      {
+        "pair": "Helper text at 75% ink on cream",
+        "contrast_ratio": 5.27,
+        "normal_text_4_5": true
+      },
+      {
+        "pair": "Locked label at 65% ink on neutral",
+        "contrast_ratio": 3.82,
+        "normal_text_4_5": false
+      },
+      {
+        "pair": "Error text on cream",
+        "contrast_ratio": 6.8,
+        "normal_text_4_5": true
+      }
+    ]
+  },
+  "store-follow-up": {
+    "checked_date": "2026-10-15",
+    "production_status": "Under Review",
+    "lat": {
+      "name": "Release 1.0.0 - receipt and device verification",
+      "release_id": "amzn1.devportal.apprelease.8f36f93ad7e349d9ad21173ad740cb50",
+      "status": "Test submitted",
+      "tester_group": "MatchMinds Kids Release Test",
+      "tester_count": 1,
+      "invitation": "Amazon sends invitation when test becomes live",
+      "publisher_certification": "Publisher confirmed tester adulthood, consent and sharing rights plus export certification and LAT submission authorization in chat"
+    },
+    "quality_central": {
+      "name": "MatchMinds Kids 1.0.0 Fire tablet release QA",
+      "status": "In progress",
+      "suite": "Functional, Performance",
+      "device_family": "Fire Tablets",
+      "submitted": "2026-10-15 12:32:55 PM PDT"
+    },
+    "scope": "Console observations only; submitted or queued is not a test pass. Tester contact omitted."
   },
   "host_render_tests": {
     "name": "com.matchminds.kids.StoreCaptureTest",

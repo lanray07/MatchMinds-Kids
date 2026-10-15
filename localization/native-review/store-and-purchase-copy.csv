@@ -1,0 +1,428 @@
+﻿locale,source_file,field,candidate_translation,review_decision,suggested_revision,reviewer_name,review_date
+de-DE,store\amazon-locales\de-DE.json,title,MatchMinds Kids - Gedächtnisspiel für Kinder,PENDING,,,
+de-DE,store\amazon-locales\de-DE.json,short_description,Fröhliche Zuordnungsabenteuer für kleine Entdecker. Startlevel mit Tieren und Formen kostenlos enthalten.,PENDING,,,
+de-DE,store\amazon-locales\de-DE.json,description,"Willkommen bei MatchMinds!
+
+Fröhliche Zuordnungsabenteuer für kleine Entdecker.
+
+Startlevel mit Tieren und Formen kostenlos enthalten.
+
+Sechs Aktivitäten mit je zwölf Leveln, drei Welten, höhere Schwierigkeit und mehr Sticker.
+
+Einmaliger Premiumkauf für sechs Aktivitäten und drei Schwierigkeiten.
+
+Spiele enthaltene Aktivitäten ohne Internet.
+
+Lokale Profile und Fortschritt ohne Kinderkonto.
+
+Texthinweise und optionale installierte Offline-Stimme.
+
+Keine Werbung oder Abos. Die Eltern-PIN schützt Einstellungen und Käufe.
+
+Käufe und Wiederherstellung benötigen Internet und den Amazon Appstore. Amazon bestätigt die Zahlung. Halte deine Eltern-PIN geheim.
+
+Übersetzungen sind Vorschauen und benötigen muttersprachliche Prüfung. A–Z bleibt eine Aktivität mit englischen Buchstaben. Sprachausgabe benötigt eine installierte Offline-Stimme.",PENDING,,,
+de-DE,store\amazon-locales\de-DE.json,feature_1,Startlevel mit Tieren und Formen kostenlos enthalten.,PENDING,,,
+de-DE,store\amazon-locales\de-DE.json,feature_2,Einmaliger Premiumkauf für sechs Aktivitäten und drei Schwierigkeiten.,PENDING,,,
+de-DE,store\amazon-locales\de-DE.json,feature_3,Lokale Profile und Fortschritt ohne Kinderkonto.,PENDING,,,
+de-DE,store\amazon-locales\de-DE.json,feature_4,Texthinweise und optionale installierte Offline-Stimme.,PENDING,,,
+de-DE,store\amazon-locales\de-DE.json,feature_5,Keine Werbung oder Abos. Die Eltern-PIN schützt Einstellungen und Käufe.,PENDING,,,
+de-DE,store\amazon-locales\de-DE.json,release_notes,Übersetzungsvorschau,PENDING,,,
+en-AU,store\amazon-locales\en-AU.json,title,MatchMinds Kids – Memory Games & Learning,PENDING,,,
+en-AU,store\amazon-locales\en-AU.json,alternative_title,MatchMinds Kids: Matching Adventures,PENDING,,,
+en-AU,store\amazon-locales\en-AU.json,short_description,"Little matches. Big discoveries. Explore animal memory games, shapes and colours with Milo the Fox. More number, letter, object and pattern adventures are available with a one-time premium unlock.",PENDING,,,
+en-AU,store\amazon-locales\en-AU.json,description,"Meet Milo the Fox and discover a gentle world of memory matching games for children around ages 3–8. Flip a card, look closely and find what belongs together. Play at your own pace, with no forced timer and no penalties for mistakes.
+
+START WITH LITTLE DISCOVERIES
+The free app includes starter Animal Memory Match and Shapes & Colours levels, basic spoken guidance and local progress saving. Meet friendly illustrated animals and explore shapes with clear visual labels.
+
+MORE WAYS TO PLAY
+A one-time premium unlock adds all six activities: animal pairs, shapes and colours, numbers matched to quantities, uppercase and lowercase English letters, familiar everyday objects, and repeating visual patterns. Choose from three difficulty levels and three themed worlds. Advanced boards offer up to 20 cards.
+
+A FRIENDLY VOICE
+Milo’s instructions appear on screen and can be spoken using an installed offline voice in the selected language. If no suitable offline voice is installed, instructions remain available as text. Touch controls are always available.
+
+MADE FOR FAMILY PLAY
+No advertising, subscriptions or child accounts. Profiles and progress stay on your device. Collect stars and stickers, then stop at the end of a level whenever it suits your family. Parents can choose difficulty, change sound and motion settings, and manage purchases behind a private PIN.
+
+PLAY INCLUDED GAMES OFFLINE
+Included gameplay, profiles and progress work without an internet connection. Premium purchases and restoration require Amazon Appstore access and a connection.
+
+Little Explorer, Growing Thinker and Memory Champion are play preferences, not developmental assessments. English interface and educational vocabulary are available, with additional interface translation previews in ten language variants. The letter activity teaches English A–Z. No scientifically proven cognitive or developmental outcomes are claimed.",PENDING,,,
+en-AU,store\amazon-locales\en-AU.json,feature_1,Animal memory matching and shapes starter adventures included free,PENDING,,,
+en-AU,store\amazon-locales\en-AU.json,feature_2,One-time premium unlock for six activities and three difficulty levels,PENDING,,,
+en-AU,store\amazon-locales\en-AU.json,feature_3,"Offline gameplay, local profiles and saved progress without an account",PENDING,,,
+en-AU,store\amazon-locales\en-AU.json,feature_4,Text and spoken instructions with complete touch controls,PENDING,,,
+en-AU,store\amazon-locales\en-AU.json,feature_5,No advertising or subscriptions; parent PIN protects settings and purchases,PENDING,,,
+en-AU,store\amazon-locales\en-AU.json,release_notes,"Meet Milo the Fox. First release with offline matching adventures, number and letter pairs, pattern activities, local profiles, stickers and parent controls.",PENDING,,,
+en-AU,store\amazon-locales\en-AU.json,parent_copy,"A little play, at your family’s pace. Start with free matching adventures, then explore more with one premium purchase. No ads, accounts or subscriptions.",PENDING,,,
+en-GB,store\amazon-locales\en-GB.json,title,MatchMinds Kids – Memory Games & Learning,PENDING,,,
+en-GB,store\amazon-locales\en-GB.json,alternative_title,MatchMinds Kids: Matching Adventures,PENDING,,,
+en-GB,store\amazon-locales\en-GB.json,short_description,"Little matches. Big discoveries. Explore animal memory games, shapes and colours with Milo the Fox. More number, letter, object and pattern adventures are available with a one-time premium unlock.",PENDING,,,
+en-GB,store\amazon-locales\en-GB.json,description,"Meet Milo the Fox and discover a gentle world of memory matching games for children around ages 3–8. Flip a card, look closely and find what belongs together. Play at your own pace, with no forced timer and no penalties for mistakes.
+
+START WITH LITTLE DISCOVERIES
+The free app includes starter Animal Memory Match and Shapes & Colours levels, basic spoken guidance and local progress saving. Meet friendly illustrated animals and explore shapes with clear visual labels.
+
+MORE WAYS TO PLAY
+A one-time premium unlock adds all six activities: animal pairs, shapes and colours, numbers matched to quantities, uppercase and lowercase English letters, familiar everyday objects, and repeating visual patterns. Choose from three difficulty levels and three themed worlds. Advanced boards offer up to 20 cards.
+
+A FRIENDLY VOICE
+Milo’s instructions appear on screen and can be spoken using an installed offline voice in the selected language. If no suitable offline voice is installed, instructions remain available as text. Touch controls are always available.
+
+MADE FOR FAMILY PLAY
+No advertising, subscriptions or child accounts. Profiles and progress stay on your device. Collect stars and stickers, then stop at the end of a level whenever it suits your family. Parents can choose difficulty, change sound and motion settings, and manage purchases behind a private PIN.
+
+PLAY INCLUDED GAMES OFFLINE
+Included gameplay, profiles and progress work without an internet connection. Premium purchases and restoration require Amazon Appstore access and a connection.
+
+Little Explorer, Growing Thinker and Memory Champion are play preferences, not developmental assessments. English interface and educational vocabulary are available, with additional interface translation previews in ten language variants. The letter activity teaches English A–Z. No scientifically proven cognitive or developmental outcomes are claimed.",PENDING,,,
+en-GB,store\amazon-locales\en-GB.json,feature_1,Animal memory matching and shapes starter adventures included free,PENDING,,,
+en-GB,store\amazon-locales\en-GB.json,feature_2,One-time premium unlock for six activities and three difficulty levels,PENDING,,,
+en-GB,store\amazon-locales\en-GB.json,feature_3,"Offline gameplay, local profiles and saved progress without an account",PENDING,,,
+en-GB,store\amazon-locales\en-GB.json,feature_4,Text and spoken instructions with complete touch controls,PENDING,,,
+en-GB,store\amazon-locales\en-GB.json,feature_5,No advertising or subscriptions; parent PIN protects settings and purchases,PENDING,,,
+en-GB,store\amazon-locales\en-GB.json,release_notes,"Meet Milo the Fox. First release with offline matching adventures, number and letter pairs, pattern activities, local profiles, stickers and parent controls.",PENDING,,,
+en-GB,store\amazon-locales\en-GB.json,parent_copy,"A little play, at your family’s pace. Start with free matching adventures, then explore more with one premium purchase. No ads, accounts or subscriptions.",PENDING,,,
+en-IN,store\amazon-locales\en-IN.json,title,MatchMinds Kids – Memory Games & Learning,PENDING,,,
+en-IN,store\amazon-locales\en-IN.json,alternative_title,MatchMinds Kids: Matching Adventures,PENDING,,,
+en-IN,store\amazon-locales\en-IN.json,short_description,"Little matches. Big discoveries. Explore animal memory games, shapes and colours with Milo the Fox. More number, letter, object and pattern adventures are available with a one-time premium unlock.",PENDING,,,
+en-IN,store\amazon-locales\en-IN.json,description,"Meet Milo the Fox and discover a gentle world of memory matching games for children around ages 3–8. Flip a card, look closely and find what belongs together. Play at your own pace, with no forced timer and no penalties for mistakes.
+
+START WITH LITTLE DISCOVERIES
+The free app includes starter Animal Memory Match and Shapes & Colours levels, basic spoken guidance and local progress saving. Meet friendly illustrated animals and explore shapes with clear visual labels.
+
+MORE WAYS TO PLAY
+A one-time premium unlock adds all six activities: animal pairs, shapes and colours, numbers matched to quantities, uppercase and lowercase English letters, familiar everyday objects, and repeating visual patterns. Choose from three difficulty levels and three themed worlds. Advanced boards offer up to 20 cards.
+
+A FRIENDLY VOICE
+Milo’s instructions appear on screen and can be spoken using an installed offline voice in the selected language. If no suitable offline voice is installed, instructions remain available as text. Touch controls are always available.
+
+MADE FOR FAMILY PLAY
+No advertising, subscriptions or child accounts. Profiles and progress stay on your device. Collect stars and stickers, then stop at the end of a level whenever it suits your family. Parents can choose difficulty, change sound and motion settings, and manage purchases behind a private PIN.
+
+PLAY INCLUDED GAMES OFFLINE
+Included gameplay, profiles and progress work without an internet connection. Premium purchases and restoration require Amazon Appstore access and a connection.
+
+Little Explorer, Growing Thinker and Memory Champion are play preferences, not developmental assessments. English interface and educational vocabulary are available, with additional interface translation previews in ten language variants. The letter activity teaches English A–Z. No scientifically proven cognitive or developmental outcomes are claimed.",PENDING,,,
+en-IN,store\amazon-locales\en-IN.json,feature_1,Animal memory matching and shapes starter adventures included free,PENDING,,,
+en-IN,store\amazon-locales\en-IN.json,feature_2,One-time premium unlock for six activities and three difficulty levels,PENDING,,,
+en-IN,store\amazon-locales\en-IN.json,feature_3,"Offline gameplay, local profiles and saved progress without an account",PENDING,,,
+en-IN,store\amazon-locales\en-IN.json,feature_4,Text and spoken instructions with complete touch controls,PENDING,,,
+en-IN,store\amazon-locales\en-IN.json,feature_5,No advertising or subscriptions; parent PIN protects settings and purchases,PENDING,,,
+en-IN,store\amazon-locales\en-IN.json,release_notes,"Meet Milo the Fox. First release with offline matching adventures, number and letter pairs, pattern activities, local profiles, stickers and parent controls.",PENDING,,,
+en-IN,store\amazon-locales\en-IN.json,parent_copy,"A little play, at your family’s pace. Start with free matching adventures, then explore more with one premium purchase. No ads, accounts or subscriptions.",PENDING,,,
+en-US,store\amazon-locales\en-US.json,title,MatchMinds Kids – Memory Games & Learning,PENDING,,,
+en-US,store\amazon-locales\en-US.json,alternative_title,MatchMinds Kids: Matching Adventures,PENDING,,,
+en-US,store\amazon-locales\en-US.json,short_description,"Little matches. Big discoveries. Explore animal memory games, shapes and colors with Milo the Fox. More number, letter, object and pattern adventures are available with a one-time premium unlock.",PENDING,,,
+en-US,store\amazon-locales\en-US.json,description,"Meet Milo the Fox and discover a gentle world of memory matching games for children around ages 3–8. Flip a card, look closely and find what belongs together. Play at your own pace, with no forced timer and no penalties for mistakes.
+
+START WITH LITTLE DISCOVERIES
+The free app includes starter Animal Memory Match and Shapes & Colors levels, basic spoken guidance and local progress saving. Meet friendly illustrated animals and explore shapes with clear visual labels.
+
+MORE WAYS TO PLAY
+A one-time premium unlock adds all six activities: animal pairs, shapes and colors, numbers matched to quantities, uppercase and lowercase English letters, familiar everyday objects, and repeating visual patterns. Choose from three difficulty levels and three themed worlds. Advanced boards offer up to 20 cards.
+
+A FRIENDLY VOICE
+Milo’s instructions appear on screen and can be spoken using an installed offline voice in the selected language. If no suitable offline voice is installed, instructions remain available as text. Touch controls are always available.
+
+MADE FOR FAMILY PLAY
+No advertising, subscriptions or child accounts. Profiles and progress stay on your device. Collect stars and stickers, then stop at the end of a level whenever it suits your family. Parents can choose difficulty, change sound and motion settings, and manage purchases behind a private PIN.
+
+PLAY INCLUDED GAMES OFFLINE
+Included gameplay, profiles and progress work without an internet connection. Premium purchases and restoration require Amazon Appstore access and a connection.
+
+Little Explorer, Growing Thinker and Memory Champion are play preferences, not developmental assessments. English interface and educational vocabulary are available, with additional interface translation previews in ten language variants. The letter activity teaches English A–Z. No scientifically proven cognitive or developmental outcomes are claimed.",PENDING,,,
+en-US,store\amazon-locales\en-US.json,feature_1,Animal memory matching and shapes starter adventures included free,PENDING,,,
+en-US,store\amazon-locales\en-US.json,feature_2,One-time premium unlock for six activities and three difficulty levels,PENDING,,,
+en-US,store\amazon-locales\en-US.json,feature_3,"Offline gameplay, local profiles and saved progress without an account",PENDING,,,
+en-US,store\amazon-locales\en-US.json,feature_4,Text and spoken instructions with complete touch controls,PENDING,,,
+en-US,store\amazon-locales\en-US.json,feature_5,No advertising or subscriptions; parent PIN protects settings and purchases,PENDING,,,
+en-US,store\amazon-locales\en-US.json,release_notes,"Meet Milo the Fox. First release with offline matching adventures, number and letter pairs, pattern activities, local profiles, stickers and parent controls.",PENDING,,,
+en-US,store\amazon-locales\en-US.json,parent_copy,"A little play, at your family’s pace. Start with free matching adventures, then explore more with one premium purchase. No ads, accounts or subscriptions.",PENDING,,,
+es-ES,store\amazon-locales\es-ES.json,title,MatchMinds Kids - Juego de memoria para niños,PENDING,,,
+es-ES,store\amazon-locales\es-ES.json,short_description,Divertidas aventuras de parejas para pequeños exploradores. Niveles iniciales de animales y formas incluidos gratis.,PENDING,,,
+es-ES,store\amazon-locales\es-ES.json,description,"¡Te damos la bienvenida a MatchMinds!
+
+Divertidas aventuras de parejas para pequeños exploradores.
+
+Niveles iniciales de animales y formas incluidos gratis.
+
+Seis actividades, doce niveles cada una, tres mundos, dificultad avanzada y más pegatinas.
+
+Compra prémium única para seis actividades y tres dificultades.
+
+Juega a las actividades incluidas sin internet.
+
+Perfiles y progreso locales sin cuenta infantil.
+
+Texto e instrucciones habladas sin conexión si hay una voz instalada.
+
+Sin anuncios ni suscripciones. El PIN protege ajustes y compras.
+
+Las compras y su restauración necesitan conexión y Amazon Appstore. Amazon confirma el pago. Mantén privado tu PIN.
+
+Las traducciones son preliminares y requieren revisión nativa. El juego A–Z sigue usando letras inglesas. La narración necesita una voz sin conexión instalada.",PENDING,,,
+es-ES,store\amazon-locales\es-ES.json,feature_1,Niveles iniciales de animales y formas incluidos gratis.,PENDING,,,
+es-ES,store\amazon-locales\es-ES.json,feature_2,Compra prémium única para seis actividades y tres dificultades.,PENDING,,,
+es-ES,store\amazon-locales\es-ES.json,feature_3,Perfiles y progreso locales sin cuenta infantil.,PENDING,,,
+es-ES,store\amazon-locales\es-ES.json,feature_4,Texto e instrucciones habladas sin conexión si hay una voz instalada.,PENDING,,,
+es-ES,store\amazon-locales\es-ES.json,feature_5,Sin anuncios ni suscripciones. El PIN protege ajustes y compras.,PENDING,,,
+es-ES,store\amazon-locales\es-ES.json,release_notes,Vistas previas de traducción,PENDING,,,
+es-MX,store\amazon-locales\es-MX.json,title,MatchMinds Kids - Juego de memoria para niños,PENDING,,,
+es-MX,store\amazon-locales\es-MX.json,short_description,Divertidas aventuras de parejas para pequeños exploradores. Niveles iniciales de animales y formas incluidos gratis.,PENDING,,,
+es-MX,store\amazon-locales\es-MX.json,description,"¡Te damos la bienvenida a MatchMinds!
+
+Divertidas aventuras de parejas para pequeños exploradores.
+
+Niveles iniciales de animales y formas incluidos gratis.
+
+Seis actividades, doce niveles cada una, tres mundos, dificultad avanzada y más pegatinas.
+
+Compra prémium única para seis actividades y tres dificultades.
+
+Juega a las actividades incluidas sin internet.
+
+Perfiles y progreso locales sin cuenta infantil.
+
+Texto e instrucciones habladas sin conexión si hay una voz instalada.
+
+Sin anuncios ni suscripciones. El PIN protege ajustes y compras.
+
+Las compras y su restauración necesitan conexión y Amazon Appstore. Amazon confirma el pago. Mantén privado tu PIN.
+
+Las traducciones son preliminares y requieren revisión nativa. El juego A–Z sigue usando letras inglesas. La narración necesita una voz sin conexión instalada.",PENDING,,,
+es-MX,store\amazon-locales\es-MX.json,feature_1,Niveles iniciales de animales y formas incluidos gratis.,PENDING,,,
+es-MX,store\amazon-locales\es-MX.json,feature_2,Compra prémium única para seis actividades y tres dificultades.,PENDING,,,
+es-MX,store\amazon-locales\es-MX.json,feature_3,Perfiles y progreso locales sin cuenta infantil.,PENDING,,,
+es-MX,store\amazon-locales\es-MX.json,feature_4,Texto e instrucciones habladas sin conexión si hay una voz instalada.,PENDING,,,
+es-MX,store\amazon-locales\es-MX.json,feature_5,Sin anuncios ni suscripciones. El PIN protege ajustes y compras.,PENDING,,,
+es-MX,store\amazon-locales\es-MX.json,release_notes,Vistas previas de traducción,PENDING,,,
+fr-FR,store\amazon-locales\fr-FR.json,title,MatchMinds Kids - Jeu de mémoire pour enfants,PENDING,,,
+fr-FR,store\amazon-locales\fr-FR.json,short_description,Des aventures d'association pour les petits curieux. Premiers niveaux d'animaux et de formes inclus gratuitement.,PENDING,,,
+fr-FR,store\amazon-locales\fr-FR.json,description,"Bienvenue dans MatchMinds !
+
+Des aventures d'association pour les petits curieux.
+
+Premiers niveaux d'animaux et de formes inclus gratuitement.
+
+Six activités, douze niveaux chacune, trois mondes, difficulté avancée et plus d'autocollants.
+
+Achat Premium unique pour six activités et trois difficultés.
+
+Joue aux activités incluses sans connexion Internet.
+
+Profils et progrès locaux sans compte enfant.
+
+Consignes écrites et voix hors ligne facultative si installée.
+
+Sans publicité ni abonnement. Le code parent protège réglages et achats.
+
+Les achats et leur restauration nécessitent une connexion et Amazon Appstore. Amazon confirme le paiement. Gardez votre code secret.
+
+Les traductions sont provisoires, en attente de révision native. L'activité A–Z utilise les lettres anglaises. Une voix hors ligne installée est nécessaire.",PENDING,,,
+fr-FR,store\amazon-locales\fr-FR.json,feature_1,Premiers niveaux d'animaux et de formes inclus gratuitement.,PENDING,,,
+fr-FR,store\amazon-locales\fr-FR.json,feature_2,Achat Premium unique pour six activités et trois difficultés.,PENDING,,,
+fr-FR,store\amazon-locales\fr-FR.json,feature_3,Profils et progrès locaux sans compte enfant.,PENDING,,,
+fr-FR,store\amazon-locales\fr-FR.json,feature_4,Consignes écrites et voix hors ligne facultative si installée.,PENDING,,,
+fr-FR,store\amazon-locales\fr-FR.json,feature_5,Sans publicité ni abonnement. Le code parent protège réglages et achats.,PENDING,,,
+fr-FR,store\amazon-locales\fr-FR.json,release_notes,Aperçus des traductions,PENDING,,,
+it-IT,store\amazon-locales\it-IT.json,title,MatchMinds Kids - Gioco di memoria per bambini,PENDING,,,
+it-IT,store\amazon-locales\it-IT.json,short_description,Avventure di abbinamento per piccoli esploratori. Livelli iniziali di animali e forme inclusi gratis.,PENDING,,,
+it-IT,store\amazon-locales\it-IT.json,description,"Benvenuti in MatchMinds!
+
+Avventure di abbinamento per piccoli esploratori.
+
+Livelli iniziali di animali e forme inclusi gratis.
+
+Sei attività, dodici livelli ciascuna, tre mondi, difficoltà avanzata e più adesivi.
+
+Sblocco Premium una tantum per sei attività e tre difficoltà.
+
+Gioca alle attività incluse senza Internet.
+
+Profili e progressi locali senza account bambino.
+
+Testo e narrazione offline facoltativa con voce installata.
+
+Nessuna pubblicità o abbonamento. Il PIN protegge impostazioni e acquisti.
+
+Acquisti e ripristino richiedono connessione e Amazon Appstore. Amazon conferma il pagamento. Mantieni privato il PIN.
+
+Le traduzioni sono anteprime in attesa di revisione madrelingua. A–Z resta un'attività con lettere inglesi. Serve una voce offline installata per la narrazione.",PENDING,,,
+it-IT,store\amazon-locales\it-IT.json,feature_1,Livelli iniziali di animali e forme inclusi gratis.,PENDING,,,
+it-IT,store\amazon-locales\it-IT.json,feature_2,Sblocco Premium una tantum per sei attività e tre difficoltà.,PENDING,,,
+it-IT,store\amazon-locales\it-IT.json,feature_3,Profili e progressi locali senza account bambino.,PENDING,,,
+it-IT,store\amazon-locales\it-IT.json,feature_4,Testo e narrazione offline facoltativa con voce installata.,PENDING,,,
+it-IT,store\amazon-locales\it-IT.json,feature_5,Nessuna pubblicità o abbonamento. Il PIN protegge impostazioni e acquisti.,PENDING,,,
+it-IT,store\amazon-locales\it-IT.json,release_notes,Anteprime delle traduzioni,PENDING,,,
+ja-JP,store\amazon-locales\ja-JP.json,title,MatchMinds Kids - 子どもの絵合わせ・記憶ゲーム,PENDING,,,
+ja-JP,store\amazon-locales\ja-JP.json,short_description,キツネのMiloと楽しく絵合わせ。動物や形の入門レベルを無料で遊べます。追加の遊びは1回限りのプレミアム購入で。,PENDING,,,
+ja-JP,store\amazon-locales\ja-JP.json,description,"Miloと一緒に、カードをめくって同じ絵を探しましょう。主に3〜8歳の子ども向けの、時間制限や間違いへのペナルティがない絵合わせゲームです。
+
+動物と形の入門レベルは無料。1回限りのプレミアム購入で、動物、形と色、数字と数量、英語の大文字と小文字、身近な物、繰り返し模様の6つの遊びを楽しめます。難易度は3段階、テーマの世界は3つ。
+
+広告、定期購入、子ども用オンラインアカウントはありません。プロフィールと進行状況は端末内に保存されます。保護者用PINで設定と購入画面を保護します。
+
+含まれるゲームはオフラインで遊べます。購入と復元にはインターネット接続とAmazon Appstoreが必要です。読み上げは、選択言語の対応するオフライン音声が端末にインストールされている場合に利用できます。音声がない場合も画面の文字で案内します。
+
+この日本語訳はストア紹介文です。アプリ内の日本語には対応していません。アプリ内では英語と10言語の翻訳プレビューを選べます。文字の遊びは英語のA〜Zです。翻訳のネイティブレビューは未完了です。科学的に実証された認知能力向上をうたうものではありません。",PENDING,,,
+ja-JP,store\amazon-locales\ja-JP.json,feature_1,動物と形の入門レベルを無料でプレイ,PENDING,,,
+ja-JP,store\amazon-locales\ja-JP.json,feature_2,1回限りのプレミアム購入で6つの遊びを追加,PENDING,,,
+ja-JP,store\amazon-locales\ja-JP.json,feature_3,広告や定期購入、子ども用アカウントなし,PENDING,,,
+ja-JP,store\amazon-locales\ja-JP.json,feature_4,プロフィールと進行状況を端末内に保存,PENDING,,,
+ja-JP,store\amazon-locales\ja-JP.json,feature_5,保護者用PINで設定と購入画面を保護,PENDING,,,
+nl-NL,store\amazon-locales\nl-NL.json,title,MatchMinds Kids - Geheugenspel voor kinderen,PENDING,,,
+nl-NL,store\amazon-locales\nl-NL.json,short_description,Leuke zoekavonturen voor kleine ontdekkers. Startniveaus met dieren en vormen gratis inbegrepen.,PENDING,,,
+nl-NL,store\amazon-locales\nl-NL.json,description,"Welkom bij MatchMinds!
+
+Leuke zoekavonturen voor kleine ontdekkers.
+
+Startniveaus met dieren en vormen gratis inbegrepen.
+
+Zes activiteiten met elk twaalf niveaus, drie werelden, hogere moeilijkheid en meer stickers.
+
+Eenmalige premiumaankoop voor zes activiteiten en drie moeilijkheden.
+
+Speel inbegrepen activiteiten zonder internet.
+
+Lokale profielen en voortgang zonder kinderaccount.
+
+Tekst en optionele geïnstalleerde offline stem.
+
+Geen reclame of abonnementen. Ouderpincode beschermt instellingen en aankopen.
+
+Aankopen en herstel vereisen internet en Amazon Appstore. Amazon bevestigt de betaling. Houd je pincode geheim.
+
+Vertalingen zijn voorbeelden die nog door moedertaalsprekers moeten worden nagekeken. A–Z blijft een activiteit met Engelse letters. Uitleg vereist een geïnstalleerde offline stem.",PENDING,,,
+nl-NL,store\amazon-locales\nl-NL.json,feature_1,Startniveaus met dieren en vormen gratis inbegrepen.,PENDING,,,
+nl-NL,store\amazon-locales\nl-NL.json,feature_2,Eenmalige premiumaankoop voor zes activiteiten en drie moeilijkheden.,PENDING,,,
+nl-NL,store\amazon-locales\nl-NL.json,feature_3,Lokale profielen en voortgang zonder kinderaccount.,PENDING,,,
+nl-NL,store\amazon-locales\nl-NL.json,feature_4,Tekst en optionele geïnstalleerde offline stem.,PENDING,,,
+nl-NL,store\amazon-locales\nl-NL.json,feature_5,Geen reclame of abonnementen. Ouderpincode beschermt instellingen en aankopen.,PENDING,,,
+nl-NL,store\amazon-locales\nl-NL.json,release_notes,Vertaalvoorbeelden,PENDING,,,
+pl-PL,store\amazon-locales\pl-PL.json,title,MatchMinds Kids - Gra pamięciowa dla dzieci,PENDING,,,
+pl-PL,store\amazon-locales\pl-PL.json,short_description,Wesołe przygody w dopasowywanie dla małych odkrywców. Początkowe poziomy zwierząt i kształtów w cenie darmowej aplikacji.,PENDING,,,
+pl-PL,store\amazon-locales\pl-PL.json,description,"Witaj w MatchMinds!
+
+Wesołe przygody w dopasowywanie dla małych odkrywców.
+
+Początkowe poziomy zwierząt i kształtów w cenie darmowej aplikacji.
+
+Sześć aktywności po dwanaście poziomów, trzy światy, wyższa trudność i więcej naklejek.
+
+Jednorazowe premium: sześć aktywności i trzy trudności.
+
+Graj w dołączone aktywności bez internetu.
+
+Lokalne profile i postęp bez konta dziecka.
+
+Tekst i opcjonalna zainstalowana narracja offline.
+
+Bez reklam i subskrypcji. PIN rodzica chroni ustawienia i zakupy.
+
+Zakupy i przywracanie wymagają połączenia i Amazon Appstore. Amazon potwierdza płatność. Chroń PIN rodzica.
+
+Tłumaczenia są podglądem oczekującym na weryfikację native speakera. Dopasowywanie A–Z dotyczy angielskich liter. Narracja wymaga zainstalowanego głosu offline.",PENDING,,,
+pl-PL,store\amazon-locales\pl-PL.json,feature_1,Początkowe poziomy zwierząt i kształtów w cenie darmowej aplikacji.,PENDING,,,
+pl-PL,store\amazon-locales\pl-PL.json,feature_2,Jednorazowe premium: sześć aktywności i trzy trudności.,PENDING,,,
+pl-PL,store\amazon-locales\pl-PL.json,feature_3,Lokalne profile i postęp bez konta dziecka.,PENDING,,,
+pl-PL,store\amazon-locales\pl-PL.json,feature_4,Tekst i opcjonalna zainstalowana narracja offline.,PENDING,,,
+pl-PL,store\amazon-locales\pl-PL.json,feature_5,Bez reklam i subskrypcji. PIN rodzica chroni ustawienia i zakupy.,PENDING,,,
+pl-PL,store\amazon-locales\pl-PL.json,release_notes,Podglądy tłumaczeń,PENDING,,,
+pt-BR,store\amazon-locales\pt-BR.json,title,MatchMinds Kids - Jogo da memória para crianças,PENDING,,,
+pt-BR,store\amazon-locales\pt-BR.json,short_description,Aventuras de combinação para pequenos exploradores. Níveis iniciais de animais e formas incluídos grátis.,PENDING,,,
+pt-BR,store\amazon-locales\pt-BR.json,description,"Boas-vindas ao MatchMinds!
+
+Aventuras de combinação para pequenos exploradores.
+
+Níveis iniciais de animais e formas incluídos grátis.
+
+Seis atividades, doze níveis cada, três mundos, dificuldade avançada e mais adesivos.
+
+Compra premium única para seis atividades e três dificuldades.
+
+Jogue as atividades incluídas sem internet.
+
+Perfis e progresso locais sem conta infantil.
+
+Texto e narração offline opcional com voz instalada.
+
+Sem anúncios ou assinaturas. O PIN protege ajustes e compras.
+
+Compras e restauração exigem conexão e Amazon Appstore. Amazon confirma o pagamento. Mantenha seu PIN privado.
+
+Traduções são prévias aguardando revisão nativa. A atividade A–Z continua com letras inglesas. A narração precisa de uma voz offline instalada.",PENDING,,,
+pt-BR,store\amazon-locales\pt-BR.json,feature_1,Níveis iniciais de animais e formas incluídos grátis.,PENDING,,,
+pt-BR,store\amazon-locales\pt-BR.json,feature_2,Compra premium única para seis atividades e três dificuldades.,PENDING,,,
+pt-BR,store\amazon-locales\pt-BR.json,feature_3,Perfis e progresso locais sem conta infantil.,PENDING,,,
+pt-BR,store\amazon-locales\pt-BR.json,feature_4,Texto e narração offline opcional com voz instalada.,PENDING,,,
+pt-BR,store\amazon-locales\pt-BR.json,feature_5,Sem anúncios ou assinaturas. O PIN protege ajustes e compras.,PENDING,,,
+pt-BR,store\amazon-locales\pt-BR.json,release_notes,Prévias das traduções,PENDING,,,
+pt-PT,store\amazon-locales\pt-PT.json,title,MatchMinds Kids - Jogo da memória para crianças,PENDING,,,
+pt-PT,store\amazon-locales\pt-PT.json,short_description,Aventuras de combinação para pequenos exploradores. Níveis iniciais de animais e formas incluídos grátis.,PENDING,,,
+pt-PT,store\amazon-locales\pt-PT.json,description,"Boas-vindas ao MatchMinds!
+
+Aventuras de combinação para pequenos exploradores.
+
+Níveis iniciais de animais e formas incluídos grátis.
+
+Seis atividades, doze níveis cada, três mundos, dificuldade avançada e mais autocolantes.
+
+Compra premium única para seis atividades e três dificuldades.
+
+Jogue as atividades incluídas sem internet.
+
+Perfis e progresso locais sem conta infantil.
+
+Texto e narração offline opcional com voz instalada.
+
+Sem anúncios ou subscriçãos. O PIN protege ajustes e compras.
+
+Compras e restauração exigem conexão e Amazon Appstore. Amazon confirma o pagamento. Mantenha seu PIN privado.
+
+Traduções são prévias aguardando revisão nativa. A atividade A–Z continua com letras inglesas. A narração precisa de uma voz offline instalada.",PENDING,,,
+pt-PT,store\amazon-locales\pt-PT.json,feature_1,Níveis iniciais de animais e formas incluídos grátis.,PENDING,,,
+pt-PT,store\amazon-locales\pt-PT.json,feature_2,Compra premium única para seis atividades e três dificuldades.,PENDING,,,
+pt-PT,store\amazon-locales\pt-PT.json,feature_3,Perfis e progresso locais sem conta infantil.,PENDING,,,
+pt-PT,store\amazon-locales\pt-PT.json,feature_4,Texto e narração offline opcional com voz instalada.,PENDING,,,
+pt-PT,store\amazon-locales\pt-PT.json,feature_5,Sem anúncios ou subscriçãos. O PIN protege ajustes e compras.,PENDING,,,
+pt-PT,store\amazon-locales\pt-PT.json,release_notes,Prévias das traduções,PENDING,,,
+sv-SE,store\amazon-locales\sv-SE.json,title,MatchMinds Kids - Minnesspel för barn,PENDING,,,
+sv-SE,store\amazon-locales\sv-SE.json,short_description,Para ihop djur och former med räven Milo. Startnivåer ingår gratis. Fler aktiviteter finns med ett enda premiumköp.,PENDING,,,
+sv-SE,store\amazon-locales\sv-SE.json,description,"Vänd kort och hitta par med räven Milo! MatchMinds Kids erbjuder lugna matchningsspel främst för barn i åldern 3–8 år, utan tidspress eller straff för misstag.
+
+Startnivåer med djur och former ingår gratis. Ett enda premiumköp låser upp sex aktiviteter: djurpar, former och färger, siffror och antal, stora och små engelska bokstäver, vardagsföremål och upprepade mönster. Välj mellan tre svårighetsgrader och tre temavärldar.
+
+Ingen reklam, inga abonnemang och inga barnkonton online. Profiler och framsteg sparas på enheten. En privat föräldrakod skyddar inställningar och köp.
+
+De inkluderade spelen fungerar offline. Köp och återställning kräver internet och Amazon Appstore. Uppläsning kräver en lämplig installerad offlineröst för det valda språket. Annars visas instruktionerna som text.
+
+Denna svenska översättning gäller butikstexten. Appens gränssnitt finns inte på svenska. Engelska och översättningsförhandsvisningar i tio språkvarianter kan väljas i appen. Bokstavsaktiviteten använder engelska A–Z. Översättningarna väntar på granskning av modersmålstalare. Inga vetenskapligt bevisade förbättringar av kognitiv utveckling utlovas.",PENDING,,,
+sv-SE,store\amazon-locales\sv-SE.json,feature_1,Startnivåer med djur och former ingår gratis,PENDING,,,
+sv-SE,store\amazon-locales\sv-SE.json,feature_2,Ett enda premiumköp för sex aktiviteter,PENDING,,,
+sv-SE,store\amazon-locales\sv-SE.json,feature_3,Ingen reklam och inga abonnemang,PENDING,,,
+sv-SE,store\amazon-locales\sv-SE.json,feature_4,Lokala profiler och sparade framsteg utan barnkonto,PENDING,,,
+sv-SE,store\amazon-locales\sv-SE.json,feature_5,Föräldrakod skyddar inställningar och köp,PENDING,,,
+English (Australia),store\iap-locales.json,title,All Adventures - Lifetime Premium,PENDING,,,
+English (Australia),store\iap-locales.json,description,"One-time unlock for all six activities, twelve levels per activity, three themed worlds, advanced difficulty and extra stickers. No subscription. Purchases and restoration require Amazon Appstore and an internet connection.",PENDING,,,
+German,store\iap-locales.json,title,Alle Abenteuer - Premium auf Lebenszeit,PENDING,,,
+German,store\iap-locales.json,description,"Einmaliger Kauf für alle sechs Aktivitäten, zwölf Level pro Aktivität, drei Themenwelten, hohe Schwierigkeit und zusätzliche Sticker. Kein Abonnement. Kauf und Wiederherstellung erfordern Amazon Appstore und eine Internetverbindung.",PENDING,,,
+Spanish,store\iap-locales.json,title,Todas las aventuras - Premium de por vida,PENDING,,,
+Spanish,store\iap-locales.json,description,"Una sola compra desbloquea las seis actividades, doce niveles por actividad, tres mundos temáticos, dificultad avanzada y más pegatinas. Sin suscripción. La compra y la restauración requieren Amazon Appstore y conexión a Internet.",PENDING,,,
+French,store\iap-locales.json,title,Toutes les aventures - Premium à vie,PENDING,,,
+French,store\iap-locales.json,description,"Un achat unique débloque les six activités, douze niveaux par activité, trois mondes thématiques, la difficulté avancée et plus d’autocollants. Sans abonnement. Achat et restauration nécessitent Amazon Appstore et une connexion Internet.",PENDING,,,
+Italian,store\iap-locales.json,title,Tutte le avventure - Premium a vita,PENDING,,,
+Italian,store\iap-locales.json,description,"Un acquisto unico sblocca tutte e sei le attività, dodici livelli per attività, tre mondi a tema, difficoltà avanzata e più adesivi. Nessun abbonamento. Acquisto e ripristino richiedono Amazon Appstore e una connessione Internet.",PENDING,,,
+Japanese,store\iap-locales.json,title,すべての冒険 - 買い切りプレミアム,PENDING,,,
+Japanese,store\iap-locales.json,description,1回の購入で6つの遊び、各12レベル、3つのテーマ世界、上級難易度、追加ステッカーを解放します。定期購入ではありません。購入と復元にはAmazon Appstoreとインターネット接続が必要です。アプリ内の日本語には対応していません。,PENDING,,,
+Portuguese (Brazil),store\iap-locales.json,title,Todas as aventuras - Premium vitalício,PENDING,,,
+Portuguese (Brazil),store\iap-locales.json,description,"Uma compra única desbloqueia as seis atividades, doze níveis por atividade, três mundos temáticos, dificuldade avançada e mais adesivos. Sem assinatura. Compra e restauração exigem Amazon Appstore e conexão com a Internet.",PENDING,,,
+Chinese (Simplified),store\iap-locales.json,title,全部冒险 - 永久高级版,PENDING,,,
+Chinese (Simplified),store\iap-locales.json,description,一次性购买可解锁全部六项活动、每项活动十二个关卡、三个主题世界、进阶难度和更多贴纸。无需订阅。购买和恢复购买需要 Amazon Appstore 和互联网连接。应用界面不提供中文。,PENDING,,,
+English (U.K.),store\iap-locales.json,title,All Adventures - Lifetime Premium,PENDING,,,
+English (U.K.),store\iap-locales.json,description,"One-time unlock for all six activities, twelve levels per activity, three themed worlds, advanced difficulty and extra stickers. No subscription. Purchases and restoration require Amazon Appstore and an internet connection.",PENDING,,,
+English (India),store\iap-locales.json,title,All Adventures - Lifetime Premium,PENDING,,,
+English (India),store\iap-locales.json,description,"One-time unlock for all six activities, twelve levels per activity, three themed worlds, advanced difficulty and extra stickers. No subscription. Purchases and restoration require Amazon Appstore and an internet connection.",PENDING,,,
+Spanish (Mexico),store\iap-locales.json,title,Todas las aventuras - Premium de por vida,PENDING,,,
+Spanish (Mexico),store\iap-locales.json,description,"Una sola compra desbloquea las seis actividades, doce niveles por actividad, tres mundos temáticos, dificultad avanzada y más pegatinas. Sin suscripción. La compra y la restauración requieren Amazon Appstore y conexión a Internet.",PENDING,,,

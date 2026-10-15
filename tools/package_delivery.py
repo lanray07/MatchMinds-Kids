@@ -10,14 +10,14 @@ with zipfile.ZipFile(source,'w',zipfile.ZIP_DEFLATED) as archive:
     for file in (root/'artifacts/brand').glob('*'):
         if file.is_file(): archive.write(file,file.relative_to(root))
     for file in (root/'artifacts/screenshots').rglob('manifest.json'): archive.write(file,file.relative_to(root))
-    for folder in ['artifacts/store-assets','artifacts/screenshots/host-tablet','artifacts/screenshots/host-phone','artifacts/localization-renders','artifacts/localized-store-assets']:
+    for folder in ['artifacts/store-assets','artifacts/screenshots/host-tablet','artifacts/screenshots/host-phone','artifacts/localization-renders','artifacts/localized-store-assets','artifacts/accessibility-renders']:
         for file in (root/folder).rglob('*'):
             if file.is_file(): archive.write(file,file.relative_to(root))
     if (root/'artifacts/host-render-tests.xml').exists(): archive.write(root/'artifacts/host-render-tests.xml','artifacts/host-render-tests.xml')
     for name in ['README.md','PRIVACY.md','DATA-DELETION.md','.gitignore','settings.gradle.kts','build.gradle.kts','gradle.properties','gradlew','gradlew.bat']:
         archive.write(root/name,name)
     if (root/'artifacts/verification.json').exists(): archive.write(root/'artifacts/verification.json','artifacts/verification.json')
-    for evidence in ['fire-offline-tests.xml','fire-release-launch.json','fire-sandbox-verification.json','fire-voice-availability.json','release-signature.txt','final-localized-checks.log','signed-release-build.log']:
+    for evidence in ['fire-offline-tests.xml','fire-release-launch.json','fire-sandbox-verification.json','fire-voice-availability.json','release-signature.txt','final-localized-checks.log','signed-release-build.log','extended-final-checks.log','fire-extended-verification.json','fire-billing-callbacks.json','fire-release-performance.json','accessibility-contrast.json','store-follow-up.json']:
         item=root/'artifacts'/evidence
         if item.exists(): archive.write(item,'artifacts/'+evidence)
 debug=root/'app/build/outputs/apk/debug/app-debug.apk'

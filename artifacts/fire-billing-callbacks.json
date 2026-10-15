@@ -1,0 +1,15 @@
+{
+  "device_model": "KFTRWI",
+  "android_api": 28,
+  "passed": true,
+  "instrumentation_tests": 1,
+  "seconds": 2.137,
+  "cases": [
+    "same-account cached access retained",
+    "different fixture account revokes cached premium",
+    "failed purchase never grants",
+    "failed restore never grants",
+    "failed user lookup preserves previous offline access"
+  ],
+  "scope": "Actual Android instrumentation with simulated Amazon SDK callbacks and fixture account IDs. No real account switching, checkout, refund or production receipt evidence. Debug verifier disabled."
+}

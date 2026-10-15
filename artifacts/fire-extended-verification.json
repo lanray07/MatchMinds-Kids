@@ -1,0 +1,14 @@
+{
+  "passed": false,
+  "status": "Blocked pending tablet unlock",
+  "device_model": "KFTRWI",
+  "android_api": 28,
+  "target_duration_ms": 900000,
+  "completed_duration_ms": null,
+  "last_attempt_seconds": 12.423,
+  "last_attempt": "No Compose hierarchies; dumpsys showed Asleep, StatusBar focus and dreaming lockscreen",
+  "earlier_attempt_seconds": 327.729,
+  "earlier_attempt": "Interrupted with no Compose hierarchy; no completed-soak assertion",
+  "harness_change": "Removed repeated Activity recreation from soak, retained screen-on flag, added running checkpoints. Separate offline suite already covers recreation. Fresh test APK built and installed.",
+  "scope": "Debug QA fixture; no passing long-session or low-RAM result is claimed."
+}

@@ -1,5 +1,5 @@
 {
-  "status": "SUBMITTED to Amazon Appstore review",
+  "status": "UNDER REVIEW",
   "console_url": "https://developer.amazon.com/apps-and-games/console/app/amzn1.devportal.mobileapp.999497c006704f4181ae2d7eb3d8128a/release/amzn1.devportal.apprelease.d3c7b5637b7e45528951c84f60ca51e6/submission/submission-status.html",
   "saved": true,
   "submitted": true,
@@ -30,7 +30,7 @@
   "age_advertising_commitment": "Explicitly confirmed by publisher in chat before selecting age group",
   "content_rating_status": "Complete",
   "description_status": "All fifteen available listing locales Complete; translated copy awaits native review",
-  "pricing": "Free app; one-time ENTITLED IAP draft, GBP base price 3.99",
+  "pricing": "Free app; one-time ENTITLED IAP Approved, GBP base price 3.99",
   "reviewer_instructions": "Prepared instructions included immediately before Submit App; submitted successfully",
   "privacy_questionnaire_status": "Saved for review",
   "binary_upload_status": "Validated: app-release.apk version code 1 accepted by Amazon",
@@ -44,5 +44,21 @@
   "iap_status": "Submitted to Test and Live; Amazon dashboard shows Approved, Oct 15 2026",
   "export_certification": "Publisher explicitly certified and authorized submission in chat; declaration selected",
   "estimated_appstore_date": "Oct 20 2026, 10:30 AM PDT (Amazon estimate; not approval)",
-  "signed_release_device_check": "Passed: installed and launched on physical KFTRWI API 28, welcome screen reviewed, no matching crash-log entry"
+  "signed_release_device_check": "Passed: installed and launched on physical KFTRWI API 28, welcome screen reviewed, no matching crash-log entry",
+  "live_app_test": {
+    "name": "Release 1.0.0 - receipt and device verification",
+    "release_id": "amzn1.devportal.apprelease.8f36f93ad7e349d9ad21173ad740cb50",
+    "status": "Test submitted",
+    "tester_group": "MatchMinds Kids Release Test",
+    "tester_count": 1,
+    "invitation": "Amazon sends invitation when test becomes live",
+    "publisher_certification": "Publisher confirmed tester adulthood, consent and sharing rights plus export certification and LAT submission authorization in chat"
+  },
+  "quality_central": {
+    "name": "MatchMinds Kids 1.0.0 Fire tablet release QA",
+    "status": "In progress",
+    "suite": "Functional, Performance",
+    "device_family": "Fire Tablets",
+    "submitted": "2026-10-15 12:32:55 PM PDT"
+  }
 }

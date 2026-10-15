@@ -1,0 +1,35 @@
+{
+  "method": "sRGB relative luminance; sampled source palette pairs, not a full rendered-pixel audit",
+  "pairs": [
+    {
+      "pair": "Primary text on cream",
+      "contrast_ratio": 11.02,
+      "normal_text_4_5": true
+    },
+    {
+      "pair": "Teal labels on cream",
+      "contrast_ratio": 4.73,
+      "normal_text_4_5": true
+    },
+    {
+      "pair": "White action text on teal",
+      "contrast_ratio": 4.95,
+      "normal_text_4_5": true
+    },
+    {
+      "pair": "Helper text at 75% ink on cream",
+      "contrast_ratio": 5.27,
+      "normal_text_4_5": true
+    },
+    {
+      "pair": "Locked label at 65% ink on neutral",
+      "contrast_ratio": 3.82,
+      "normal_text_4_5": false
+    },
+    {
+      "pair": "Error text on cream",
+      "contrast_ratio": 6.8,
+      "normal_text_4_5": true
+    }
+  ]
+}

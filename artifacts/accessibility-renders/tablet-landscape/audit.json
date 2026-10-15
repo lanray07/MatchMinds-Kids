@@ -1,0 +1,4397 @@
+{
+  "font_scale": 1.5,
+  "scenes_rendered": 36,
+  "text_layout_overflow": [
+    {
+      "locale": "en-GB",
+      "scene": "welcome",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "welcome",
+      "text": "K I D S  •  PLAY & DISCOVER",
+      "layout_width": 183,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 181.52342,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "welcome",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "welcome",
+      "text": "Parents",
+      "layout_width": 82,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 80.71016,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "welcome",
+      "text": "A LITTLE PLAY. A LOT TO DISCOVER.",
+      "layout_width": 347,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 345.4414,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "welcome",
+      "text": "Little matches.\nBig discoveries.",
+      "layout_width": 419,
+      "layout_height": 128,
+      "last_line_bottom": 128,
+      "max_line_right": 417.23438,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "welcome",
+      "text": "Hello, little explorer! I’m Milo.\nLet’s find something wonderful together.",
+      "layout_width": 447,
+      "layout_height": 70,
+      "last_line_bottom": 70,
+      "max_line_right": 445.6624,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "welcome",
+      "text": "Let’s play  →",
+      "layout_width": 140,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 138.33673,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "welcome",
+      "text": "OFFLINE PLAY",
+      "layout_width": 108,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 106.03516,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "welcome",
+      "text": "•",
+      "layout_width": 10,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 8.75,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "welcome",
+      "text": "NO ADS",
+      "layout_width": 60,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 58.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "welcome",
+      "text": "My discoveries  →",
+      "layout_width": 185,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 183.2453,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "game",
+      "text": "‹  Back",
+      "layout_width": 73,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 71.02766,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "game",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "game",
+      "text": "K I D S  •  PLAY & DISCOVER",
+      "layout_width": 183,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 181.52342,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "game",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "game",
+      "text": "Parents",
+      "layout_width": 82,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 80.71016,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "game",
+      "text": "Animal friends",
+      "layout_width": 198,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 196.59958,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "game",
+      "text": "Woodland wonder  •  Level 1",
+      "layout_width": 272,
+      "layout_height": 37,
+      "last_line_bottom": 37,
+      "max_line_right": 270.6875,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "game",
+      "text": "0 \/ 2 pairs",
+      "layout_width": 119,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 117.25,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "game",
+      "text": "Ⅱ  Pause",
+      "layout_width": 92,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 90.075,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "game",
+      "text": "Listen",
+      "layout_width": 62,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 60.9,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "game",
+      "text": "discover",
+      "layout_width": 72,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 70.41761,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "game",
+      "text": "discover",
+      "layout_width": 72,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 70.41761,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "game",
+      "text": "discover",
+      "layout_width": 72,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 70.41761,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "game",
+      "text": "discover",
+      "layout_width": 72,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 70.41761,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "game",
+      "text": "A little hint  ✦",
+      "layout_width": 149,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 147.4,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "parent-gate",
+      "text": "‹  Back",
+      "layout_width": 73,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 71.02766,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "parent-gate",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "parent-gate",
+      "text": "K I D S  •  PLAY & DISCOVER",
+      "layout_width": 183,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 181.52342,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "parent-gate",
+      "text": "Grown-ups, let’s get set up",
+      "layout_width": 405,
+      "layout_height": 38,
+      "last_line_bottom": 38,
+      "max_line_right": 403.4375,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "parent-gate",
+      "text": "Please hand the device to a parent or carer.",
+      "layout_width": 482,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 480.11032,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "parent-gate",
+      "text": "Create six-digit PIN",
+      "layout_width": 214,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 212.78516,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "parent-gate",
+      "text": "Repeat PIN",
+      "layout_width": 124,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 122.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "parent-gate",
+      "text": "Type the adult confirmation below.",
+      "layout_width": 384,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 382.75427,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "parent-gate",
+      "text": "I am the grown-up",
+      "layout_width": 200,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 198.25214,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "parent-gate",
+      "text": "Grown-up confirmation",
+      "layout_width": 255,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 253.52344,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-GB",
+      "scene": "parent-gate",
+      "text": "Open parent area",
+      "layout_width": 179,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 177.91925,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "welcome",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "welcome",
+      "text": "K I D S  •  PLAY & DISCOVER",
+      "layout_width": 183,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 181.52342,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "welcome",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "welcome",
+      "text": "Parents",
+      "layout_width": 82,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 80.71016,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "welcome",
+      "text": "A LITTLE PLAY. A LOT TO DISCOVER.",
+      "layout_width": 347,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 345.4414,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "welcome",
+      "text": "Little matches.\nBig discoveries.",
+      "layout_width": 419,
+      "layout_height": 128,
+      "last_line_bottom": 128,
+      "max_line_right": 417.23438,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "welcome",
+      "text": "Hello, little explorer! I’m Milo.\nLet’s find something wonderful together.",
+      "layout_width": 447,
+      "layout_height": 70,
+      "last_line_bottom": 70,
+      "max_line_right": 445.6624,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "welcome",
+      "text": "Let’s play  →",
+      "layout_width": 140,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 138.33673,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "welcome",
+      "text": "OFFLINE PLAY",
+      "layout_width": 108,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 106.03516,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "welcome",
+      "text": "•",
+      "layout_width": 10,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 8.75,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "welcome",
+      "text": "NO ADS",
+      "layout_width": 60,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 58.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "welcome",
+      "text": "My discoveries  →",
+      "layout_width": 185,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 183.2453,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "game",
+      "text": "‹  Back",
+      "layout_width": 73,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 71.02766,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "game",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "game",
+      "text": "K I D S  •  PLAY & DISCOVER",
+      "layout_width": 183,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 181.52342,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "game",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "game",
+      "text": "Parents",
+      "layout_width": 82,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 80.71016,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "game",
+      "text": "Animal friends",
+      "layout_width": 198,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 196.59958,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "game",
+      "text": "Woodland wonder  •  Level 1",
+      "layout_width": 272,
+      "layout_height": 37,
+      "last_line_bottom": 37,
+      "max_line_right": 270.6875,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "game",
+      "text": "0 \/ 2 pairs",
+      "layout_width": 119,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 117.25,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "game",
+      "text": "Ⅱ  Pause",
+      "layout_width": 92,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 90.075,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "game",
+      "text": "Listen",
+      "layout_width": 62,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 60.9,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "game",
+      "text": "discover",
+      "layout_width": 72,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 70.41761,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "game",
+      "text": "discover",
+      "layout_width": 72,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 70.41761,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "game",
+      "text": "discover",
+      "layout_width": 72,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 70.41761,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "game",
+      "text": "discover",
+      "layout_width": 72,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 70.41761,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "game",
+      "text": "A little hint  ✦",
+      "layout_width": 149,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 147.4,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "parent-gate",
+      "text": "‹  Back",
+      "layout_width": 73,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 71.02766,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "parent-gate",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "parent-gate",
+      "text": "K I D S  •  PLAY & DISCOVER",
+      "layout_width": 183,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 181.52342,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "parent-gate",
+      "text": "Grown-ups, let’s get set up",
+      "layout_width": 405,
+      "layout_height": 38,
+      "last_line_bottom": 38,
+      "max_line_right": 403.4375,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "parent-gate",
+      "text": "Please hand the device to a parent or carer.",
+      "layout_width": 482,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 480.11032,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "parent-gate",
+      "text": "Create six-digit PIN",
+      "layout_width": 214,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 212.78516,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "parent-gate",
+      "text": "Repeat PIN",
+      "layout_width": 124,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 122.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "parent-gate",
+      "text": "Type the adult confirmation below.",
+      "layout_width": 384,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 382.75427,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "parent-gate",
+      "text": "I am the grown-up",
+      "layout_width": 200,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 198.25214,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "parent-gate",
+      "text": "Grown-up confirmation",
+      "layout_width": 255,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 253.52344,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "en-US",
+      "scene": "parent-gate",
+      "text": "Open parent area",
+      "layout_width": 179,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 177.91925,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "welcome",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "welcome",
+      "text": "NIÑOS • JUEGA Y DESCUBRE",
+      "layout_width": 188,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 186.33331,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "welcome",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "welcome",
+      "text": "Padres",
+      "layout_width": 74,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 72.56016,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "welcome",
+      "text": "UN POCO DE JUEGO. MUCHO POR DESCUBRIR.",
+      "layout_width": 437,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 435.92578,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "welcome",
+      "text": "¡Hola, pequeño explorador! Soy Milo.\nVamos a descubrir algo maravilloso.",
+      "layout_width": 405,
+      "layout_height": 70,
+      "last_line_bottom": 70,
+      "max_line_right": 403.55078,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "welcome",
+      "text": "Vamos a jugar  →",
+      "layout_width": 195,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 193.86093,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "welcome",
+      "text": "JUEGO SIN CONEXIÓN",
+      "layout_width": 167,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 165.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "welcome",
+      "text": "•",
+      "layout_width": 10,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 8.75,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "welcome",
+      "text": "SIN ANUNCIOS",
+      "layout_width": 113,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 112,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "welcome",
+      "text": "Mis descubrimientos  →",
+      "layout_width": 242,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 240.97574,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "game",
+      "text": "‹  Volver",
+      "layout_width": 86,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 84.653305,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "game",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "game",
+      "text": "NIÑOS • JUEGA Y DESCUBRE",
+      "layout_width": 188,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 186.33331,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "game",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "game",
+      "text": "Padres",
+      "layout_width": 74,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 72.56016,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "game",
+      "text": "Amigos animales",
+      "layout_width": 231,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 229.33214,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "game",
+      "text": "Maravillas del bosque • Nivel 1",
+      "layout_width": 296,
+      "layout_height": 37,
+      "last_line_bottom": 37,
+      "max_line_right": 294.58203,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "game",
+      "text": "0 \/ 2 parejas",
+      "layout_width": 146,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 144.52734,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "game",
+      "text": "Ⅱ  Pausa",
+      "layout_width": 92,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 90.075,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "game",
+      "text": "Escuchar",
+      "layout_width": 94,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 92.200005,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "game",
+      "text": "descubre",
+      "layout_width": 77,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 75.48792,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "game",
+      "text": "descubre",
+      "layout_width": 77,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 75.48792,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "game",
+      "text": "descubre",
+      "layout_width": 77,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 75.48792,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "game",
+      "text": "descubre",
+      "layout_width": 77,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 75.48792,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "game",
+      "text": "Una pequeña pista  ✦",
+      "layout_width": 227,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 225.99997,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "parent-gate",
+      "text": "‹  Volver",
+      "layout_width": 86,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 84.653305,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "parent-gate",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "parent-gate",
+      "text": "NIÑOS • JUEGA Y DESCUBRE",
+      "layout_width": 188,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 186.33331,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "parent-gate",
+      "text": "Adultos, vamos a configurar",
+      "layout_width": 428,
+      "layout_height": 38,
+      "last_line_bottom": 38,
+      "max_line_right": 426.32812,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "parent-gate",
+      "text": "Entrega el dispositivo a un adulto responsable.",
+      "layout_width": 520,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 518.6718,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "parent-gate",
+      "text": "Crear PIN de seis cifras",
+      "layout_width": 262,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 260.33594,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "parent-gate",
+      "text": "Repetir PIN",
+      "layout_width": 126,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 124.25,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "parent-gate",
+      "text": "Soy la persona adulta",
+      "layout_width": 242,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 240.243,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "parent-gate",
+      "text": "Confirmación de adulto",
+      "layout_width": 261,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 259.27344,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "es",
+      "scene": "parent-gate",
+      "text": "Abrir área de adultos",
+      "layout_width": 218,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 216.52829,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "welcome",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "welcome",
+      "text": "ENFANTS • JOUE ET DÉCOUVRE",
+      "layout_width": 206,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 204.39496,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "welcome",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "welcome",
+      "text": "Parents",
+      "layout_width": 82,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 80.71016,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "welcome",
+      "text": "UN PEU DE JEU. TANT À DÉCOUVRIR.",
+      "layout_width": 351,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 349.6875,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "welcome",
+      "text": "Jouons  →",
+      "layout_width": 118,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 116.350006,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "welcome",
+      "text": "JEU HORS LIGNE",
+      "layout_width": 127,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 125.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "welcome",
+      "text": "•",
+      "layout_width": 10,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 8.75,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "welcome",
+      "text": "SANS PUBLICITÉ",
+      "layout_width": 128,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 126.28516,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "welcome",
+      "text": "Mes découvertes  →",
+      "layout_width": 206,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 204.09451,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "game",
+      "text": "‹  Retour",
+      "layout_width": 89,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 87.98143,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "game",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "game",
+      "text": "ENFANTS • JOUE ET DÉCOUVRE",
+      "layout_width": 206,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 204.39496,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "game",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "game",
+      "text": "Parents",
+      "layout_width": 82,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 80.71016,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "game",
+      "text": "Amis animaux",
+      "layout_width": 190,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 188.13446,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "game",
+      "text": "Merveilles de la forêt • Niveau 1",
+      "layout_width": 309,
+      "layout_height": 37,
+      "last_line_bottom": 37,
+      "max_line_right": 307.48047,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "game",
+      "text": "0 \/ 2 paires",
+      "layout_width": 132,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 130.77734,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "game",
+      "text": "Ⅱ  Pause",
+      "layout_width": 92,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 90.075,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "game",
+      "text": "Écouter",
+      "layout_width": 78,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 76.84297,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "game",
+      "text": "découvre",
+      "layout_width": 77,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 75.48792,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "game",
+      "text": "découvre",
+      "layout_width": 77,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 75.48792,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "game",
+      "text": "découvre",
+      "layout_width": 77,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 75.48792,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "game",
+      "text": "découvre",
+      "layout_width": 77,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 75.48792,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "game",
+      "text": "Un petit indice  ✦",
+      "layout_width": 185,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 183.69998,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "parent-gate",
+      "text": "‹  Retour",
+      "layout_width": 89,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 87.98143,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "parent-gate",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "parent-gate",
+      "text": "ENFANTS • JOUE ET DÉCOUVRE",
+      "layout_width": 206,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 204.39496,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "parent-gate",
+      "text": "Adultes, passons aux réglages",
+      "layout_width": 461,
+      "layout_height": 38,
+      "last_line_bottom": 38,
+      "max_line_right": 459.45312,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "parent-gate",
+      "text": "Confie l'appareil à un parent ou responsable.",
+      "layout_width": 495,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 493.82477,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "parent-gate",
+      "text": "Créer un code à six chiffres",
+      "layout_width": 304,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 302.5703,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "parent-gate",
+      "text": "Répéter le code",
+      "layout_width": 172,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 170.25,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "parent-gate",
+      "text": "Saisissez la confirmation adulte ci-dessous.",
+      "layout_width": 490,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 488.2978,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "parent-gate",
+      "text": "Je suis l'adulte",
+      "layout_width": 168,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 166.18216,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "parent-gate",
+      "text": "Confirmation adulte",
+      "layout_width": 223,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 221.25,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "fr",
+      "scene": "parent-gate",
+      "text": "Ouvrir l'espace parents",
+      "layout_width": 239,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 237.49768,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "welcome",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "welcome",
+      "text": "KINDER • SPIELEN UND ENTDECKEN",
+      "layout_width": 232,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 230.47916,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "welcome",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "welcome",
+      "text": "Eltern",
+      "layout_width": 62,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 60.9,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "welcome",
+      "text": "EIN BISSCHEN SPIEL. VIEL ZU ENTDECKEN.",
+      "layout_width": 412,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 410.7422,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "welcome",
+      "text": "Los geht's  →",
+      "layout_width": 147,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 145.87189,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "welcome",
+      "text": "OFFLINE SPIELEN",
+      "layout_width": 132,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 130.25,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "welcome",
+      "text": "•",
+      "layout_width": 10,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 8.75,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "welcome",
+      "text": "OHNE WERBUNG",
+      "layout_width": 126,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 125,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "welcome",
+      "text": "Meine Entdeckungen  →",
+      "layout_width": 241,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 239.15,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "game",
+      "text": "‹  Zurück",
+      "layout_width": 94,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 92.10643,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "game",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "game",
+      "text": "KINDER • SPIELEN UND ENTDECKEN",
+      "layout_width": 232,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 230.47916,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "game",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "game",
+      "text": "Eltern",
+      "layout_width": 62,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 60.9,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "game",
+      "text": "Tierfreunde",
+      "layout_width": 161,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 159.06985,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "game",
+      "text": "Waldwunder • Level 1",
+      "layout_width": 208,
+      "layout_height": 37,
+      "last_line_bottom": 37,
+      "max_line_right": 206.41797,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "game",
+      "text": "0 \/ 2 Paare",
+      "layout_width": 128,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 126.89844,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "game",
+      "text": "Ⅱ  Pause",
+      "layout_width": 92,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 90.075,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "game",
+      "text": "Anhören",
+      "layout_width": 86,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 84.32735,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "game",
+      "text": "entdecken",
+      "layout_width": 86,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 84.934654,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "game",
+      "text": "entdecken",
+      "layout_width": 86,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 84.934654,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "game",
+      "text": "entdecken",
+      "layout_width": 86,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 84.934654,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "game",
+      "text": "entdecken",
+      "layout_width": 86,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 84.934654,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "game",
+      "text": "Ein kleiner Tipp  ✦",
+      "layout_width": 195,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 193.85,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "parent-gate",
+      "text": "‹  Zurück",
+      "layout_width": 94,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 92.10643,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "parent-gate",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "parent-gate",
+      "text": "KINDER • SPIELEN UND ENTDECKEN",
+      "layout_width": 232,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 230.47916,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "parent-gate",
+      "text": "Erwachsene, richten wir alles ein",
+      "layout_width": 499,
+      "layout_height": 38,
+      "last_line_bottom": 38,
+      "max_line_right": 497.01562,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "parent-gate",
+      "text": "Gib das Gerät einem Elternteil oder einer Betreuungsperson.",
+      "layout_width": 663,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 661.64435,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "parent-gate",
+      "text": "Sechsstellige PIN erstellen",
+      "layout_width": 298,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 296.25,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "parent-gate",
+      "text": "PIN wiederholen",
+      "layout_width": 181,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 179.25,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "parent-gate",
+      "text": "Gib die Erwachsenenbestätigung unten ein.",
+      "layout_width": 480,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 478.28317,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "parent-gate",
+      "text": "Ich bin erwachsen",
+      "layout_width": 201,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 199.6662,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "parent-gate",
+      "text": "Erwachsenenbestätigung",
+      "layout_width": 280,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 278.6875,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "de",
+      "scene": "parent-gate",
+      "text": "Elternbereich öffnen",
+      "layout_width": 213,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 211.72131,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "welcome",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "welcome",
+      "text": "BAMBINI • GIOCA E SCOPRI",
+      "layout_width": 182,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 180.33333,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "welcome",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "welcome",
+      "text": "Genitori",
+      "layout_width": 84,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 82.86016,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "welcome",
+      "text": "UN PO' DI GIOCO. TANTO DA SCOPRIRE.",
+      "layout_width": 374,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 372.6797,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "welcome",
+      "text": "Giochiamo  →",
+      "layout_width": 155,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 153.80002,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "welcome",
+      "text": "GIOCA OFFLINE",
+      "layout_width": 116,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 114.75,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "welcome",
+      "text": "•",
+      "layout_width": 10,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 8.75,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "welcome",
+      "text": "SENZA PUBBLICITÀ",
+      "layout_width": 148,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 147,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "welcome",
+      "text": "Le mie scoperte  →",
+      "layout_width": 195,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 193.23514,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "game",
+      "text": "‹  Indietro",
+      "layout_width": 101,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 99.20863,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "game",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "game",
+      "text": "BAMBINI • GIOCA E SCOPRI",
+      "layout_width": 182,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 180.33333,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "game",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "game",
+      "text": "Genitori",
+      "layout_width": 84,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 82.86016,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "game",
+      "text": "Amici animali",
+      "layout_width": 185,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 183.86702,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "game",
+      "text": "Meraviglie del bosco • Livello 1",
+      "layout_width": 299,
+      "layout_height": 37,
+      "last_line_bottom": 37,
+      "max_line_right": 297.33203,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "game",
+      "text": "0 \/ 2 coppie",
+      "layout_width": 139,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 138,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "game",
+      "text": "Ⅱ  Pausa",
+      "layout_width": 92,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 90.075,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "game",
+      "text": "Ascolta",
+      "layout_width": 79,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 77.05,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "game",
+      "text": "scopri",
+      "layout_width": 53,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 51.727272,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "game",
+      "text": "scopri",
+      "layout_width": 53,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 51.727272,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "game",
+      "text": "scopri",
+      "layout_width": 53,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 51.727272,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "game",
+      "text": "scopri",
+      "layout_width": 53,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 51.727272,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "game",
+      "text": "Un piccolo aiuto  ✦",
+      "layout_width": 203,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 201.51013,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "parent-gate",
+      "text": "‹  Indietro",
+      "layout_width": 101,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 99.20863,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "parent-gate",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "parent-gate",
+      "text": "BAMBINI • GIOCA E SCOPRI",
+      "layout_width": 182,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 180.33333,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "parent-gate",
+      "text": "Adulti, iniziamo la configurazione",
+      "layout_width": 512,
+      "layout_height": 38,
+      "last_line_bottom": 38,
+      "max_line_right": 510.28125,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "parent-gate",
+      "text": "Passa il dispositivo a un genitore o tutore.",
+      "layout_width": 470,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 468.1181,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "parent-gate",
+      "text": "Crea PIN di sei cifre",
+      "layout_width": 221,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 219.32031,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "parent-gate",
+      "text": "Ripeti PIN",
+      "layout_width": 111,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 109.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "parent-gate",
+      "text": "Scrivi la conferma per adulti qui sotto.",
+      "layout_width": 425,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 423.8656,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "parent-gate",
+      "text": "Sono l'adulto",
+      "layout_width": 145,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 143.75348,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "parent-gate",
+      "text": "Conferma per adulti",
+      "layout_width": 221,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 219.98047,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "it",
+      "scene": "parent-gate",
+      "text": "Apri area genitori",
+      "layout_width": 180,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 178.5488,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "welcome",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "welcome",
+      "text": "CRIANÇAS • BRINQUE E DESCUBRA",
+      "layout_width": 232,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 230.05772,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "welcome",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "welcome",
+      "text": "Responsáveis",
+      "layout_width": 145,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 143.47969,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "welcome",
+      "text": "Vamos brincar  →",
+      "layout_width": 198,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 196.86093,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "welcome",
+      "text": "JOGUE OFFLINE",
+      "layout_width": 118,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 116.75,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "welcome",
+      "text": "•",
+      "layout_width": 10,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 8.75,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "welcome",
+      "text": "SEM ANÚNCIOS",
+      "layout_width": 119,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 118,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "welcome",
+      "text": "Minhas descobertas  →",
+      "layout_width": 236,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 234.68515,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "game",
+      "text": "‹  Voltar",
+      "layout_width": 83,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 81.80174,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "game",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "game",
+      "text": "CRIANÇAS • BRINQUE E DESCUBRA",
+      "layout_width": 232,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 230.05772,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "game",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "game",
+      "text": "Responsáveis",
+      "layout_width": 145,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 143.47969,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "game",
+      "text": "Amigos animais",
+      "layout_width": 215,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 213.59958,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "game",
+      "text": "Maravilhas da floresta • Nível 1",
+      "layout_width": 302,
+      "layout_height": 37,
+      "last_line_bottom": 37,
+      "max_line_right": 300.14453,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "game",
+      "text": "0 \/ 2 pares",
+      "layout_width": 126,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 124.02734,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "game",
+      "text": "Ⅱ  Pausa",
+      "layout_width": 92,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 90.075,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "game",
+      "text": "Ouvir",
+      "layout_width": 54,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 52.750004,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "game",
+      "text": "descubra",
+      "layout_width": 78,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 76.32386,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "game",
+      "text": "descubra",
+      "layout_width": 78,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 76.32386,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "game",
+      "text": "descubra",
+      "layout_width": 78,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 76.32386,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "game",
+      "text": "descubra",
+      "layout_width": 78,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 76.32386,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "game",
+      "text": "Uma pequena dica  ✦",
+      "layout_width": 226,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 224.84998,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "parent-gate",
+      "text": "‹  Voltar",
+      "layout_width": 83,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 81.80174,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "parent-gate",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "parent-gate",
+      "text": "CRIANÇAS • BRINQUE E DESCUBRA",
+      "layout_width": 232,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 230.05772,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "parent-gate",
+      "text": "Adultos, vamos configurar",
+      "layout_width": 401,
+      "layout_height": 38,
+      "last_line_bottom": 38,
+      "max_line_right": 399.82812,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "parent-gate",
+      "text": "Entregue o dispositivo a um responsável.",
+      "layout_width": 455,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 453.43976,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "parent-gate",
+      "text": "Criar PIN de seis dígitos",
+      "layout_width": 269,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 267.52344,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "parent-gate",
+      "text": "Repetir PIN",
+      "layout_width": 126,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 124.25,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "parent-gate",
+      "text": "Digite a confirmação de adulto abaixo.",
+      "layout_width": 429,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 427.44043,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "parent-gate",
+      "text": "Sou a pessoa adulta",
+      "layout_width": 227,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 225.9468,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "parent-gate",
+      "text": "Confirmação de adulto",
+      "layout_width": 254,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 252.52344,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-BR",
+      "scene": "parent-gate",
+      "text": "Abrir área dos responsáveis",
+      "layout_width": 291,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 289.2138,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "welcome",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "welcome",
+      "text": "CRIANÇAS • BRINQUE E DESCUBRA",
+      "layout_width": 232,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 230.05772,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "welcome",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "welcome",
+      "text": "Responsáveis",
+      "layout_width": 145,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 143.47969,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "welcome",
+      "text": "Vamos brincar  →",
+      "layout_width": 198,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 196.86093,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "welcome",
+      "text": "JOGUE OFFLINE",
+      "layout_width": 118,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 116.75,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "welcome",
+      "text": "•",
+      "layout_width": 10,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 8.75,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "welcome",
+      "text": "SEM ANÚNCIOS",
+      "layout_width": 119,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 118,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "welcome",
+      "text": "As minhas descobertas  →",
+      "layout_width": 268,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 266.13516,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "game",
+      "text": "‹  Voltar",
+      "layout_width": 83,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 81.80174,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "game",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "game",
+      "text": "CRIANÇAS • BRINQUE E DESCUBRA",
+      "layout_width": 232,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 230.05772,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "game",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "game",
+      "text": "Responsáveis",
+      "layout_width": 145,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 143.47969,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "game",
+      "text": "Amigos animais",
+      "layout_width": 215,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 213.59958,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "game",
+      "text": "Maravilhas da floresta • Nível 1",
+      "layout_width": 302,
+      "layout_height": 37,
+      "last_line_bottom": 37,
+      "max_line_right": 300.14453,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "game",
+      "text": "0 \/ 2 pares",
+      "layout_width": 126,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 124.02734,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "game",
+      "text": "Ⅱ  Pausa",
+      "layout_width": 92,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 90.075,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "game",
+      "text": "Ouvir",
+      "layout_width": 54,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 52.750004,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "game",
+      "text": "descubra",
+      "layout_width": 78,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 76.32386,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "game",
+      "text": "descubra",
+      "layout_width": 78,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 76.32386,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "game",
+      "text": "descubra",
+      "layout_width": 78,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 76.32386,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "game",
+      "text": "descubra",
+      "layout_width": 78,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 76.32386,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "game",
+      "text": "Uma pequena dica  ✦",
+      "layout_width": 226,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 224.84998,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "parent-gate",
+      "text": "‹  Voltar",
+      "layout_width": 83,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 81.80174,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "parent-gate",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "parent-gate",
+      "text": "CRIANÇAS • BRINQUE E DESCUBRA",
+      "layout_width": 232,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 230.05772,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "parent-gate",
+      "text": "Adultos, vamos configurar",
+      "layout_width": 401,
+      "layout_height": 38,
+      "last_line_bottom": 38,
+      "max_line_right": 399.82812,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "parent-gate",
+      "text": "Entregue o dispositivo a um responsável.",
+      "layout_width": 455,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 453.43976,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "parent-gate",
+      "text": "Criar PIN de seis dígitos",
+      "layout_width": 269,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 267.52344,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "parent-gate",
+      "text": "Repetir PIN",
+      "layout_width": 126,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 124.25,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "parent-gate",
+      "text": "Digite a confirmação de adulto abaixo.",
+      "layout_width": 429,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 427.44043,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "parent-gate",
+      "text": "Sou a pessoa adulta",
+      "layout_width": 227,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 225.9468,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "parent-gate",
+      "text": "Confirmação de adulto",
+      "layout_width": 254,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 252.52344,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pt-PT",
+      "scene": "parent-gate",
+      "text": "Abrir área dos responsáveis",
+      "layout_width": 291,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 289.2138,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "welcome",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "welcome",
+      "text": "KINDEREN • SPEEL EN ONTDEK",
+      "layout_width": 199,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 197.59027,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "welcome",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "welcome",
+      "text": "Ouders",
+      "layout_width": 76,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 74.9,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "welcome",
+      "text": "EEN BEETJE SPELEN. VEEL TE ONTDEKKEN.",
+      "layout_width": 412,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 410.51953,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "welcome",
+      "text": "Hallo, kleine ontdekker! Ik ben Milo.\nLaten we samen iets moois ontdekken.",
+      "layout_width": 431,
+      "layout_height": 70,
+      "last_line_bottom": 70,
+      "max_line_right": 429.1989,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "welcome",
+      "text": "Spelen maar  →",
+      "layout_width": 176,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 174.1,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "welcome",
+      "text": "OFFLINE SPELEN",
+      "layout_width": 127,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 125.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "welcome",
+      "text": "•",
+      "layout_width": 10,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 8.75,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "welcome",
+      "text": "GEEN RECLAME",
+      "layout_width": 119,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 117.13672,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "welcome",
+      "text": "Mijn ontdekkingen  →",
+      "layout_width": 216,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 215,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "game",
+      "text": "‹  Terug",
+      "layout_width": 81,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 79.17447,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "game",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "game",
+      "text": "KINDEREN • SPEEL EN ONTDEK",
+      "layout_width": 199,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 197.59027,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "game",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "game",
+      "text": "Ouders",
+      "layout_width": 76,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 74.9,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "game",
+      "text": "Dierenvrienden",
+      "layout_width": 205,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 203.9941,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "game",
+      "text": "Boswonderen • Niveau 1",
+      "layout_width": 234,
+      "layout_height": 37,
+      "last_line_bottom": 37,
+      "max_line_right": 232.1836,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "game",
+      "text": "0 \/ 2 paren",
+      "layout_width": 127,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 125.02734,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "game",
+      "text": "Ⅱ  Pauze",
+      "layout_width": 91,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 89.89531,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "game",
+      "text": "Luisteren",
+      "layout_width": 94,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 92.99063,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "game",
+      "text": "ontdek",
+      "layout_width": 58,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 56.727272,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "game",
+      "text": "ontdek",
+      "layout_width": 58,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 56.727272,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "game",
+      "text": "ontdek",
+      "layout_width": 58,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 56.727272,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "game",
+      "text": "ontdek",
+      "layout_width": 58,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 56.727272,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "game",
+      "text": "Een kleine hint  ✦",
+      "layout_width": 187,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 185.48514,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "parent-gate",
+      "text": "‹  Terug",
+      "layout_width": 81,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 79.17447,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "parent-gate",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "parent-gate",
+      "text": "KINDEREN • SPEEL EN ONTDEK",
+      "layout_width": 199,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 197.59027,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "parent-gate",
+      "text": "Volwassenen, laten we beginnen",
+      "layout_width": 491,
+      "layout_height": 38,
+      "last_line_bottom": 38,
+      "max_line_right": 489.78125,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "parent-gate",
+      "text": "Geef het apparaat aan een ouder of verzorger.",
+      "layout_width": 507,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 505.6568,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "parent-gate",
+      "text": "Zescijferige pincode maken",
+      "layout_width": 305,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 303.76562,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "parent-gate",
+      "text": "Pincode herhalen",
+      "layout_width": 193,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 192,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "parent-gate",
+      "text": "Ik ben de volwassene",
+      "layout_width": 236,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 234.50894,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "parent-gate",
+      "text": "Bevestiging volwassene",
+      "layout_width": 265,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 263.03125,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "nl",
+      "scene": "parent-gate",
+      "text": "Oudergedeelte openen",
+      "layout_width": 236,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 234.72131,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "welcome",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "welcome",
+      "text": "DZIECI • GRAJ I ODKRYWAJ",
+      "layout_width": 180,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 178.71222,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "welcome",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "welcome",
+      "text": "Rodzice",
+      "layout_width": 85,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 83.05,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "welcome",
+      "text": "TROCHĘ ZABAWY. WIELE DO ODKRYCIA.",
+      "layout_width": 377,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 375.71484,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "welcome",
+      "text": "Małe pary.\nWielkie odkrycia.",
+      "layout_width": 450,
+      "layout_height": 128,
+      "last_line_bottom": 128,
+      "max_line_right": 448.88672,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "welcome",
+      "text": "Cześć, mały odkrywco! Jestem Milo.\nOdkryjmy razem coś wspaniałego.",
+      "layout_width": 400,
+      "layout_height": 70,
+      "last_line_bottom": 70,
+      "max_line_right": 398.97693,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "welcome",
+      "text": "Zagrajmy  →",
+      "layout_width": 142,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 140.29845,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "welcome",
+      "text": "GRA OFFLINE",
+      "layout_width": 101,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 99.25,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "welcome",
+      "text": "•",
+      "layout_width": 10,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 8.75,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "welcome",
+      "text": "BEZ REKLAM",
+      "layout_width": 99,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 97.63672,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "welcome",
+      "text": "Moje odkrycia  →",
+      "layout_width": 176,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 174.45078,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "game",
+      "text": "‹  Wstecz",
+      "layout_width": 98,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 96.32127,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "game",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "game",
+      "text": "DZIECI • GRAJ I ODKRYWAJ",
+      "layout_width": 180,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 178.71222,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "game",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "game",
+      "text": "Rodzice",
+      "layout_width": 85,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 83.05,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "game",
+      "text": "Zwierzęcy przyjaciele",
+      "layout_width": 293,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 291.79388,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "game",
+      "text": "Leśne cuda • Poziom 1",
+      "layout_width": 220,
+      "layout_height": 37,
+      "last_line_bottom": 37,
+      "max_line_right": 218.46484,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "game",
+      "text": "Pary: 0 \/ 2",
+      "layout_width": 122,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 120.33203,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "game",
+      "text": "Ⅱ  Pauza",
+      "layout_width": 92,
+      "layout_height": 29,
+      "last_line_bottom": 29,
+      "max_line_right": 90.075,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "game",
+      "text": "Posłuchaj",
+      "layout_width": 101,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 99.20938,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "game",
+      "text": "odkrywaj",
+      "layout_width": 77,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 75.776985,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "game",
+      "text": "odkrywaj",
+      "layout_width": 77,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 75.776985,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "game",
+      "text": "odkrywaj",
+      "layout_width": 77,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 75.776985,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "game",
+      "text": "odkrywaj",
+      "layout_width": 77,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 75.776985,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "game",
+      "text": "Mała podpowiedź  ✦",
+      "layout_width": 218,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 216.69998,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "parent-gate",
+      "text": "‹  Wstecz",
+      "layout_width": 98,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 96.32127,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "parent-gate",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "parent-gate",
+      "text": "DZIECI • GRAJ I ODKRYWAJ",
+      "layout_width": 180,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 178.71222,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "parent-gate",
+      "text": "Dorośli, przygotujmy wszystko",
+      "layout_width": 467,
+      "layout_height": 38,
+      "last_line_bottom": 38,
+      "max_line_right": 465.98438,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "parent-gate",
+      "text": "Podaj urządzenie rodzicowi lub opiekunowi.",
+      "layout_width": 483,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 481.27502,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "parent-gate",
+      "text": "Utwórz sześciocyfrowy PIN",
+      "layout_width": 299,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 297.48828,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "parent-gate",
+      "text": "Powtórz PIN",
+      "layout_width": 137,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 135.875,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "parent-gate",
+      "text": "Wpisz poniższe potwierdzenie osoby dorosłej.",
+      "layout_width": 505,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 503.372,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "parent-gate",
+      "text": "Jestem osobą dorosłą",
+      "layout_width": 247,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 245.45427,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "parent-gate",
+      "text": "Potwierdzenie dorosłego",
+      "layout_width": 273,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 271.48047,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "pl",
+      "scene": "parent-gate",
+      "text": "Otwórz sekcję rodziców",
+      "layout_width": 250,
+      "layout_height": 28,
+      "last_line_bottom": 28,
+      "max_line_right": 248.59695,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "welcome",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "welcome",
+      "text": "للأطفال • العب واكتشف",
+      "layout_width": 120,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 707,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "welcome",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "welcome",
+      "text": "الوالدان",
+      "layout_width": 61,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 776,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "welcome",
+      "text": "قليل من اللعب. الكثير لاكتشافه.",
+      "layout_width": 210,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 452,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "welcome",
+      "text": "أزواج صغيرة.\nاكتشافات كبيرة.",
+      "layout_width": 341,
+      "layout_height": 138,
+      "last_line_bottom": 138,
+      "max_line_right": 452,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "welcome",
+      "text": "مرحبًا أيها المستكشف الصغير! أنا Milo.\nلنكتشف شيئًا رائعًا معًا.",
+      "layout_width": 330,
+      "layout_height": 70,
+      "last_line_bottom": 70,
+      "max_line_right": 452,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "welcome",
+      "text": "←  لنلعب",
+      "layout_width": 87,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 396,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "welcome",
+      "text": "اللعب دون اتصال",
+      "layout_width": 99,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 452,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "welcome",
+      "text": "•",
+      "layout_width": 10,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 8.75,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "welcome",
+      "text": "بلا إعلانات",
+      "layout_width": 60,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 319,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "welcome",
+      "text": "←  اكتشافاتي",
+      "layout_width": 113,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 804,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "game",
+      "text": "رجوع  ›",
+      "layout_width": 70,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 888,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "game",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "game",
+      "text": "للأطفال • العب واكتشف",
+      "layout_width": 120,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 613,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "game",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "game",
+      "text": "الوالدان",
+      "layout_width": 61,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 682,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "game",
+      "text": "أصدقاء الحيوانات",
+      "layout_width": 189,
+      "layout_height": 39,
+      "last_line_bottom": 39,
+      "max_line_right": 629,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "game",
+      "text": "عجائب الغابة • المستوى ⁨1⁩",
+      "layout_width": 190,
+      "layout_height": 37,
+      "last_line_bottom": 37,
+      "max_line_right": 629,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "game",
+      "text": "الأزواج: ⁨0⁩ \/ ⁨2⁩",
+      "layout_width": 135,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 920,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "game",
+      "text": "Ⅱ  إيقاف مؤقت",
+      "layout_width": 132,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 130.6,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "game",
+      "text": "استمع",
+      "layout_width": 47,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 804,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "game",
+      "text": "اكتشف",
+      "layout_width": 42,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 202,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "game",
+      "text": "اكتشف",
+      "layout_width": 42,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 202,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "game",
+      "text": "اكتشف",
+      "layout_width": 42,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 201,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "game",
+      "text": "اكتشف",
+      "layout_width": 42,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 201,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "game",
+      "text": "تلميح صغير  ✦",
+      "layout_width": 130,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 896,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "parent-gate",
+      "text": "رجوع  ›",
+      "layout_width": 70,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 888,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "parent-gate",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "parent-gate",
+      "text": "للأطفال • العب واكتشف",
+      "layout_width": 120,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 768,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "parent-gate",
+      "text": "للبالغين، لنبدأ الإعداد",
+      "layout_width": 244,
+      "layout_height": 44,
+      "last_line_bottom": 44,
+      "max_line_right": 912,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "parent-gate",
+      "text": "يرجى إعطاء الجهاز لأحد الوالدين أو مقدّم الرعاية.",
+      "layout_width": 413,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 912,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "parent-gate",
+      "text": "أنشئ رمزًا من ستة أرقام",
+      "layout_width": 201,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 484,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "parent-gate",
+      "text": "كرّر الرمز",
+      "layout_width": 74,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 484,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "parent-gate",
+      "text": "اكتب تأكيد الشخص البالغ أدناه.",
+      "layout_width": 256,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 516,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "parent-gate",
+      "text": "أنا الشخص البالغ",
+      "layout_width": 136,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 516,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "parent-gate",
+      "text": "تأكيد الشخص البالغ",
+      "layout_width": 160,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 484,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "ar",
+      "scene": "parent-gate",
+      "text": "افتح قسم الوالدين",
+      "layout_width": 152,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 468,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "welcome",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "welcome",
+      "text": "बच्चों के लिए • खेलें और खोजें",
+      "layout_width": 160,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 158.05556,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "welcome",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "welcome",
+      "text": "माता-पिता",
+      "layout_width": 86,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 85,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "welcome",
+      "text": "थोड़ा खेल। खोजने को बहुत कुछ।",
+      "layout_width": 235,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 233.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "welcome",
+      "text": "नमस्ते, नन्हे खोजी! मैं Milo हूँ।\nआओ, मिलकर कुछ अद्भुत खोजें।",
+      "layout_width": 280,
+      "layout_height": 70,
+      "last_line_bottom": 70,
+      "max_line_right": 278.93616,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "welcome",
+      "text": "आओ खेलें  →",
+      "layout_width": 138,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 136.6,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "welcome",
+      "text": "ऑफ़लाइन खेलें",
+      "layout_width": 91,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 89.75,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "welcome",
+      "text": "•",
+      "layout_width": 10,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 8.75,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "welcome",
+      "text": "कोई विज्ञापन नहीं",
+      "layout_width": 103,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 101.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "welcome",
+      "text": "मेरी खोजें  →",
+      "layout_width": 107,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 105.600006,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "game",
+      "text": "‹  वापस",
+      "layout_width": 68,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 66.44043,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "game",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "game",
+      "text": "बच्चों के लिए • खेलें और खोजें",
+      "layout_width": 160,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 158.05556,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "game",
+      "text": "★ 0",
+      "layout_width": 46,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 44.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "game",
+      "text": "माता-पिता",
+      "layout_width": 86,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 85,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "game",
+      "text": "पशु मित्र",
+      "layout_width": 90,
+      "layout_height": 39,
+      "last_line_bottom": 39,
+      "max_line_right": 88.73256,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "game",
+      "text": "जंगल के अजूबे • स्तर 1",
+      "layout_width": 173,
+      "layout_height": 37,
+      "last_line_bottom": 37,
+      "max_line_right": 171.25,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "game",
+      "text": "0 \/ 2 जोड़ियाँ",
+      "layout_width": 134,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 132.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "game",
+      "text": "Ⅱ  विराम",
+      "layout_width": 75,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 73.45,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "game",
+      "text": "सुनें",
+      "layout_width": 28,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 27,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "game",
+      "text": "खोजें",
+      "layout_width": 30,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 29,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "game",
+      "text": "खोजें",
+      "layout_width": 30,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 29,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "game",
+      "text": "खोजें",
+      "layout_width": 30,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 29,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "game",
+      "text": "खोजें",
+      "layout_width": 30,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 29,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "game",
+      "text": "एक छोटा संकेत  ✦",
+      "layout_width": 163,
+      "layout_height": 33,
+      "last_line_bottom": 33,
+      "max_line_right": 161.75,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "parent-gate",
+      "text": "‹  वापस",
+      "layout_width": 68,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 66.44043,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "parent-gate",
+      "text": "MatchMinds",
+      "layout_width": 160,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 158.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "parent-gate",
+      "text": "बच्चों के लिए • खेलें और खोजें",
+      "layout_width": 160,
+      "layout_height": 36,
+      "last_line_bottom": 36,
+      "max_line_right": 158.05556,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "parent-gate",
+      "text": "वयस्कों, आइए सेटअप करें",
+      "layout_width": 324,
+      "layout_height": 44,
+      "last_line_bottom": 44,
+      "max_line_right": 322.84375,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "parent-gate",
+      "text": "डिवाइस माता-पिता या अभिभावक को दें।",
+      "layout_width": 342,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 340.6702,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "parent-gate",
+      "text": "छह अंकों का PIN बनाएँ",
+      "layout_width": 207,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 205.25,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "parent-gate",
+      "text": "PIN दोहराएँ",
+      "layout_width": 105,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 104,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "parent-gate",
+      "text": "नीचे दिया गया वयस्क पुष्टि वाक्य लिखें।",
+      "layout_width": 325,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 323.05658,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "parent-gate",
+      "text": "मैं वयस्क हूँ",
+      "layout_width": 94,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 92.46808,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "parent-gate",
+      "text": "वयस्क की पुष्टि",
+      "layout_width": 124,
+      "layout_height": 35,
+      "last_line_bottom": 35,
+      "max_line_right": 122.5,
+      "max_lines_exceeded": false
+    },
+    {
+      "locale": "hi",
+      "scene": "parent-gate",
+      "text": "माता-पिता अनुभाग खोलें",
+      "layout_width": 206,
+      "layout_height": 32,
+      "last_line_bottom": 32,
+      "max_line_right": 204.29361,
+      "max_lines_exceeded": false
+    }
+  ],
+  "provenance": "Robolectric API 34; not physical Fire device evidence"
+}

@@ -1,0 +1,21 @@
+{
+  "checked_date": "2026-10-15",
+  "production_status": "Under Review",
+  "lat": {
+    "name": "Release 1.0.0 - receipt and device verification",
+    "release_id": "amzn1.devportal.apprelease.8f36f93ad7e349d9ad21173ad740cb50",
+    "status": "Test submitted",
+    "tester_group": "MatchMinds Kids Release Test",
+    "tester_count": 1,
+    "invitation": "Amazon sends invitation when test becomes live",
+    "publisher_certification": "Publisher confirmed tester adulthood, consent and sharing rights plus export certification and LAT submission authorization in chat"
+  },
+  "quality_central": {
+    "name": "MatchMinds Kids 1.0.0 Fire tablet release QA",
+    "status": "In progress",
+    "suite": "Functional, Performance",
+    "device_family": "Fire Tablets",
+    "submitted": "2026-10-15 12:32:55 PM PDT"
+  },
+  "scope": "Console observations only; submitted or queued is not a test pass. Tester contact omitted."
+}
