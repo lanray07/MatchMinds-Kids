@@ -1,0 +1,42 @@
+[
+  {
+    "id": "01-hero",
+    "headline": "Gioco di memoria per bambini",
+    "support": "Avventure di abbinamento per piccoli esploratori."
+  },
+  {
+    "id": "02-animals",
+    "headline": "Coppie di animali per bambini",
+    "support": "Scopri gli animali con giochi di memoria."
+  },
+  {
+    "id": "03-shapes",
+    "headline": "Scopri forme e colori",
+    "support": "Esplora attività educative colorate."
+  },
+  {
+    "id": "04-numbers",
+    "headline": "Divertenti giochi con i numeri",
+    "support": "Abbina i numeri ai gruppi di stelle."
+  },
+  {
+    "id": "05-letters",
+    "headline": "Lettere inglesi e primi giochi",
+    "support": "Scopri le lettere inglesi giocando."
+  },
+  {
+    "id": "06-voice",
+    "headline": "Giochi con istruzioni vocali",
+    "support": "Ascolta, scopri e gioca con Milo."
+  },
+  {
+    "id": "07-offline",
+    "headline": "Giochi educativi offline",
+    "support": "Gioca alle attività incluse senza Internet."
+  },
+  {
+    "id": "08-progress",
+    "headline": "Festeggia ogni piccolo successo",
+    "support": "Raccogli stelle e scopri avventure."
+  }
+]

@@ -1,0 +1,4 @@
+{
+  "functions": {"api/verify.py": {"maxDuration": 15}},
+  "rewrites": [{"source": "/verify", "destination": "/api/verify"}]
+}

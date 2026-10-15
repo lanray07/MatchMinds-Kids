@@ -2,6 +2,12 @@
   "date": "2026-10-15",
   "jvm_suites": [
     {
+      "name": "com.matchminds.core.LocaleCommandTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0"
+    },
+    {
       "name": "com.matchminds.core.GameTest",
       "tests": "6",
       "failures": "0",
@@ -10,6 +16,12 @@
     {
       "name": "com.matchminds.kids.StateTest",
       "tests": "5",
+      "failures": "0",
+      "errors": "0"
+    },
+    {
+      "name": "com.matchminds.kids.TranslationsTest",
+      "tests": "4",
       "failures": "0",
       "errors": "0"
     }
@@ -22,32 +34,87 @@
     },
     {
       "suite": "server",
-      "tests": 3,
+      "tests": 7,
       "passed": true
     }
   ],
   "apks": [
     {
       "path": "app\\build\\outputs\\apk\\debug\\app-debug.apk",
-      "bytes": 13372003,
-      "sha256": "718fd8753727ede13776c0338db4d37edcdd4d3572fedb851fde27371cd52cdc",
-      "release_signed": "debug key"
+      "bytes": 13181993,
+      "sha256": "4d727114caffb46f9600cc970ba3e8fd7bb2853d3c4e506ac0d103f55549a36a",
+      "release_signing": "debug key"
     },
     {
       "path": "app\\build\\outputs\\apk\\androidTest\\debug\\app-debug-androidTest.apk",
-      "bytes": 1092185,
-      "sha256": "2623b0c3713815d51bbe32c5a859d65e05e1a8d4e3bab34f8d99c542ce805a75",
-      "release_signed": "debug key"
+      "bytes": 1104626,
+      "sha256": "4373c4aca5dc47611524d775503f95d8f97337ee20ed01c8f53f117cd8d2e975",
+      "release_signing": "debug key"
     },
     {
-      "path": "app\\build\\outputs\\apk\\release\\app-release-unsigned.apk",
-      "bytes": 3499845,
-      "sha256": "48622c7d199e5175972202c93c295757a58cd7d5b8340a1563764fb9001925f4",
-      "release_signed": false
+      "path": "app\\build\\outputs\\apk\\release\\app-release.apk",
+      "bytes": 1922107,
+      "sha256": "9a25af9689793c890b83b4ace88420a1e479cd1cd5db062ca88903f36e1df6e6",
+      "release_signing": "Verified by Android apksigner"
     }
   ],
-  "device_tests": "Not run: no authorised device/emulator; hardware acceleration unavailable and software emulator crashes.",
-  "screenshots": "16 host-native production-UI renders. Physical device capture count remains zero.",
+  "screenshots": "16 English host-native UI renders; 36 locale host renders and 30 localized store compositions are review previews.",
+  "device_tests": {
+    "name": "com.matchminds.kids.AppTest",
+    "tests": "6",
+    "failures": "0",
+    "errors": "0",
+    "configuration": "Physical KFTRWI API 28; Wi-Fi disabled during offline suite"
+  },
+  "fire-sandbox-verification": {
+    "sandbox": true,
+    "purchase_verified": true,
+    "restore_verified": true,
+    "endpoint": "https://matchminds-kids-verifier.vercel.app/api/sandbox",
+    "real_money_charged": false
+  },
+  "fire-voice-availability": {
+    "initialized": true,
+    "method": "Installed offline voice metadata plus completed synthesis; pronunciation quality still needs human review",
+    "en-GB": {
+      "offlineVoiceAvailable": true,
+      "synthesisCompleted": true
+    },
+    "en-US": {
+      "offlineVoiceAvailable": true,
+      "synthesisCompleted": true
+    },
+    "es": {
+      "offlineVoiceAvailable": false
+    },
+    "fr": {
+      "offlineVoiceAvailable": false
+    },
+    "de": {
+      "offlineVoiceAvailable": false
+    },
+    "it": {
+      "offlineVoiceAvailable": false
+    },
+    "pt-BR": {
+      "offlineVoiceAvailable": false
+    },
+    "pt-PT": {
+      "offlineVoiceAvailable": false
+    },
+    "nl": {
+      "offlineVoiceAvailable": false
+    },
+    "pl": {
+      "offlineVoiceAvailable": false
+    },
+    "ar": {
+      "offlineVoiceAvailable": false
+    },
+    "hi": {
+      "offlineVoiceAvailable": false
+    }
+  },
   "host_render_tests": {
     "name": "com.matchminds.kids.StoreCaptureTest",
     "tests": "2",
@@ -56,7 +123,7 @@
   },
   "lint": {
     "errors": 0,
-    "warnings": 16
+    "warnings": 18
   },
   "final_gradle_build_passed": true
 }

@@ -13,16 +13,33 @@ android {
         buildConfigField("boolean", "VOICE_APPROVED", providers.gradleProperty("voiceApproved").orElse("false").get())
     }
     buildFeatures { compose = true; buildConfig = true }
+    if(providers.gradleProperty("voiceApproved").orElse("false").get()=="true") {
+        sourceSets.getByName("debug").manifest.srcFile("src/voiceEnabled/AndroidManifest.xml")
+        sourceSets.getByName("release").manifest.srcFile("src/voiceEnabled/AndroidManifest.xml")
+    }
+    val releaseKeyPath = providers.environmentVariable("MM_RELEASE_KEYSTORE").orNull
+    val releasePassword = providers.environmentVariable("MM_RELEASE_PASSWORD").orNull
+    if (releaseKeyPath != null && releasePassword != null) signingConfigs.create("publisher") {
+        storeFile = file(releaseKeyPath)
+        storePassword = releasePassword
+        keyAlias = "publisher"
+        keyPassword = releasePassword
+        storeType = "PKCS12"
+    }
     testOptions { unitTests.isIncludeAndroidResources = true; unitTests.all {
         it.systemProperty("storeCapture", providers.gradleProperty("storeCapture").orElse("false").get())
         it.systemProperty("roborazzi.test.record", providers.gradleProperty("storeCapture").orElse("false").get())
         it.systemProperty("robolectric.pixelCopyRenderMode", "hardware")
-        if (!project.hasProperty("storeCapture")) it.exclude("**/StoreCaptureTest*")
+        if (!project.hasProperty("storeCapture")) it.exclude("**/*CaptureTest*")
         it.maxHeapSize = "3g"
     } }
     buildTypes {
         debug { applicationIdSuffix = ".debug" }
-        release { isMinifyEnabled = true; proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro") }
+        release {
+            isMinifyEnabled = true
+            if (releaseKeyPath != null && releasePassword != null) signingConfig = signingConfigs.getByName("publisher")
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+        }
     }
     compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
     kotlinOptions { jvmTarget = "17" }

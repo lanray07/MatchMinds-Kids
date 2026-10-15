@@ -8,11 +8,22 @@ import com.matchminds.kids.data.*
 import org.junit.Assert.*
 import org.junit.Rule
 import org.junit.Test
+import org.junit.Before
 import org.junit.runner.RunWith
+import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.flow.first
+import androidx.lifecycle.ViewModelProvider
 
 @RunWith(AndroidJUnit4::class)
 class AppTest {
     @get:Rule val compose = createAndroidComposeRule<MainActivity>()
+    @Before fun resetTestProfile() {
+        val vm=ViewModelProvider(compose.activity)[GameViewModel::class.java]
+        compose.waitUntil(8000) {vm.play.value.screen!=Screen.SPLASH}
+        runBlocking {LocalStore(compose.activity).update {LocalState(settings=Settings(locale="en-GB",narration=false,sounds=false,reducedMotion=true))}}
+        compose.runOnIdle {vm.navigate(Screen.WELCOME)}
+        compose.waitUntil(8000) {compose.onAllNodesWithText("Let’s play  →").fetchSemanticsNodes().isNotEmpty()}
+    }
     @Test fun childCanReachAnOfflineGameAndPause() {
         compose.waitUntil(8000) { compose.onAllNodesWithText("Let’s play  →").fetchSemanticsNodes().isNotEmpty() }
         compose.onNodeWithText("Let’s play  →").performClick()
@@ -45,5 +56,22 @@ class AppTest {
         compose.onNodeWithText("Parents").performClick()
         compose.onNodeWithText("Grown-ups, let’s get set up").assertIsDisplayed()
         compose.onNodeWithText("Open parent area").assertIsNotEnabled()
+    }
+    @Test fun parentCanSetPrivatePinAndPersistFrench() {
+        compose.onNodeWithText("Parents").performClick()
+        val fields=compose.onAllNodes(hasSetTextAction())
+        fields[0].performTextInput("184729")
+        fields[1].performTextInput("184729")
+        fields[2].performTextInput("I am the grown-up")
+        compose.onNodeWithText("Open parent area").performClick()
+        compose.waitUntil(10000) {compose.onAllNodesWithText("A little space for grown-ups").fetchSemanticsNodes().isNotEmpty()}
+        compose.onNodeWithText("Language").performScrollTo().performClick()
+        compose.onNodeWithText("Français").performScrollTo().performClick()
+        compose.waitUntil(5000) {compose.onAllNodesWithText("Langue").fetchSemanticsNodes().isNotEmpty()}
+        val stored=runBlocking {LocalStore(compose.activity).state.first()}
+        assertEquals("fr",stored.settings.locale)
+        assertTrue(ParentPin.verify("184729",stored.pinSalt,stored.pinHash))
+        compose.activityRule.scenario.recreate()
+        compose.waitUntil(10000) {compose.onAllNodesWithText("Réservé aux adultes").fetchSemanticsNodes().isNotEmpty()}
     }
 }

@@ -1,0 +1,98 @@
+{
+  "en-GB": {
+    "entries": 1,
+    "status": "English baseline",
+    "native_reviewed": true,
+    "speech": "Installed offline matching-language TTS voice required; text fallback otherwise",
+    "letter_activity": "English A–Z case matching, explicitly labelled; no native phonics claim",
+    "rtl": false
+  },
+  "en-US": {
+    "entries": 1,
+    "status": "English baseline",
+    "native_reviewed": true,
+    "speech": "Installed offline matching-language TTS voice required; text fallback otherwise",
+    "letter_activity": "English A–Z case matching, explicitly labelled; no native phonics claim",
+    "rtl": false
+  },
+  "es": {
+    "entries": 289,
+    "status": "Integrated translation preview; native review pending",
+    "native_reviewed": false,
+    "speech": "Installed offline matching-language TTS voice required; text fallback otherwise",
+    "letter_activity": "English A–Z case matching, explicitly labelled; no native phonics claim",
+    "rtl": false
+  },
+  "fr": {
+    "entries": 289,
+    "status": "Integrated translation preview; native review pending",
+    "native_reviewed": false,
+    "speech": "Installed offline matching-language TTS voice required; text fallback otherwise",
+    "letter_activity": "English A–Z case matching, explicitly labelled; no native phonics claim",
+    "rtl": false
+  },
+  "de": {
+    "entries": 289,
+    "status": "Integrated translation preview; native review pending",
+    "native_reviewed": false,
+    "speech": "Installed offline matching-language TTS voice required; text fallback otherwise",
+    "letter_activity": "English A–Z case matching, explicitly labelled; no native phonics claim",
+    "rtl": false
+  },
+  "it": {
+    "entries": 289,
+    "status": "Integrated translation preview; native review pending",
+    "native_reviewed": false,
+    "speech": "Installed offline matching-language TTS voice required; text fallback otherwise",
+    "letter_activity": "English A–Z case matching, explicitly labelled; no native phonics claim",
+    "rtl": false
+  },
+  "pt-BR": {
+    "entries": 289,
+    "status": "Integrated translation preview; native review pending",
+    "native_reviewed": false,
+    "speech": "Installed offline matching-language TTS voice required; text fallback otherwise",
+    "letter_activity": "English A–Z case matching, explicitly labelled; no native phonics claim",
+    "rtl": false
+  },
+  "pt-PT": {
+    "entries": 289,
+    "status": "Integrated translation preview; native review pending",
+    "native_reviewed": false,
+    "speech": "Installed offline matching-language TTS voice required; text fallback otherwise",
+    "letter_activity": "English A–Z case matching, explicitly labelled; no native phonics claim",
+    "rtl": false
+  },
+  "nl": {
+    "entries": 289,
+    "status": "Integrated translation preview; native review pending",
+    "native_reviewed": false,
+    "speech": "Installed offline matching-language TTS voice required; text fallback otherwise",
+    "letter_activity": "English A–Z case matching, explicitly labelled; no native phonics claim",
+    "rtl": false
+  },
+  "pl": {
+    "entries": 289,
+    "status": "Integrated translation preview; native review pending",
+    "native_reviewed": false,
+    "speech": "Installed offline matching-language TTS voice required; text fallback otherwise",
+    "letter_activity": "English A–Z case matching, explicitly labelled; no native phonics claim",
+    "rtl": false
+  },
+  "ar": {
+    "entries": 289,
+    "status": "Integrated translation preview; native review pending",
+    "native_reviewed": false,
+    "speech": "Installed offline matching-language TTS voice required; text fallback otherwise",
+    "letter_activity": "English A–Z case matching, explicitly labelled; no native phonics claim",
+    "rtl": true
+  },
+  "hi": {
+    "entries": 289,
+    "status": "Integrated translation preview; native review pending",
+    "native_reviewed": false,
+    "speech": "Installed offline matching-language TTS voice required; text fallback otherwise",
+    "letter_activity": "English A–Z case matching, explicitly labelled; no native phonics claim",
+    "rtl": false
+  }
+}

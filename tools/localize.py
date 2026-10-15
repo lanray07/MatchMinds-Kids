@@ -61,7 +61,8 @@ def main():
     for locale in LOCALES:
         candidate=OUT/f'{locale}.candidate.json'
         errors=validate(source,json.loads(candidate.read_text(encoding='utf-8'))) if candidate.exists() else [f'{len(source)} untranslated entries']
-        report[locale]={'approved':locale in ['en-GB','en-US'],'translation_errors':[] if locale in ['en-GB','en-US'] else errors,'human_review_required':['interface in context','educational vocabulary','native pronunciation','command recognition','alphabet content','RTL layout' if locale=='ar' else 'layout'],'plural_validation':'No Android plurals in source. Quantity cards use explicit numerals. Provider candidates must retain every placeholder.','runtime_integration':'Only English selectable. Candidate catalogues require resource integration and in-context QA before approval.'}
+        integrated=(ROOT/f'app/src/main/assets/locales/{locale}.json').exists()
+        report[locale]={'approved':locale in ['en-GB','en-US'],'provider_candidate_errors':[] if locale in ['en-GB','en-US'] else errors,'human_review_required':['educational vocabulary','native pronunciation','command recognition','alphabet content','RTL layout' if locale=='ar' else 'layout'],'plural_validation':'Numerical labels use count-neutral wording; single-star and first-level cases are explicit. Template arguments are structurally checked. Native grammar review remains required.','runtime_integration':'Integrated offline translation preview; generated from reviewed-in-code TSV sources by tools/build_locales.py' if integrated else 'Not integrated','full_support_claim':locale in ['en-GB','en-US']}
     (OUT/'report.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
     print(f'Extracted {len(source)} strings; report: {OUT / "report.json"}')
 if __name__=='__main__': main()

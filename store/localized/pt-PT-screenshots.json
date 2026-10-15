@@ -1,0 +1,42 @@
+[
+  {
+    "id": "01-hero",
+    "headline": "Jogo da memória para crianças",
+    "support": "Aventuras de combinação para pequenos exploradores."
+  },
+  {
+    "id": "02-animals",
+    "headline": "Pares de animais para crianças",
+    "support": "Descubra animais com jogos de memória."
+  },
+  {
+    "id": "03-shapes",
+    "headline": "Descubra formas e cores",
+    "support": "Explore atividades educativas coloridas."
+  },
+  {
+    "id": "04-numbers",
+    "headline": "Jogos divertidos com números",
+    "support": "Combine números com grupos de estrelas."
+  },
+  {
+    "id": "05-letters",
+    "headline": "Letras inglesas e primeiros jogos",
+    "support": "Descubra letras inglesas brincando."
+  },
+  {
+    "id": "06-voice",
+    "headline": "Jogos com orientação falada",
+    "support": "Ouça, descubra e brinque com Milo."
+  },
+  {
+    "id": "07-offline",
+    "headline": "Jogos educativos offline",
+    "support": "Jogue as atividades incluídas sem internet."
+  },
+  {
+    "id": "08-progress",
+    "headline": "Celebre cada pequena conquista",
+    "support": "Colete estrelas e descubra aventuras."
+  }
+]

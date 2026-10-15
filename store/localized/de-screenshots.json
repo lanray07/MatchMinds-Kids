@@ -1,0 +1,42 @@
+[
+  {
+    "id": "01-hero",
+    "headline": "Gedächtnisspiel für Kinder",
+    "support": "Fröhliche Zuordnungsabenteuer für kleine Entdecker."
+  },
+  {
+    "id": "02-animals",
+    "headline": "Tierpaare für Kinder",
+    "support": "Entdecke Tiere in fröhlichen Gedächtnisspielen."
+  },
+  {
+    "id": "03-shapes",
+    "headline": "Formen und Farben entdecken",
+    "support": "Entdecke farbenfrohe Lernaktivitäten."
+  },
+  {
+    "id": "04-numbers",
+    "headline": "Fröhliche Zahlenspiele",
+    "support": "Ordne Zahlen passenden Sternenmengen zu."
+  },
+  {
+    "id": "05-letters",
+    "headline": "Englische Buchstaben spielerisch entdecken",
+    "support": "Entdecke englische Buchstaben beim Spielen."
+  },
+  {
+    "id": "06-voice",
+    "headline": "Spiele mit gesprochenen Hinweisen",
+    "support": "Höre, entdecke und spiele mit Milo."
+  },
+  {
+    "id": "07-offline",
+    "headline": "Lernspiele ohne Internet",
+    "support": "Spiele enthaltene Aktivitäten ohne Internet."
+  },
+  {
+    "id": "08-progress",
+    "headline": "Feiere jeden kleinen Erfolg",
+    "support": "Sammle Sterne und entdecke Abenteuer."
+  }
+]

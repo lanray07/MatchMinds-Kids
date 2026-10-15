@@ -1,0 +1,42 @@
+{
+  "initialized": true,
+  "method": "Installed offline voice metadata plus completed synthesis; pronunciation quality still needs human review",
+  "en-GB": {
+    "offlineVoiceAvailable": true,
+    "synthesisCompleted": true
+  },
+  "en-US": {
+    "offlineVoiceAvailable": true,
+    "synthesisCompleted": true
+  },
+  "es": {
+    "offlineVoiceAvailable": false
+  },
+  "fr": {
+    "offlineVoiceAvailable": false
+  },
+  "de": {
+    "offlineVoiceAvailable": false
+  },
+  "it": {
+    "offlineVoiceAvailable": false
+  },
+  "pt-BR": {
+    "offlineVoiceAvailable": false
+  },
+  "pt-PT": {
+    "offlineVoiceAvailable": false
+  },
+  "nl": {
+    "offlineVoiceAvailable": false
+  },
+  "pl": {
+    "offlineVoiceAvailable": false
+  },
+  "ar": {
+    "offlineVoiceAvailable": false
+  },
+  "hi": {
+    "offlineVoiceAvailable": false
+  }
+}

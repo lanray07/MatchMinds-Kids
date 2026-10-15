@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuite name="com.matchminds.kids.AppTest" tests="6" failures="0" errors="0" skipped="0" time="38.819" timestamp="2026-10-15T16:42:18" hostname="localhost">
+  <properties>
+    <property name="device" value="KFTRWI - 9" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="childCanReachAnOfflineGameAndPause" classname="com.matchminds.kids.AppTest" time="7.57" />
+  <testcase name="pinHashesDoNotStoreThePin" classname="com.matchminds.kids.AppTest" time="6.466" />
+  <testcase name="persistenceRoundTripKeepsOpenAndMatchedCards" classname="com.matchminds.kids.AppTest" time="2.759" />
+  <testcase name="parentCanSetPrivatePinAndPersistFrench" classname="com.matchminds.kids.AppTest" time="10.674" />
+  <testcase name="parentSettingsCannotOpenWithoutAGate" classname="com.matchminds.kids.AppTest" time="2.824" />
+  <testcase name="probeInstalledOfflineVoicesAndSynthesis" classname="com.matchminds.kids.VoiceAvailabilityTest" time="5.85" />
+</testsuite>

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "01-hero",
+    "headline": "Jeu de mémoire pour enfants",
+    "support": "Des aventures d'association pour les petits curieux."
+  },
+  {
+    "id": "02-animals",
+    "headline": "Jeux d'association d'animaux",
+    "support": "Découvre les animaux en jouant avec ta mémoire."
+  },
+  {
+    "id": "03-shapes",
+    "headline": "Découvre formes et couleurs",
+    "support": "Explore des activités éducatives colorées."
+  },
+  {
+    "id": "04-numbers",
+    "headline": "Jeux d'association de nombres",
+    "support": "Associe les nombres aux groupes d'étoiles."
+  },
+  {
+    "id": "05-letters",
+    "headline": "Lettres anglaises et premiers jeux",
+    "support": "Découvre les lettres anglaises en jouant."
+  },
+  {
+    "id": "06-voice",
+    "headline": "Jeux avec consignes vocales",
+    "support": "Écoute, découvre et joue avec Milo."
+  },
+  {
+    "id": "07-offline",
+    "headline": "Jeux éducatifs hors ligne",
+    "support": "Joue aux activités incluses sans connexion Internet."
+  },
+  {
+    "id": "08-progress",
+    "headline": "Fête chaque petite réussite",
+    "support": "Collectionne des étoiles et découvre des aventures."
+  }
+]

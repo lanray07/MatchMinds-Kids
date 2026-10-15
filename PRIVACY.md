@@ -2,7 +2,7 @@
 
 Updated: 15 October 2026. Publisher: Lanray. Contact: [banksmi@mail.com](mailto:banksmi@mail.com).
 
-This policy describes MatchMinds Kids and its current prerelease configuration. The app is designed for children and family play. Adults should manage settings, purchases and support requests.
+This policy describes MatchMinds Kids and its current release configuration. The app is designed for children and family play. Adults should manage settings, purchases and support requests.
 
 ## Playing without an account
 
@@ -16,17 +16,17 @@ The parent PIN is stored as a salted password hash, rather than as readable PIN 
 
 ## Spoken instructions and microphone
 
-Instructions appear as text and can be spoken using packaged English audio or an installed voice marked as usable offline. The app does not send narration text to a publisher speech server. Device text-to-speech services are supplied by the device or voice provider.
+Instructions appear as text and can be spoken using an installed voice in the selected language marked as usable offline, with no additional voice-data download required. If no suitable voice is installed, the app keeps the text instructions available. The app does not distribute packaged speech recordings. The app does not send narration text to a publisher speech server. Device text-to-speech services are supplied by the device or voice provider.
 
-Microphone commands are disabled in the current prerelease build. The app does not record or upload microphone audio in this configuration. Touch controls are available throughout. Any future microphone-enabled release requires a separate review and an updated disclosure before activation.
+Microphone commands are disabled in the current release configuration; the microphone permission is excluded from that build. The app does not record or upload microphone audio in this configuration. Touch controls are available throughout. Any future microphone-enabled release requires a separate review and an updated disclosure before activation.
 
 ## Amazon purchases
 
-Purchases are unavailable in the current prerelease configuration. The source includes optional Amazon purchase and restore functionality that requires publisher configuration before release.
+Premium purchasing and restoration require Amazon Appstore availability and an internet connection. Development builds or an unavailable store product may keep purchases unavailable. Amazon handles checkout and payment details; the app does not receive payment-card details.
 
-When enabled, Amazon handles checkout and payment details; the app does not receive payment-card details. Purchase verification uses an Amazon customer identifier and receipt identifier to check the premium entitlement with Amazon through a publisher verification service. The app does not attach a child's nickname or gameplay history to that request. The resulting entitlement and purchasing Amazon identifier can be retained locally for offline premium access and account-switch checks. Deleting play data does not cancel an Amazon purchase or remove that entitlement cache; clearing app storage removes the cache.
+Purchase verification sends an Amazon customer identifier and receipt identifier over HTTPS to **https://matchminds-kids-verifier.vercel.app/verify**, operated by Lanray and hosted by **Vercel**. That service checks the receipt with Amazon and returns the premium entitlement. The app does not attach a child's nickname, avatar, PIN or gameplay history to the request. The resulting entitlement and purchasing Amazon identifier are retained in app-private storage for offline access and account-switch checks. Deleting play data does not cancel an Amazon purchase or remove that entitlement cache; clearing app storage removes the cache. Amazon controls its own transaction retention.
 
-Before this service is enabled, this policy must be updated with the verification operator, hosting provider, retention and infrastructure-logging details. Amazon's own handling of its customer, payment and transaction information is described in its [Privacy Notice](https://www.amazon.com/privacy).
+The verification handler processes identifiers in memory and does not intentionally save request bodies, receipts or user identifiers to a database or application logs. Vercel processes connection and operational metadata, such as IP address and request timing, to host and protect the service; provider-controlled infrastructure records may be retained under its service settings and policies. Contact the publisher to ask about a verification or support record. No child-play records are held by this verification service. For provider practices, see [Vercel's Privacy Notice](https://vercel.com/legal/privacy-policy) and [Amazon's Privacy Notice](https://www.amazon.com/privacy). Purchase information is used for app access, restoration and receipt-security checks, not advertising.
 
 ## Support and privacy requests
 

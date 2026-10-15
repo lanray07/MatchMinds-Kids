@@ -1,0 +1,42 @@
+[
+  {
+    "id": "01-hero",
+    "headline": "Gra pamięciowa dla dzieci",
+    "support": "Wesołe przygody w dopasowywanie dla małych odkrywców."
+  },
+  {
+    "id": "02-animals",
+    "headline": "Zwierzęce pary dla dzieci",
+    "support": "Odkrywaj zwierzęta w zabawnych grach pamięciowych."
+  },
+  {
+    "id": "03-shapes",
+    "headline": "Poznaj kształty i kolory",
+    "support": "Odkrywaj kolorowe aktywności edukacyjne."
+  },
+  {
+    "id": "04-numbers",
+    "headline": "Wesołe gry liczbowe",
+    "support": "Dopasuj liczby do grup gwiazdek."
+  },
+  {
+    "id": "05-letters",
+    "headline": "Angielskie litery i pierwsze gry",
+    "support": "Odkrywaj angielskie litery podczas zabawy."
+  },
+  {
+    "id": "06-voice",
+    "headline": "Gry ze wskazówkami głosowymi",
+    "support": "Słuchaj, odkrywaj i baw się z Milo."
+  },
+  {
+    "id": "07-offline",
+    "headline": "Gry edukacyjne offline",
+    "support": "Graj w dołączone aktywności bez internetu."
+  },
+  {
+    "id": "08-progress",
+    "headline": "Świętuj każdy mały sukces",
+    "support": "Zbieraj gwiazdki i odkrywaj przygody."
+  }
+]

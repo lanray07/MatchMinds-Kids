@@ -1,0 +1,42 @@
+[
+  {
+    "id": "01-hero",
+    "headline": "Juego de memoria para niños",
+    "support": "Divertidas aventuras de parejas para pequeños exploradores."
+  },
+  {
+    "id": "02-animals",
+    "headline": "Juegos de parejas de animales",
+    "support": "Descubre animales con juegos de memoria."
+  },
+  {
+    "id": "03-shapes",
+    "headline": "Aprende formas y colores",
+    "support": "Explora actividades educativas llenas de color."
+  },
+  {
+    "id": "04-numbers",
+    "headline": "Divertidos juegos de números",
+    "support": "Empareja números con grupos de estrellas."
+  },
+  {
+    "id": "05-letters",
+    "headline": "Letras inglesas y primeros juegos",
+    "support": "Descubre letras inglesas jugando."
+  },
+  {
+    "id": "06-voice",
+    "headline": "Juegos con instrucciones habladas",
+    "support": "Escucha, descubre y juega con Milo."
+  },
+  {
+    "id": "07-offline",
+    "headline": "Juegos educativos sin conexión",
+    "support": "Juega a las actividades incluidas sin internet."
+  },
+  {
+    "id": "08-progress",
+    "headline": "Celebra cada pequeño logro",
+    "support": "Recoge estrellas y descubre aventuras."
+  }
+]

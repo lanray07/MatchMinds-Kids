@@ -88,10 +88,22 @@ object Commands {
     private val english = mapOf("start game" to Command.START, "animals" to Command.ANIMALS,
         "play again" to Command.AGAIN, "next level" to Command.NEXT, "repeat" to Command.REPEAT,
         "help" to Command.HELP, "pause" to Command.PAUSE, "go back" to Command.BACK)
+    private val localized = mapOf(
+        "es" to listOf("empezar juego","animales","jugar de nuevo","siguiente nivel","repetir","ayuda","pausa","volver"),
+        "fr" to listOf("commencer le jeu","animaux","rejouer","niveau suivant","répéter","aide","pause","retour"),
+        "de" to listOf("spiel starten","tiere","noch mal spielen","nächstes level","wiederholen","hilfe","pause","zurück"),
+        "it" to listOf("inizia gioco","animali","gioca ancora","prossimo livello","ripeti","aiuto","pausa","indietro"),
+        "pt" to listOf("iniciar jogo","animais","jogar novamente","próximo nível","repetir","ajuda","pausa","voltar"),
+        "nl" to listOf("spel starten","dieren","opnieuw spelen","volgend niveau","herhalen","help","pauze","terug"),
+        "pl" to listOf("zacznij grę","zwierzęta","zagraj ponownie","następny poziom","powtórz","pomoc","pauza","wstecz"),
+        "ar" to listOf("ابدأ اللعبة","الحيوانات","العب مجددا","المستوى التالي","كرر","مساعدة","توقف مؤقتا","رجوع"),
+        "hi" to listOf("खेल शुरू करो","पशु","फिर खेलो","अगला स्तर","दोहराओ","मदद","विराम","वापस जाओ")
+    )
     fun parse(text: String, locale: String): Command? {
-        if (!locale.startsWith("en")) return null
         val normal = Normalizer.normalize(text, Normalizer.Form.NFKC).lowercase(Locale.ROOT).trim().trimEnd('.', '!', '?')
-        return english[normal]
+        if(locale.startsWith("en")) return english[normal]
+        val index=localized[locale.substringBefore('-')]?.indexOf(normal) ?: -1
+        return if(index<0) null else Command.entries[index]
     }
 }
 data class VerifiedReceipt(val sku: String, val userId: String, val receiptId: String, val cancelled: Boolean)

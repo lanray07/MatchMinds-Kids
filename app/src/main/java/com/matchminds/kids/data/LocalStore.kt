@@ -16,7 +16,7 @@ import java.util.Base64
 private val Context.store by preferencesDataStore("matchminds")
 data class Profile(val id: Int, val name: String, val avatar: String, val difficulty: Difficulty = Difficulty.LITTLE)
 data class Settings(val narration: Boolean = true, val volume: Float = .7f, val sounds: Boolean = true,
-    val reducedMotion: Boolean = false, val voice: Boolean = false, val locale: String = "en-GB", val reminderMinutes: Int = 0)
+    val reducedMotion: Boolean = false, val voice: Boolean = false, val locale: String = com.matchminds.kids.ui.Translations.deviceLocale(), val reminderMinutes: Int = 0)
 data class SavedGame(val profile: Int, val world: Int, val board: Board?, val patternSeed: Int = 0,
     val patternLevel: Int = 1, val patternRound: Int = 0, val patternMistakes: Int = 0, val patternDifficulty: Difficulty = Difficulty.LITTLE)
 data class LocalState(val profiles: List<Profile> = listOf(Profile(1, "Explorer", "fox")), val selected: Int = 1,

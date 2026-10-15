@@ -10,3 +10,7 @@ artifacts/raw/
 artifacts/delivery/
 artifacts/*.log
 artifacts/submission/
+**/.vercel/
+*.p12
+*.dpapi
+artifacts/device-run-state.json

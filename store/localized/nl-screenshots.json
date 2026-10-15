@@ -1,0 +1,42 @@
+[
+  {
+    "id": "01-hero",
+    "headline": "Geheugenspel voor kinderen",
+    "support": "Leuke zoekavonturen voor kleine ontdekkers."
+  },
+  {
+    "id": "02-animals",
+    "headline": "Dierenparen voor kinderen",
+    "support": "Ontdek dieren met leuke geheugenspellen."
+  },
+  {
+    "id": "03-shapes",
+    "headline": "Ontdek vormen en kleuren",
+    "support": "Ontdek kleurrijke leeractiviteiten."
+  },
+  {
+    "id": "04-numbers",
+    "headline": "Leuke getallenspellen",
+    "support": "Koppel getallen aan groepen sterren."
+  },
+  {
+    "id": "05-letters",
+    "headline": "Engelse letters spelenderwijs",
+    "support": "Ontdek Engelse letters tijdens het spelen."
+  },
+  {
+    "id": "06-voice",
+    "headline": "Spellen met gesproken uitleg",
+    "support": "Luister, ontdek en speel met Milo."
+  },
+  {
+    "id": "07-offline",
+    "headline": "Educatieve spellen offline",
+    "support": "Speel inbegrepen activiteiten zonder internet."
+  },
+  {
+    "id": "08-progress",
+    "headline": "Vier elke kleine overwinning",
+    "support": "Verzamel sterren en ontdek avonturen."
+  }
+]

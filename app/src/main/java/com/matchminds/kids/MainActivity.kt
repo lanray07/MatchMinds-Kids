@@ -39,10 +39,13 @@ import kotlinx.coroutines.launch
 class MainActivity : ComponentActivity() {
     private val vm: GameViewModel by viewModels()
     private lateinit var voice: VoiceGuide
+    internal lateinit var billing: AmazonBilling
+        private set
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Translations.load(this)
         voice=VoiceGuide(this)
-        val billing=AmazonBilling(this,lifecycleScope)
+        billing=AmazonBilling(this,lifecycleScope)
         if(BuildConfig.DEBUG) {
             vm.qaPremium=intent.getBooleanExtra("qa_premium",false)
             val demo=intent.getStringExtra("qa_screen")
@@ -112,7 +115,7 @@ class MainActivity : ComponentActivity() {
         }
     }
     LaunchedEffect(mic) { if(mic) { delay(6000); voice.stopListening(); mic=false; voiceStatus="Microphone stopped. Tap to try again." } }
-    CompositionLocalProvider(LocalEnglishLocale provides local.settings.locale) { Surface(color=Cream, modifier=Modifier.fillMaxSize()) {
+    CompositionLocalProvider(LocalEnglishLocale provides local.settings.locale, androidx.compose.ui.platform.LocalLayoutDirection provides if(local.settings.locale=="ar") androidx.compose.ui.unit.LayoutDirection.Rtl else androidx.compose.ui.unit.LayoutDirection.Ltr) { Surface(color=Cream, modifier=Modifier.fillMaxSize()) {
         if(play.screen==Screen.SPLASH) {
                 var appeared by remember {mutableStateOf(false)}
                 LaunchedEffect(Unit) {appeared=true}
@@ -120,7 +123,7 @@ class MainActivity : ComponentActivity() {
                 Column(Modifier.fillMaxSize().alpha(entrance).scale(entrance),Arrangement.Center,Alignment.CenterHorizontally) { Milo(Modifier.size(200.dp)); Heading("MatchMinds Kids"); UiText("Little matches. Big discoveries.",color=Teal) }
         } else Column(Modifier.fillMaxSize().safeDrawingPadding()) {
             Row(Modifier.fillMaxWidth().padding(horizontal=if(compact) 12.dp else 24.dp,vertical=10.dp),verticalAlignment=Alignment.CenterVertically) {
-                if(play.screen!=Screen.WELCOME) TextButton(onClick={back()},modifier=Modifier.semantics {contentDescription="Go back"}) { UiText(if(compact) "‹" else "‹  Back",fontSize=if(compact) 25.sp else 17.sp) }
+                if(play.screen!=Screen.WELCOME) TextButton(onClick={back()},modifier=Modifier.semantics {contentDescription=Translations.text("Go back",local.settings.locale)}) { UiText(if(compact) "‹" else "‹  Back",fontSize=if(compact) 25.sp else 17.sp) }
                 Art("fox",Modifier.size(if(compact) 32.dp else 42.dp))
                 Column(Modifier.padding(start=8.dp).weight(1f)) { UiText("MatchMinds",fontWeight=FontWeight.ExtraBold,fontSize=if(compact) 18.sp else 22.sp,color=Ink,maxLines=1); UiText(if(compact) "KIDS" else "K I D S  •  PLAY & DISCOVER",fontSize=9.sp,color=Teal,fontWeight=FontWeight.Bold,maxLines=1) }
                 if(play.screen !in setOf(Screen.PARENTS,Screen.GATE,Screen.PREMIUM,Screen.LANGUAGE,Screen.ACCESSIBILITY)) {
@@ -175,7 +178,7 @@ class MainActivity : ComponentActivity() {
 }
 }
 private fun checkPermission(context: android.content.Context,permission: String) = context.checkSelfPermission(permission)
-@Composable private fun Heading(text: String, modifier: Modifier = Modifier) = UiText(text,modifier,fontSize=32.sp,fontWeight=FontWeight.ExtraBold,color=Ink,lineHeight=38.sp)
+@Composable private fun Heading(text: String, modifier: Modifier = Modifier, translate: Boolean = true) = UiText(text,modifier,translate=translate,fontSize=32.sp,fontWeight=FontWeight.ExtraBold,color=Ink,lineHeight=38.sp)
 @Composable private fun Sub(text: String, modifier: Modifier = Modifier) = UiText(text,modifier,fontSize=17.sp,color=Ink.copy(alpha=.75f),lineHeight=25.sp)
 @Composable private fun Action(text: String, modifier: Modifier = Modifier, onClick: () -> Unit) {
     Button(onClick,modifier.heightIn(min=56.dp),shape=RoundedCornerShape(18.dp),contentPadding=PaddingValues(horizontal=28.dp,vertical=14.dp)) { UiText(text,fontSize=18.sp,fontWeight=FontWeight.Bold) }
@@ -225,7 +228,7 @@ private fun checkPermission(context: android.content.Context,permission: String)
         FlowRow(horizontalArrangement=Arrangement.spacedBy(18.dp),verticalArrangement=Arrangement.spacedBy(18.dp)) {
             local.profiles.forEach { profile ->
                 Panel(Modifier.width(220.dp).clickable { vm.selectProfile(profile.id) },Pale) {
-                    Art(profile.avatar,Modifier.size(110.dp).align(Alignment.CenterHorizontally)); Heading(profile.name)
+                    Art(profile.avatar,Modifier.size(110.dp).align(Alignment.CenterHorizontally)); Heading(profile.name,translate=false)
                     UiText(profile.difficulty.title,color=Teal); Action("That’s me!") { vm.selectProfile(profile.id) }
                 }
             }
@@ -280,7 +283,7 @@ private val worldDescriptions=listOf("A cosy place to begin","Make a splash with
             Row(Modifier.fillMaxWidth(),verticalAlignment=Alignment.CenterVertically) {
                 Column(Modifier.weight(1f)) { UiText(p.mode.title,fontSize=if(wide) 26.sp else 20.sp,fontWeight=FontWeight.ExtraBold,color=Ink,maxLines=1); UiText(if(wide) "${worldNames[p.world]}  •  Level ${p.board?.level ?: p.patternLevel}" else "Level ${p.board?.level ?: p.patternLevel}",fontSize=if(wide) 13.sp else 12.sp,color=Teal) }
                 UiText(if(p.mode==Mode.PATTERNS) "${p.round} / 5" else "${(p.board?.matched?.size ?: 0)/2} / ${(p.board?.cards?.size ?: 0)/2} pairs",fontSize=if(wide) 18.sp else 14.sp,fontWeight=FontWeight.Bold,color=Teal)
-                TextButton(onClick={vm.pause()},modifier=Modifier.semantics {contentDescription="Pause game"}) { UiText(if(wide) "Ⅱ  Pause" else "Pause",fontSize=16.sp) }
+                TextButton(onClick={vm.pause()},modifier=Modifier.semantics {contentDescription=Translations.text("Pause game",local.settings.locale)}) { UiText(if(wide) "Ⅱ  Pause" else "Pause",fontSize=16.sp) }
             }
             Row(Modifier.fillMaxWidth().clip(RoundedCornerShape(20.dp)).background(Pale).padding(10.dp),verticalAlignment=Alignment.CenterVertically) {
                 Milo(Modifier.size(if(wide) 72.dp else 48.dp),if(p.message.startsWith("Wonderful")) "celebrating" else "explaining")
@@ -303,7 +306,7 @@ private val worldDescriptions=listOf("A cosy place to begin","Make a splash with
                     }
                     UiText("What comes next?",fontSize=21.sp,fontWeight=FontWeight.Bold,color=Ink)
                     Row(Modifier.padding(16.dp),horizontalArrangement=Arrangement.spacedBy(16.dp)) {
-                        pattern?.options?.forEach { face -> Column(Modifier.width(if(wide) 120.dp else 82.dp).clip(RoundedCornerShape(20.dp)).background(Color.White).clickable(enabled=!p.patternBusy) { vm.answer(face) }.padding(10.dp).semantics { contentDescription="Choose ${face.label}" },horizontalAlignment=Alignment.CenterHorizontally) {
+                        pattern?.options?.forEach { face -> Column(Modifier.width(if(wide) 120.dp else 82.dp).clip(RoundedCornerShape(20.dp)).background(Color.White).clickable(enabled=!p.patternBusy) { vm.answer(face) }.padding(10.dp).semantics { contentDescription=Translations.text("Choose ${face.label}",local.settings.locale) },horizontalAlignment=Alignment.CenterHorizontally) {
                             FaceArt(face,Modifier.size(if(wide) 90.dp else 60.dp)); UiText(face.label,fontSize=13.sp,color=Ink)
                         } }
                     }
@@ -322,7 +325,7 @@ private val worldDescriptions=listOf("A cosy place to begin","Make a splash with
                                 .border(if(matched) 2.dp else 1.dp,if(matched) Teal.copy(alpha=.45f) else Ink.copy(alpha=.06f),RoundedCornerShape(20.dp))
                                 .clickable(enabled=!matched && p.board?.resolving==false) { vm.flip(card.id) }
                                 .semantics(mergeDescendants=true) {
-                                    contentDescription=if(faceUp) "${card.face.label}${if(matched) ", matched" else ""}" else "Card ${cards.indexOf(card)+1}, face down"
+                                    contentDescription=Translations.text(if(faceUp) "${card.face.label}${if(matched) ", matched" else ""}" else "Card ${cards.indexOf(card)+1}, face down",local.settings.locale)
                                     role=Role.Button
                                 }.padding(8.dp),horizontalAlignment=Alignment.CenterHorizontally,verticalArrangement=Arrangement.Center) {
                                 if(faceUp) {
@@ -396,14 +399,15 @@ private val worldDescriptions=listOf("A cosy place to begin","Make a splash with
             OutlinedTextField(pin,{pin=it.filter(Char::isDigit).take(6)},label={UiText(if(setup) "Create six-digit PIN" else "Parent PIN")},visualTransformation=PasswordVisualTransformation(),keyboardOptions=androidx.compose.foundation.text.KeyboardOptions(keyboardType=KeyboardType.NumberPassword),singleLine=true)
             if(setup) {
                 OutlinedTextField(confirm,{confirm=it.filter(Char::isDigit).take(6)},label={UiText("Repeat PIN")},visualTransformation=PasswordVisualTransformation(),keyboardOptions=androidx.compose.foundation.text.KeyboardOptions(keyboardType=KeyboardType.NumberPassword),singleLine=true)
-                Sub("To confirm you are setting this up for your family, type: I am the grown-up")
+                Sub("Type the adult confirmation below.")
+                Sub(Translations.text("I am the grown-up",local.settings.locale))
                 OutlinedTextField(phrase,{phrase=it},label={UiText("Grown-up confirmation")},singleLine=true)
             }
             if(error.isNotBlank()) UiText(error,color=Color(0xFF9C3430))
             Button(enabled=!busy && cooldown==0 && pin.length==6,onClick={
                 scope.launch {
                     busy=true
-                    val ok=(!setup || phrase.trim()=="I am the grown-up") && vm.authenticate(pin,confirm)
+                    val ok=(!setup || phrase.trim()==Translations.text("I am the grown-up",local.settings.locale)) && vm.authenticate(pin,confirm)
                     if(!ok) { failures++; error=if(setup) "Check both PINs and the confirmation phrase." else "That PIN didn’t match. Please try again."; pin=""; if(failures>=3) cooldown=30 }
                     busy=false
                 }
@@ -413,9 +417,10 @@ private val worldDescriptions=listOf("A cosy place to begin","Make a splash with
     }
 }
 @Composable private fun Toggle(title: String,description: String,value: Boolean,enabled: Boolean = true,change: (Boolean) -> Unit) {
+    val locale=LocalEnglishLocale.current
     Row(Modifier.fillMaxWidth().heightIn(min=64.dp),verticalAlignment=Alignment.CenterVertically) {
         Column(Modifier.weight(1f).padding(end=16.dp)) { UiText(title,fontSize=17.sp,fontWeight=FontWeight.Bold,color=Ink); UiText(description,fontSize=13.sp,color=Ink.copy(alpha=.75f)) }
-        Switch(value,change,enabled=enabled,modifier=Modifier.semantics { contentDescription=title })
+        Switch(value,change,enabled=enabled,modifier=Modifier.semantics { contentDescription=Translations.text(title,locale) })
     }
 }
 @Composable private fun Parents(vm: GameViewModel,local: LocalState,voiceAvailable: Boolean,onVoice: (Boolean) -> Unit) {
@@ -424,12 +429,12 @@ private val worldDescriptions=listOf("A cosy place to begin","Make a splash with
         Panel(Modifier.fillMaxWidth()) {
             UiText("Your explorers",fontSize=23.sp,fontWeight=FontWeight.Bold,color=Ink)
             local.profiles.forEach { profile -> Row(verticalAlignment=Alignment.CenterVertically) {
-                Art(profile.avatar,Modifier.size(42.dp)); TextButton(onClick={vm.update {it.copy(selected=profile.id)}}) { UiText("${profile.name}${if(local.selected==profile.id) " • selected" else ""}") }
+                Art(profile.avatar,Modifier.size(42.dp)); TextButton(onClick={vm.update {it.copy(selected=profile.id)}}) { UiText(profile.name,translate=false); if(local.selected==profile.id) UiText("selected") }
                 if(local.profiles.size>1) TextButton(onClick={confirm="profile:${profile.id}"}) { UiText("Remove") }
             } }
             if(local.profiles.size<4) {
                 OutlinedTextField(name,{name=it.take(16)},label={UiText("Nickname (optional)")},singleLine=true)
-                Row { listOf("fox","rabbit","panda","penguin").forEach { a -> Box(Modifier.size(58.dp).clip(CircleShape).background(if(a==avatar) Pale else Color.Transparent).clickable {avatar=a}.padding(7.dp).semantics {contentDescription="Choose $a avatar"}) {Art(a,Modifier.fillMaxSize())} } }
+                Row { listOf("fox","rabbit","panda","penguin").forEach { a -> Box(Modifier.size(58.dp).clip(CircleShape).background(if(a==avatar) Pale else Color.Transparent).clickable {avatar=a}.padding(7.dp).semantics {contentDescription=Translations.text("Choose $a avatar",local.settings.locale)}) {Art(a,Modifier.fillMaxSize())} } }
                 TextButton(onClick={vm.addProfile(name,avatar);name=""}) { UiText("Add explorer") }
             }
             UiText("Difficulty for ${local.profile.name}",fontWeight=FontWeight.Bold,color=Ink)
@@ -440,11 +445,11 @@ private val worldDescriptions=listOf("A cosy place to begin","Make a splash with
         }
         Panel(Modifier.fillMaxWidth()) {
             UiText("Sound & voice",fontSize=23.sp,fontWeight=FontWeight.Bold,color=Ink)
-            Toggle("Milo’s spoken guidance","Uses an installed offline voice or packaged English instructions.",local.settings.narration) {vm.settings {s -> s.copy(narration=it)}}
-            UiText("Narration volume",color=Ink); Slider(local.settings.volume,{v -> vm.settings {it.copy(volume=v)}},modifier=Modifier.semantics {contentDescription="Narration volume"})
+            Toggle("Milo’s spoken guidance","Uses an installed offline voice in your language. Text remains available.",local.settings.narration) {vm.settings {s -> s.copy(narration=it)}}
+            UiText("Narration volume",color=Ink); Slider(local.settings.volume,{v -> vm.settings {it.copy(volume=v)}},modifier=Modifier.semantics {contentDescription=Translations.text("Narration volume",local.settings.locale)})
             Toggle("Game sounds","Gentle feedback tones.",local.settings.sounds) {vm.settings {s -> s.copy(sounds=it)}}
-            Toggle("Optional voice commands",if(!vm.premium) "Available with premium on supported devices." else if(voiceAvailable) "Tap to speak. Uses the device’s on-device recogniser; no cloud recogniser is used." else "No on-device recogniser is installed. Touch and narration remain available.",local.settings.voice,vm.premium && voiceAvailable,onVoice)
-            UiText("Commands: start game, animals, play again, next level, repeat, help, pause, go back. Recognition quality depends on the device. The app does not save recordings or transcripts.",fontSize=12.sp,color=Ink)
+            if(BuildConfig.VOICE_APPROVED) Toggle("Optional voice commands",if(!vm.premium) "Available with premium on supported devices." else if(voiceAvailable) "Tap to speak. Uses the device’s on-device recogniser; no cloud recogniser is used." else "No on-device recogniser is installed. Touch and narration remain available.",local.settings.voice,vm.premium && voiceAvailable,onVoice)
+            UiText("Voice commands are disabled in this release.",fontSize=12.sp,color=Ink)
         }
         Panel(Modifier.fillMaxWidth()) {
             UiText("Play preferences",fontSize=23.sp,fontWeight=FontWeight.Bold,color=Ink)
@@ -456,8 +461,10 @@ private val worldDescriptions=listOf("A cosy place to begin","Make a splash with
         }
         Panel(Modifier.fillMaxWidth()) {
             UiText("Privacy & local data",fontSize=23.sp,fontWeight=FontWeight.Bold,color=Ink)
-            Sub("No accounts, ads, tracking, location or public sharing. Nicknames, avatars, settings and progress stay on this device; Android backup is disabled. Amazon handles payments. Purchase verification sends only the Amazon user and receipt IDs to the publisher’s verification server when configured.")
-            UiText("Microphone input is off by default. On-device recognition is required; no network recognition fallback is used. Device speech components remain subject to the device provider’s terms. Touch controls work throughout.",color=Ink,fontSize=14.sp)
+            Sub("Play data stays on this device. No ads or child accounts. Amazon handles payments. Configured purchase checks send Amazon user and receipt IDs to the publisher server. Android backup is disabled.")
+            UiText("Microphone commands are disabled. Touch controls and offline narration remain available.",color=Ink,fontSize=14.sp)
+            TextButton(onClick={vm.getApplication<android.app.Application>().startActivity(android.content.Intent(android.content.Intent.ACTION_VIEW,android.net.Uri.parse("https://github.com/lanray07/MatchMinds-Kids/blob/main/PRIVACY.md")).addFlags(android.content.Intent.FLAG_ACTIVITY_NEW_TASK))}) {UiText("Privacy policy")}
+            TextButton(onClick={vm.getApplication<android.app.Application>().startActivity(android.content.Intent(android.content.Intent.ACTION_VIEW,android.net.Uri.parse("https://github.com/lanray07/MatchMinds-Kids/blob/main/DATA-DELETION.md")).addFlags(android.content.Intent.FLAG_ACTIVITY_NEW_TASK))}) {UiText("Data deletion & support")}
             TextButton(onClick={confirm="progress"}) {UiText("Delete all play progress")}
             TextButton(onClick={confirm="all"}) {UiText("Delete profiles, settings and progress")}
         }
@@ -469,7 +476,7 @@ private val worldDescriptions=listOf("A cosy place to begin","Make a splash with
         Panel(Modifier.fillMaxWidth(),Pale) {
             Milo(Modifier.size(130.dp),"celebrating")
             Heading(if(vm.premium) "All adventures are ready" else "A bigger world of play")
-            Sub("Six game modes, all twelve levels per mode, three themed worlds, advanced difficulty, and additional stickers. Optional voice commands are available only with a compatible on-device recogniser.")
+            Sub("Six activities, twelve levels each, three worlds, advanced difficulty and more stickers.")
             UiText("No subscriptions. No advertising. Included games remain playable offline.",color=Teal,fontWeight=FontWeight.Bold)
             UiText(bill.message,color=Ink,modifier=Modifier.semantics {liveRegion=LiveRegionMode.Polite})
             if(!vm.premium) Button(enabled=bill.configured && !bill.busy && bill.price!=null,onClick={billing.purchase()},modifier=Modifier.heightIn(min=56.dp)) {UiText(bill.price?.let {"Unlock premium • $it"} ?: "Price unavailable")}
@@ -480,11 +487,11 @@ private val worldDescriptions=listOf("A cosy place to begin","Make a splash with
     }
 }
 @Composable private fun Language(vm: GameViewModel,local: LocalState) {
-    Page("Language","Choose a reviewed interface and vocabulary set.") {
-        listOf("en-GB" to "English (United Kingdom)","en-US" to "English (United States)").forEach { (tag,label) ->
+    Page("Language","Translation previews") {
+        Translations.languages.entries.map { it.key to it.value }.forEach { (tag,label) ->
             Row(Modifier.fillMaxWidth().clickable {vm.settings {it.copy(locale=tag)}},verticalAlignment=Alignment.CenterVertically) {RadioButton(local.settings.locale==tag,{vm.settings {it.copy(locale=tag)}});UiText(label,color=Ink)}
         }
-        Sub("Other languages are in the translation review pipeline and are not offered as supported languages yet. Letter games use English letter names, not phonics lessons. Voice support is checked separately.")
+        Sub("Translations are previews pending native-language review. English A–Z matching remains an English-letter activity. Narration needs an installed offline voice.")
     }
 }
 @Composable private fun Accessibility(vm: GameViewModel,local: LocalState) {
@@ -492,7 +499,7 @@ private val worldDescriptions=listOf("A cosy place to begin","Make a splash with
         Panel(Modifier.fillMaxWidth()) {
             Toggle("Reduced motion","Remove card scaling and shorten reveal transitions.",local.settings.reducedMotion) {vm.settings {s -> s.copy(reducedMotion=it)}}
             Toggle("Spoken guidance","Every spoken instruction also appears as text.",local.settings.narration) {vm.settings {s -> s.copy(narration=it)}}
-            Sub("Cards have screen reader labels. Matching uses shapes, illustrations, quantities and text, alongside colour. There are no forced timers. Use your device settings for larger text and screen reader controls.")
+            Sub("Cards support screen readers. Shapes, pictures, quantities and text aid matching. No forced timers. Larger text is controlled by your device.")
         }
     }
 }

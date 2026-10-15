@@ -1,5 +1,5 @@
 {
-  "status": "Draft saved; description and multimedia complete; release prerequisites remain",
+  "status": "Draft: fifteen descriptions complete, privacy saved, signed APK uploaded for validation",
   "console_url": "https://developer.amazon.com/apps-and-games/console/app/amzn1.devportal.mobileapp.999497c006704f4181ae2d7eb3d8128a/release/amzn1.devportal.apprelease.d3c7b5637b7e45528951c84f60ca51e6/submission/appstore-details",
   "saved": true,
   "submitted": false,
@@ -19,10 +19,10 @@
   "image_assets": "artifacts/store-assets/manifest.json",
   "image_upload_status": "Verified in Amazon: eight tablet screenshots, 512px and 114px icons, promotional image; English (U.S.) multimedia marked Complete",
   "remaining_inputs_or_checks": [
-    "Signed, configured release binary, Amazon IAP product/key and deployed receipt verification",
-    "Final privacy questionnaire and production policy update identifying verification operator, host, retention and logs",
-    "Fire hardware compatibility, audio/asset rights and release evidence",
-    "Publisher export-compliance certification and final review/submission"
+    "Final signed-build launch on reconnected Fire tablet",
+    "Binary validation and compatible device targeting",
+    "Publisher export-compliance certification and final submission",
+    "Native translation and broader release sign-off"
   ],
   "app_id": "amzn1.devportal.mobileapp.999497c006704f4181ae2d7eb3d8128a",
   "release_id": "amzn1.devportal.apprelease.d3c7b5637b7e45528951c84f60ca51e6",
@@ -31,10 +31,10 @@
   "target_audience": "0-12 years of age",
   "age_advertising_commitment": "Explicitly confirmed by publisher in chat before selecting age group",
   "content_rating_status": "Complete",
-  "description_status": "English (U.S.) Complete; fallback for other marketplaces",
-  "pricing": "Free app; planned one-time premium IAP",
+  "description_status": "All fifteen available listing locales Complete; translated copy awaits native review",
+  "pricing": "Free app; one-time ENTITLED IAP draft, GBP base price 3.99",
   "reviewer_instructions": "Saved prerelease test instructions; no login required",
-  "privacy_questionnaire_status": "Not started: must match final configured binary, SDK and purchase-service processing",
-  "binary_upload_status": "Not uploaded: available release APK is unsigned and IAP verification is not configured",
+  "privacy_questionnaire_status": "Saved for review",
+  "binary_upload_status": "Publisher-signed production APK uploaded; Amazon validation pending",
   "published_support_page": "https://github.com/lanray07/MatchMinds-Kids/blob/main/DATA-DELETION.md"
 }

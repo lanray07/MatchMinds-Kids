@@ -2,7 +2,15 @@
 from pathlib import Path
 import json, hashlib, xml.etree.ElementTree as ET, subprocess, sys, re
 root=Path(__file__).resolve().parents[1]
-results={'date':'2026-10-15','jvm_suites':[],'python_suites':[],'apks':[],'device_tests':'Not run: no authorised device/emulator; hardware acceleration unavailable and software emulator crashes.','screenshots':'16 host-native production-UI renders. Physical device capture count remains zero.'}
+results={'date':'2026-10-15','jvm_suites':[],'python_suites':[],'apks':[],'screenshots':'16 English host-native UI renders; 36 locale host renders and 30 localized store compositions are review previews.'}
+device=root/'artifacts/fire-offline-tests.xml'
+if device.exists():
+    suite=ET.parse(device).getroot()
+    results['device_tests']={key:suite.attrib[key] for key in ['name','tests','failures','errors']}
+    results['device_tests']['configuration']='Physical KFTRWI API 28; Wi-Fi disabled during offline suite'
+for name in ['fire-sandbox-verification','fire-voice-availability']:
+    evidence=root/f'artifacts/{name}.json'
+    if evidence.exists(): results[name]=json.loads(evidence.read_text(encoding='utf-8-sig'))
 for folder in ['core/build/test-results/test','app/build/test-results/testDebugUnitTest']:
     for file in (root/folder).glob('TEST-*.xml'):
         suite=ET.parse(file).getroot()
@@ -19,9 +27,13 @@ lint=root/'app/build/reports/lint-results-debug.xml'
 if lint.exists():
     issues=ET.parse(lint).getroot().findall('issue')
     results['lint']={'errors':sum(x.attrib.get('severity') in ['Fatal','Error'] for x in issues),'warnings':sum(x.attrib.get('severity')=='Warning' for x in issues)}
-log=root/'artifacts/final-build.log'
+log=root/'artifacts/final-localized-checks.log'
 results['final_gradle_build_passed']=log.exists() and 'BUILD SUCCESSFUL' in log.read_text(encoding='utf-8',errors='replace')
 for file in (root/'app/build/outputs/apk').rglob('*.apk'):
-    results['apks'].append({'path':str(file.relative_to(root)),'bytes':file.stat().st_size,'sha256':hashlib.sha256(file.read_bytes()).hexdigest(),'release_signed':False if 'release' in file.parts else 'debug key'})
+    signing=None
+    proof=root/'artifacts/release-signature.txt'
+    if file.name=='app-release.apk' and proof.exists():
+        signing='Verified by Android apksigner' if 'Verified' in proof.read_text(encoding='utf-8-sig') else None
+    results['apks'].append({'path':str(file.relative_to(root)),'bytes':file.stat().st_size,'sha256':hashlib.sha256(file.read_bytes()).hexdigest(),'release_signing':signing if 'release' in file.parts else 'debug key'})
 (root/'artifacts/verification.json').write_text(json.dumps(results,indent=2))
 print(json.dumps(results,indent=2))

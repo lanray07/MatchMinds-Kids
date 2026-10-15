@@ -1,0 +1,265 @@
+{
+  "source": "Actual Robolectric Native Graphics renders of the production Activity. Translation previews; not native-language approval or physical-device captures.",
+  "locales": {
+    "ar": [
+      {
+        "master": "artifacts\\localized-store-assets\\ar\\01-hero.svg",
+        "capture": "artifacts\\localization-renders\\ar-welcome.png",
+        "capture_sha256": "de1e6ac54f9c75d264f8299cb53f62dc61440e968f3d82b84bf7a87da4e8dfa1",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      },
+      {
+        "master": "artifacts\\localized-store-assets\\ar\\02-animals.svg",
+        "capture": "artifacts\\localization-renders\\ar-game.png",
+        "capture_sha256": "baa213d3e851c9363b3855c37f51ee9db11c3b02279749be5f9a5a57effd477f",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      },
+      {
+        "master": "artifacts\\localized-store-assets\\ar\\03-shapes.svg",
+        "capture": "artifacts\\localization-renders\\ar-shapes.png",
+        "capture_sha256": "8c109fa14fc135b012ace59c974c0ebf8157a64757abfd81e42db5cdd2313dfd",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      }
+    ],
+    "de": [
+      {
+        "master": "artifacts\\localized-store-assets\\de\\01-hero.svg",
+        "capture": "artifacts\\localization-renders\\de-welcome.png",
+        "capture_sha256": "c90ad3ba68e8d0fa3e6a42c61792c49469c589bfdbb510ecc37624bed48d6bc9",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      },
+      {
+        "master": "artifacts\\localized-store-assets\\de\\02-animals.svg",
+        "capture": "artifacts\\localization-renders\\de-game.png",
+        "capture_sha256": "e8a03ead88b182edcb1182b3906b9a1eb847ddd453e8c129a49df30e59964de5",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      },
+      {
+        "master": "artifacts\\localized-store-assets\\de\\03-shapes.svg",
+        "capture": "artifacts\\localization-renders\\de-shapes.png",
+        "capture_sha256": "9f4de0b13c5f0daac962aa681b57b7ae301e11d8101a457a56934d027046c881",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      }
+    ],
+    "es": [
+      {
+        "master": "artifacts\\localized-store-assets\\es\\01-hero.svg",
+        "capture": "artifacts\\localization-renders\\es-welcome.png",
+        "capture_sha256": "1ae4f90ee4696db1351dc0129dbbd49f7eff759c85bc0ce0483f5c7d41e695d0",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      },
+      {
+        "master": "artifacts\\localized-store-assets\\es\\02-animals.svg",
+        "capture": "artifacts\\localization-renders\\es-game.png",
+        "capture_sha256": "433d073a9f7add5b8fc0a5b704c2c434daa2c77afee108439713758d4053f10a",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      },
+      {
+        "master": "artifacts\\localized-store-assets\\es\\03-shapes.svg",
+        "capture": "artifacts\\localization-renders\\es-shapes.png",
+        "capture_sha256": "9db3cd945263a413e44d84cb9f0d6fde3844a33e1723e5aeff28cbabce4d2d88",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      }
+    ],
+    "fr": [
+      {
+        "master": "artifacts\\localized-store-assets\\fr\\01-hero.svg",
+        "capture": "artifacts\\localization-renders\\fr-welcome.png",
+        "capture_sha256": "98317484363080bc32cbe232600c899c0f62a16b61683919640db1b989ab0ffa",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      },
+      {
+        "master": "artifacts\\localized-store-assets\\fr\\02-animals.svg",
+        "capture": "artifacts\\localization-renders\\fr-game.png",
+        "capture_sha256": "519b8cfe76b37f4ef80e87683cd2ee0244a7ae99b1139b7564bbb53048d0b36b",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      },
+      {
+        "master": "artifacts\\localized-store-assets\\fr\\03-shapes.svg",
+        "capture": "artifacts\\localization-renders\\fr-shapes.png",
+        "capture_sha256": "3ed0ecf4fc0803690beb30d65dda99652100d5fa14c40f14ad2480a856655a59",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      }
+    ],
+    "hi": [
+      {
+        "master": "artifacts\\localized-store-assets\\hi\\01-hero.svg",
+        "capture": "artifacts\\localization-renders\\hi-welcome.png",
+        "capture_sha256": "6cba81e307c83c2fd8f2be977e9be8de72c09e6b0a1ae62705159e92eb0e2421",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      },
+      {
+        "master": "artifacts\\localized-store-assets\\hi\\02-animals.svg",
+        "capture": "artifacts\\localization-renders\\hi-game.png",
+        "capture_sha256": "aea58fb4cc7b6b3bbc4a8665115d4ba995a4e28f5a5ed3471d490c3f60e05659",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      },
+      {
+        "master": "artifacts\\localized-store-assets\\hi\\03-shapes.svg",
+        "capture": "artifacts\\localization-renders\\hi-shapes.png",
+        "capture_sha256": "24e0ba8211c29a6fb9084d02f781d7a60ee6731bebd705badb5f2c1f78d5761d",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      }
+    ],
+    "it": [
+      {
+        "master": "artifacts\\localized-store-assets\\it\\01-hero.svg",
+        "capture": "artifacts\\localization-renders\\it-welcome.png",
+        "capture_sha256": "fc81e564ad68fe3a2bc53206e0df1e9357fc1e03ed90dbe35da87e3f9d8c3651",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      },
+      {
+        "master": "artifacts\\localized-store-assets\\it\\02-animals.svg",
+        "capture": "artifacts\\localization-renders\\it-game.png",
+        "capture_sha256": "a5ea12179572c31d286a796f5292ae0753f4ab6b2fc6d832561882d7d7a4e5a8",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      },
+      {
+        "master": "artifacts\\localized-store-assets\\it\\03-shapes.svg",
+        "capture": "artifacts\\localization-renders\\it-shapes.png",
+        "capture_sha256": "236bc423a5b85756295c41102518051690fe069011210446111bfd78548f690c",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      }
+    ],
+    "nl": [
+      {
+        "master": "artifacts\\localized-store-assets\\nl\\01-hero.svg",
+        "capture": "artifacts\\localization-renders\\nl-welcome.png",
+        "capture_sha256": "37b6e72df23becc1132f8197847370788e755fe3cbea91effcc897b7fd2338af",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      },
+      {
+        "master": "artifacts\\localized-store-assets\\nl\\02-animals.svg",
+        "capture": "artifacts\\localization-renders\\nl-game.png",
+        "capture_sha256": "56812cfe1d72d4a91bb90c053cba2f1f90ce9aba88b1d551f7c81c4e6aa0143a",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      },
+      {
+        "master": "artifacts\\localized-store-assets\\nl\\03-shapes.svg",
+        "capture": "artifacts\\localization-renders\\nl-shapes.png",
+        "capture_sha256": "ba750b990e3c494951a05e10e5707a7a114980a4cbc2bda0e9670fd729fb624d",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      }
+    ],
+    "pl": [
+      {
+        "master": "artifacts\\localized-store-assets\\pl\\01-hero.svg",
+        "capture": "artifacts\\localization-renders\\pl-welcome.png",
+        "capture_sha256": "b444608d46975d047976260a892bb521f6df61587c015d623f3bad4bc09d5dce",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      },
+      {
+        "master": "artifacts\\localized-store-assets\\pl\\02-animals.svg",
+        "capture": "artifacts\\localization-renders\\pl-game.png",
+        "capture_sha256": "95bc4836e9f638d0d3ecfad12a914c871b8424583e1b6f6feefcfeed6a709e74",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      },
+      {
+        "master": "artifacts\\localized-store-assets\\pl\\03-shapes.svg",
+        "capture": "artifacts\\localization-renders\\pl-shapes.png",
+        "capture_sha256": "ebaeabe67ec4641e57a8202e4f477dcecb9388a773fb8fbc547fa4cf033b31ef",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      }
+    ],
+    "pt-BR": [
+      {
+        "master": "artifacts\\localized-store-assets\\pt-BR\\01-hero.svg",
+        "capture": "artifacts\\localization-renders\\pt-BR-welcome.png",
+        "capture_sha256": "bad9f7f41c533979674d5a15aef4c27a42c1ff27cbe8ddd7a9ade1b3ef42f80b",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      },
+      {
+        "master": "artifacts\\localized-store-assets\\pt-BR\\02-animals.svg",
+        "capture": "artifacts\\localization-renders\\pt-BR-game.png",
+        "capture_sha256": "daa6373c9e710ed8c48c6ff1afe018f2bb3a19ccb4dd8b51b8fbffda77958ac4",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      },
+      {
+        "master": "artifacts\\localized-store-assets\\pt-BR\\03-shapes.svg",
+        "capture": "artifacts\\localization-renders\\pt-BR-shapes.png",
+        "capture_sha256": "e90c111ed8c5f0ebf98ed53d43364914d52dd3f2ac9146f6340e52b7765ec8b6",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      }
+    ],
+    "pt-PT": [
+      {
+        "master": "artifacts\\localized-store-assets\\pt-PT\\01-hero.svg",
+        "capture": "artifacts\\localization-renders\\pt-PT-welcome.png",
+        "capture_sha256": "8237c7ebd496113d1e432c91ad033b75f5552b7206498797875ea9c347143108",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      },
+      {
+        "master": "artifacts\\localized-store-assets\\pt-PT\\02-animals.svg",
+        "capture": "artifacts\\localization-renders\\pt-PT-game.png",
+        "capture_sha256": "daa6373c9e710ed8c48c6ff1afe018f2bb3a19ccb4dd8b51b8fbffda77958ac4",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      },
+      {
+        "master": "artifacts\\localized-store-assets\\pt-PT\\03-shapes.svg",
+        "capture": "artifacts\\localization-renders\\pt-PT-shapes.png",
+        "capture_sha256": "e90c111ed8c5f0ebf98ed53d43364914d52dd3f2ac9146f6340e52b7765ec8b6",
+        "width": 1600,
+        "height": 2560,
+        "approved": false
+      }
+    ]
+  }
+}

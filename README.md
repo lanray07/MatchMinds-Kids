@@ -19,10 +19,10 @@ The debug package is `com.matchminds.kids.debug`; production is `com.matchminds.
 - Seeded immutable matching engine: 4–6 / 12 / 20 cards, distinct quantities and numerals, uppercase/lowercase English pairs, deterministic AB / AAB / ABCB patterns. Twelve levels per mode, per world and difficulty. Pattern levels have five questions. Worlds are cosmetic destinations using the same educational pool.
 - All twelve animal and ten object illustrations, eight shapes with colour names and distinct geometry, original Milo vector art with six poses. In-app vector masters: `app/src/main/java/com/matchminds/kids/ui/Artwork.kt`. Standalone editable brand SVGs and PNG exports: `artifacts/brand`.
 - DataStore persistence for profiles, preferences, best stars and unfinished sessions. Rotation retains the ViewModel; process restart offers Continue. Completed level rewards use stable keys and best-star updates.
-- Offline installed TTS selection, packaged essential English audio, visible instruction text, adjustable narration volume, feedback chime and reduced motion.
+- Installed offline TTS selection, visible instruction text, adjustable narration volume, original feedback chime and reduced motion. Speech falls back to visible text when a suitable installed offline voice is unavailable.
 - Push-to-talk recognition implementation restricted to Android's explicit on-device recogniser. It is off by default AND build-gated pending device/privacy review (`-PvoiceApproved=true` only after that review). Many Fire tablets cannot provide this recogniser. No cloud recognition fallback. Touch and narration remain available.
 - Parent PIN uses random salt + PBKDF2, persistent lockout after repeated failed attempts, and session closure on backgrounding. First setup requires a private six-digit PIN and adult reading confirmation. This gate is not evidence of legally verified parental consent; policy validation is still required.
-- Amazon Appstore SDK 3.0.9 adapter, real price retrieval, purchase and paginated restoration, RVS-backed entitlement verification, cancellation handling and offline entitlement persistence. No simulated success in production. Transactions stay disabled until the publisher supplies its Amazon PEM and HTTPS verifier.
+- Amazon Appstore SDK 3.0.9 adapter, store price retrieval, purchase and paginated restoration, RVS-backed entitlement verification, cancellation handling and offline entitlement persistence. The public PEM is included and the HTTPS verifier is deployed; sandbox purchase and restore passed; live commerce remains a separate release requirement.
 
 ## Structure
 
@@ -45,21 +45,21 @@ The six domain tests cover 9,000 matching boards, 3,600 pattern puzzles, invalid
 
 ## Billing setup
 
-1. Create the app and a one-time ENTITLED IAP with SKU `matchminds.premium.lifetime` in your Amazon developer account. The proposed £3.99 belongs in the store console, not production UI.
-2. Download the app's `AppstoreAuthenticationKey.pem` into `app/src/main/assets/`. Debug package suffix must match any separately registered testing app. The public key is not a developer secret.
-3. Deploy `server/verify.py` behind HTTPS, rate limiting and request size controls. Set `AMAZON_SHARED_SECRET` on the server only and `AMAZON_RVS_ENV=sandbox` for App Tester or `production` for LAT/production. Keep IDs and secret-bearing RVS URLs out of access/error logs. Production hosting, retention and support contacts require publisher decisions.
-4. Build with `-PverificationUrl=https://your-domain.example/verify`. The app sends the Amazon user ID and receipt ID; the server returns verified SKU, identities and cancellation state. Network failures preserve the prior verified entitlement; they never grant a new one. Cancelled verified receipts revoke it. Restore with the purchasing Amazon account after reinstalling.
-5. Run App Tester, sandbox receipt tests, DevTest and Live App Testing. Configure actual release signing separately; no publisher signing key is invented or borrowed.
+The Amazon one-time ENTITLED SKU is `matchminds.premium.lifetime`, with a GBP base price of 3.99 in the console. The app displays Amazon's localized price. The public `AppstoreAuthenticationKey.pem` is included.
+
+Production verification is deployed at `https://matchminds-kids-verifier.vercel.app/verify`; `/api/sandbox` is a separate App Tester handler. `server/vercel` contains the handlers and request limits. The shared secret is encrypted on Vercel and never belongs in the app or Git. Receipt identifiers are processed transiently; see PRIVACY.md for provider metadata handling.
+
+A physical App Tester purchase and restore passed without real payment. Live commerce/refunds/account switching and LAT remain separate checks. Build a production release with `tools/release-signing.ps1 -Build -VerificationUrl https://matchminds-kids-verifier.vercel.app/verify`. The existing publisher key and DPAPI-protected password are outside this repository; preserve them securely.
 
 For QA only: `adb shell am start -n com.matchminds.kids.debug/com.matchminds.kids.MainActivity --ez qa_premium true --es qa_screen NUMBERS`. These extras are ignored by release builds. Seeded screenshot scenes make real moves through the game engine; they do not grant or simulate a store purchase.
 
 ## Localisation
 
-English UK and US are selectable; the US display adapter changes spelling and the TTS language tag. Other requested languages are explicitly unapproved. `tools/localize.py` extracts UI/domain strings, Android resources, voice commands and listing text into a review catalogue. Supply an HTTPS provider using `MM_TRANSLATION_URL` and `MM_TRANSLATION_KEY`, then `--translate es` (or another target). It preserves interpolation tokens and brand terms and writes candidates plus a missing-translation report. Candidates are NOT automatically loaded into the app. Runtime resource integration, full plurals, human educational review, voice checks and Arabic RTL QA are release work before enabling any further locale. No machine-translated alphabet/phonics lessons are shipped. Store captions and UI must be approved together.
+The app offers English UK/US and translation previews for Spanish, French, German, Italian, Brazilian/European Portuguese, Dutch, Polish, Arabic and Hindi. Run `python tools/localize_store.py` to compile the TSV catalogs and store-copy previews. Dynamic names and prices remain opaque; Arabic uses RTL layout and bidi-isolated arguments. A–Z remains explicitly English. The ten translated variants require native educational and pronunciation review before being advertised as fully supported. See `localization/runtime-report.json`; localized screenshot previews are in `artifacts/localized-store-assets`.
 
 ## Artwork and audio
 
-Run `python tools/generate_assets.py` to regenerate editable brand assets and the original chime; `node tools/export_brand.cjs` with `sharp` installed exports PNGs. The bundled local runtime also supplies Sharp. Essential WAVs were generated on this machine with Microsoft Hazel Desktop. Confirm redistribution rights or replace with licensed recordings before release. No external artwork or competitor branding was copied. Speech quality and pronunciation still need device and human checks.
+Run `python tools/generate_assets.py` to regenerate editable brand assets and the original chime; `node tools/export_brand.cjs` with `sharp` installed exports PNGs. Previously generated desktop speech WAVs have been removed from the app pending redistribution review. Narration uses suitable installed offline voices. Speech quality and pronunciation still need human review.
 
 ## Release status
 

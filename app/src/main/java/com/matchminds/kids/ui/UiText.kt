@@ -11,10 +11,10 @@ import androidx.compose.ui.res.stringResource
 import com.matchminds.kids.R
 
 val LocalEnglishLocale = staticCompositionLocalOf { "en-GB" }
-/** Only reviewed English variants are enabled. Machine translation candidates are never loaded. */
+/** Resolves the selected offline catalog; unsupported values remain readable in English. */
 @Composable fun UiText(text: String,modifier: Modifier=Modifier,fontSize: TextUnit=TextUnit.Unspecified,
     fontWeight: FontWeight?=null,color: Color=Color.Unspecified,lineHeight: TextUnit=TextUnit.Unspecified,
-    letterSpacing: TextUnit=TextUnit.Unspecified,maxLines: Int=Int.MAX_VALUE,textAlign: TextAlign?=null) {
+    letterSpacing: TextUnit=TextUnit.Unspecified,maxLines: Int=Int.MAX_VALUE,textAlign: TextAlign?=null,translate:Boolean=true) {
     val res=when(text) {
         "Little matches. Big discoveries." -> R.string.tagline
         "Welcome to MatchMinds!" -> R.string.welcome
@@ -26,6 +26,6 @@ val LocalEnglishLocale = staticCompositionLocalOf { "en-GB" }
         else -> null
     }
     val resolved=if(res==null) text else stringResource(res)
-    val display=if(LocalEnglishLocale.current=="en-US") resolved.replace("colours","colors").replace("Colours","Colors").replace("colour","color").replace("recogniser","recognizer").replace("recognisers","recognizers").replace("cosy","cozy") else resolved
+    val display=if(translate) Translations.text(resolved,LocalEnglishLocale.current) else text
     Text(display,modifier,color=color,fontSize=fontSize,fontWeight=fontWeight,lineHeight=lineHeight,letterSpacing=letterSpacing,maxLines=maxLines,textAlign=textAlign)
 }
