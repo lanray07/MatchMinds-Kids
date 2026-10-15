@@ -14,7 +14,7 @@ with zipfile.ZipFile(source,'w',zipfile.ZIP_DEFLATED) as archive:
         for file in (root/folder).rglob('*'):
             if file.is_file(): archive.write(file,file.relative_to(root))
     if (root/'artifacts/host-render-tests.xml').exists(): archive.write(root/'artifacts/host-render-tests.xml','artifacts/host-render-tests.xml')
-    for name in ['README.md','.gitignore','settings.gradle.kts','build.gradle.kts','gradle.properties','gradlew','gradlew.bat']:
+    for name in ['README.md','PRIVACY.md','DATA-DELETION.md','.gitignore','settings.gradle.kts','build.gradle.kts','gradle.properties','gradlew','gradlew.bat']:
         archive.write(root/name,name)
     if (root/'artifacts/verification.json').exists(): archive.write(root/'artifacts/verification.json','artifacts/verification.json')
     if (root/'artifacts/final-build.log').exists(): archive.write(root/'artifacts/final-build.log','artifacts/final-build.log')

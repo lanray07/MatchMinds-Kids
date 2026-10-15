@@ -1,28 +1,40 @@
 {
-  "status": "Blocked before draft creation: required public customer-support email is missing",
-  "console_url": "https://developer.amazon.com/apps-and-games/console/app/new.html",
-  "saved": false,
+  "status": "Draft saved; description and multimedia complete; release prerequisites remain",
+  "console_url": "https://developer.amazon.com/apps-and-games/console/app/amzn1.devportal.mobileapp.999497c006704f4181ae2d7eb3d8128a/release/amzn1.devportal.apprelease.d3c7b5637b7e45528951c84f60ca51e6/submission/appstore-details",
+  "saved": true,
   "submitted": false,
   "app_title": "MatchMinds Kids Memory Games and Learning",
   "app_sku": "matchminds-kids",
   "category": "Kids",
   "subcategory": "Education",
-  "support_email": null,
+  "support_email": "banksmi@email.com",
   "support_phone": null,
   "support_website": null,
   "validated_in_console": {
-    "title": "The initial punctuated title was rejected. The plain-text title above passes client-side title validation; uniqueness is not established until a successful save.",
-    "support_email": "Required field; the account has no default support information."
+    "title": "Draft created successfully with plain-text title.",
+    "support_email": "User-supplied public support email saved."
   },
   "listing_copy": "store/en-GB.json",
   "keyword_matrix": "store/keywords.csv",
   "image_assets": "artifacts/store-assets/manifest.json",
-  "image_upload_status": "Not uploaded: later submission screens are inaccessible until the new-app form is saved",
+  "image_upload_status": "Verified in Amazon: eight tablet screenshots, 512px and 114px icons, promotional image; English (U.S.) multimedia marked Complete",
   "remaining_inputs_or_checks": [
-    "Public customer-support email to save the initial form",
-    "Published app-specific privacy-policy URL and final publisher disclosures",
-    "Signed, configured release binary and Amazon billing setup",
-    "Accurate privacy, content-rating and territory declarations in the subsequent forms",
-    "Publisher rights/child-safety review before any final certification or submission"
-  ]
+    "Signed, configured release binary, Amazon IAP product/key and deployed receipt verification",
+    "Final privacy questionnaire and production policy update identifying verification operator, host, retention and logs",
+    "Fire hardware compatibility, audio/asset rights and release evidence",
+    "Publisher export-compliance certification and final review/submission"
+  ],
+  "app_id": "amzn1.devportal.mobileapp.999497c006704f4181ae2d7eb3d8128a",
+  "release_id": "amzn1.devportal.apprelease.d3c7b5637b7e45528951c84f60ca51e6",
+  "privacy_policy_url": "https://github.com/lanray07/MatchMinds-Kids/blob/main/PRIVACY.md",
+  "data_deletion_url": "https://github.com/lanray07/MatchMinds-Kids/blob/main/DATA-DELETION.md",
+  "target_audience": "0-12 years of age",
+  "age_advertising_commitment": "Explicitly confirmed by publisher in chat before selecting age group",
+  "content_rating_status": "Complete",
+  "description_status": "English (U.S.) Complete; fallback for other marketplaces",
+  "pricing": "Free app; planned one-time premium IAP",
+  "reviewer_instructions": "Saved prerelease test instructions; no login required",
+  "privacy_questionnaire_status": "Not started: must match final configured binary, SDK and purchase-service processing",
+  "binary_upload_status": "Not uploaded: available release APK is unsigned and IAP verification is not configured",
+  "published_support_page": "https://github.com/lanray07/MatchMinds-Kids/blob/main/DATA-DELETION.md"
 }

@@ -1,6 +1,6 @@
 # Amazon store screenshots and form preparation
 
-The actual Amazon new-app form was prepared with title `MatchMinds Kids Memory Games and Learning`, SKU `matchminds-kids`, and category **Kids → Education**. Amazon rejected the original punctuated title. The plain-text title passes that validation, but saving is blocked by the required public support email. The account has no default support contact. No app draft, image upload or submission has succeeded. See `store/amazon-submission.json` for the exact status.
+The Amazon draft was created with title `MatchMinds Kids Memory Games and Learning`, SKU `matchminds-kids`, category **Kids → Education**, and the public support address supplied by the publisher. English listing text and multimedia are marked Complete in Amazon. Eight tablet screenshots, both icons and the promotional banner are saved. The intended 0–12 audience and the content-rating questionnaire are saved; GitHub privacy/data-deletion links are entered. See `store/amazon-submission.json` for the current upload and remaining-form status. No submission or publication is claimed.
 
 ## Native render pipeline
 
@@ -31,4 +31,4 @@ The eight topics are kids memory matching, animal matching, shapes and colours, 
 
 Use the eight tablet images for the Fire tablet listing. Amazon's shared tablet-image section allows 3–10 screenshots, so do not upload all sixteen variants into one listing. Portrait variants are a separate reusable asset set.
 
-Current requirements were checked against [Amazon's listing documentation](https://developer.amazon.com/docs/app-submission/appstore-details.html): the selected landscape/portrait sizes, icon dimensions and 1024×500 promotional format are supported. Recheck the actual upload validators when the draft is created. Store upload and final publication remain pending the required contact and release configuration.
+Current requirements were checked against [Amazon's listing documentation](https://developer.amazon.com/docs/app-submission/appstore-details.html): the selected landscape/portrait sizes, icon dimensions and 1024×500 promotional format are supported. Recheck the actual upload validators when the draft is created. Final publication remains pending release configuration and the publisher reviews described in `docs/RELEASE.md`.
