@@ -1,0 +1,8 @@
+{
+  "variant": "phone",
+  "locale": "en-GB",
+  "captures": [],
+  "status": "not captured",
+  "source": "Actual debug APK rendered on connected Android device. Premium-only scenes use debug QA access, not purchase success.",
+  "error": "No authorised Android device or booted emulator connected."
+}

@@ -1,0 +1,10 @@
+[
+  {"id":"01-hero","scene":"welcome","headline":"Kids Memory Matching Game","support":"Fun matching adventures for little learners."},
+  {"id":"02-animals","scene":"ANIMALS","headline":"Animal Matching Games for Kids","support":"Discover animals through playful memory games."},
+  {"id":"03-shapes","scene":"SHAPES","headline":"Learn Shapes & Colours","support":"Explore colourful educational activities."},
+  {"id":"04-numbers","scene":"NUMBERS","headline":"Fun Number Matching Games","support":"Match numbers with everyday objects.","review":"Current quantities are stars; change support to 'Match numbers with groups of stars.' before publication."},
+  {"id":"05-letters","scene":"LETTERS","headline":"Letters & Early Learning","support":"Discover letters through interactive play."},
+  {"id":"06-voice","scene":"ANIMALS","headline":"Voice-Guided Learning Games","support":"Listen, learn and play with Milo."},
+  {"id":"07-offline","scene":"SHAPES","headline":"Offline Educational Games","support":"Play included games without an internet connection."},
+  {"id":"08-progress","scene":"rewards","headline":"Celebrate Every Little Win","support":"Collect stars and discover new adventures."}
+]

@@ -1,0 +1,21 @@
+{
+  "visual_origin": "Original geometric vector artwork authored for MatchMinds Kids",
+  "master_format": "SVG; in-app illustration source is ui/Artwork.kt",
+  "palette": [
+    "#237D70",
+    "#E98845",
+    "#FFF9EE",
+    "#F3BC4E",
+    "#233D42"
+  ],
+  "mascot": "Milo the Fox",
+  "poses": [
+    "welcome",
+    "thinking",
+    "celebrating",
+    "encouraging",
+    "explaining",
+    "completion"
+  ],
+  "audio": "Essential narration generated locally with Microsoft Hazel Desktop. Distribution rights require publisher review before release. Chime is original procedural audio."
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-15",
+  "jvm_suites": [
+    {
+      "name": "com.matchminds.core.GameTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0"
+    },
+    {
+      "name": "com.matchminds.kids.StateTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0"
+    }
+  ],
+  "python_suites": [
+    {
+      "suite": "tools",
+      "tests": 3,
+      "passed": true
+    },
+    {
+      "suite": "server",
+      "tests": 3,
+      "passed": true
+    }
+  ],
+  "apks": [
+    {
+      "path": "app\\build\\outputs\\apk\\debug\\app-debug.apk",
+      "bytes": 13199107,
+      "sha256": "83a58a5af7451d77078155ffa7501cca3f6cf0938f1d54a6035db973c2c947e7",
+      "release_signed": "debug key"
+    },
+    {
+      "path": "app\\build\\outputs\\apk\\androidTest\\debug\\app-debug-androidTest.apk",
+      "bytes": 1086939,
+      "sha256": "a7b778bfd30177f84e72358f4144af5523b9358833aec0f0a26a64ecdb4d2761",
+      "release_signed": "debug key"
+    },
+    {
+      "path": "app\\build\\outputs\\apk\\release\\app-release-unsigned.apk",
+      "bytes": 3499845,
+      "sha256": "6a093e6bef51687694884ec27d91b2307a584bdebeaf3ecee1776db8bbac399c",
+      "release_signed": false
+    }
+  ],
+  "device_tests": "Not run: no authorised device/emulator; emulator requires unavailable hardware acceleration and software launch exited.",
+  "screenshots": "0 captured; both manifests record the blocker.",
+  "lint": {
+    "errors": 0,
+    "warnings": 11
+  },
+  "final_gradle_build_passed": true
+}

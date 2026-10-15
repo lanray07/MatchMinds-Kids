@@ -1,0 +1,11 @@
+.gradle/
+.kotlin/
+**/build/
+local.properties
+*.jks
+*.keystore
+.env*
+__pycache__/
+artifacts/raw/
+artifacts/delivery/
+artifacts/*.log

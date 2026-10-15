@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">MatchMinds Kids</string>
+    <string name="tagline">Little matches. Big discoveries.</string>
+    <string name="welcome">Welcome to MatchMinds!</string>
+    <string name="match_instruction">Find two cards that belong together.</string>
+    <string name="match_success">Wonderful! You found a match.</string>
+    <string name="try_again">Great effort! Try another card.</string>
+    <string name="complete">You finished the level!</string>
+    <string name="ready">Ready for another adventure?</string>
+</resources>

@@ -1,0 +1,190 @@
+{
+  "en-GB": {
+    "approved": true,
+    "translation_errors": [],
+    "human_review_required": [
+      "interface in context",
+      "educational vocabulary",
+      "native pronunciation",
+      "command recognition",
+      "alphabet content",
+      "layout"
+    ],
+    "plural_validation": "No Android plurals in source. Quantity cards use explicit numerals. Provider candidates must retain every placeholder.",
+    "runtime_integration": "Only English selectable. Candidate catalogues require resource integration and in-context QA before approval."
+  },
+  "en-US": {
+    "approved": true,
+    "translation_errors": [],
+    "human_review_required": [
+      "interface in context",
+      "educational vocabulary",
+      "native pronunciation",
+      "command recognition",
+      "alphabet content",
+      "layout"
+    ],
+    "plural_validation": "No Android plurals in source. Quantity cards use explicit numerals. Provider candidates must retain every placeholder.",
+    "runtime_integration": "Only English selectable. Candidate catalogues require resource integration and in-context QA before approval."
+  },
+  "es": {
+    "approved": false,
+    "translation_errors": [
+      "238 untranslated entries"
+    ],
+    "human_review_required": [
+      "interface in context",
+      "educational vocabulary",
+      "native pronunciation",
+      "command recognition",
+      "alphabet content",
+      "layout"
+    ],
+    "plural_validation": "No Android plurals in source. Quantity cards use explicit numerals. Provider candidates must retain every placeholder.",
+    "runtime_integration": "Only English selectable. Candidate catalogues require resource integration and in-context QA before approval."
+  },
+  "fr": {
+    "approved": false,
+    "translation_errors": [
+      "238 untranslated entries"
+    ],
+    "human_review_required": [
+      "interface in context",
+      "educational vocabulary",
+      "native pronunciation",
+      "command recognition",
+      "alphabet content",
+      "layout"
+    ],
+    "plural_validation": "No Android plurals in source. Quantity cards use explicit numerals. Provider candidates must retain every placeholder.",
+    "runtime_integration": "Only English selectable. Candidate catalogues require resource integration and in-context QA before approval."
+  },
+  "de": {
+    "approved": false,
+    "translation_errors": [
+      "238 untranslated entries"
+    ],
+    "human_review_required": [
+      "interface in context",
+      "educational vocabulary",
+      "native pronunciation",
+      "command recognition",
+      "alphabet content",
+      "layout"
+    ],
+    "plural_validation": "No Android plurals in source. Quantity cards use explicit numerals. Provider candidates must retain every placeholder.",
+    "runtime_integration": "Only English selectable. Candidate catalogues require resource integration and in-context QA before approval."
+  },
+  "it": {
+    "approved": false,
+    "translation_errors": [
+      "238 untranslated entries"
+    ],
+    "human_review_required": [
+      "interface in context",
+      "educational vocabulary",
+      "native pronunciation",
+      "command recognition",
+      "alphabet content",
+      "layout"
+    ],
+    "plural_validation": "No Android plurals in source. Quantity cards use explicit numerals. Provider candidates must retain every placeholder.",
+    "runtime_integration": "Only English selectable. Candidate catalogues require resource integration and in-context QA before approval."
+  },
+  "pt-BR": {
+    "approved": false,
+    "translation_errors": [
+      "238 untranslated entries"
+    ],
+    "human_review_required": [
+      "interface in context",
+      "educational vocabulary",
+      "native pronunciation",
+      "command recognition",
+      "alphabet content",
+      "layout"
+    ],
+    "plural_validation": "No Android plurals in source. Quantity cards use explicit numerals. Provider candidates must retain every placeholder.",
+    "runtime_integration": "Only English selectable. Candidate catalogues require resource integration and in-context QA before approval."
+  },
+  "pt-PT": {
+    "approved": false,
+    "translation_errors": [
+      "238 untranslated entries"
+    ],
+    "human_review_required": [
+      "interface in context",
+      "educational vocabulary",
+      "native pronunciation",
+      "command recognition",
+      "alphabet content",
+      "layout"
+    ],
+    "plural_validation": "No Android plurals in source. Quantity cards use explicit numerals. Provider candidates must retain every placeholder.",
+    "runtime_integration": "Only English selectable. Candidate catalogues require resource integration and in-context QA before approval."
+  },
+  "nl": {
+    "approved": false,
+    "translation_errors": [
+      "238 untranslated entries"
+    ],
+    "human_review_required": [
+      "interface in context",
+      "educational vocabulary",
+      "native pronunciation",
+      "command recognition",
+      "alphabet content",
+      "layout"
+    ],
+    "plural_validation": "No Android plurals in source. Quantity cards use explicit numerals. Provider candidates must retain every placeholder.",
+    "runtime_integration": "Only English selectable. Candidate catalogues require resource integration and in-context QA before approval."
+  },
+  "pl": {
+    "approved": false,
+    "translation_errors": [
+      "238 untranslated entries"
+    ],
+    "human_review_required": [
+      "interface in context",
+      "educational vocabulary",
+      "native pronunciation",
+      "command recognition",
+      "alphabet content",
+      "layout"
+    ],
+    "plural_validation": "No Android plurals in source. Quantity cards use explicit numerals. Provider candidates must retain every placeholder.",
+    "runtime_integration": "Only English selectable. Candidate catalogues require resource integration and in-context QA before approval."
+  },
+  "ar": {
+    "approved": false,
+    "translation_errors": [
+      "238 untranslated entries"
+    ],
+    "human_review_required": [
+      "interface in context",
+      "educational vocabulary",
+      "native pronunciation",
+      "command recognition",
+      "alphabet content",
+      "RTL layout"
+    ],
+    "plural_validation": "No Android plurals in source. Quantity cards use explicit numerals. Provider candidates must retain every placeholder.",
+    "runtime_integration": "Only English selectable. Candidate catalogues require resource integration and in-context QA before approval."
+  },
+  "hi": {
+    "approved": false,
+    "translation_errors": [
+      "238 untranslated entries"
+    ],
+    "human_review_required": [
+      "interface in context",
+      "educational vocabulary",
+      "native pronunciation",
+      "command recognition",
+      "alphabet content",
+      "layout"
+    ],
+    "plural_validation": "No Android plurals in source. Quantity cards use explicit numerals. Provider candidates must retain every placeholder.",
+    "runtime_integration": "Only English selectable. Candidate catalogues require resource integration and in-context QA before approval."
+  }
+}
