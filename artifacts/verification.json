@@ -119,17 +119,19 @@
       "displayed_price": 3.99,
       "visible_no_charge_notice": false,
       "final_confirmation": "Completed directly by owner after reviewing displayed price and Amazon terms",
-      "actual_charge_confirmed": false,
-      "actual_charge": null
+      "actual_charge_confirmed": true,
+      "actual_charge": "Withheld from public record; private confirmation exists",
+      "billing_evidence_source": "Owner report, not independently inspected billing record"
     },
     "local_data_reset": "Owner explicitly authorized erasure before clean Amazon LAT installation; owner recreated PIN privately. No further data erasure performed.",
     "initial_failure": "Previous sideloaded install had unavailable price and failed purchase-updates request. Clean Amazon installation resolved SDK communication; pre-purchase restore correctly returned no owned premium.",
     "pending": [
-      "Actual billing/no-charge confirmation",
+      "Investigate charge during intended no-charge LAT test before any repeat checkout",
       "Restore after losing all local entitlement data",
       "Different real Amazon-account switching",
       "Store-driven refund/cancellation"
-    ]
+    ],
+    "no_charge_lat_validation": "FAILED: billing discrepancy reported; private confirmation retained outside public Git"
   },
   "fire-voice-availability": {
     "initialized": true,
@@ -630,7 +632,7 @@
       "tester_count": 1,
       "invitation": "Delivered (Amazon tester-management status)",
       "publisher_certification": "Publisher confirmed tester adulthood, consent and sharing rights plus export certification and LAT submission authorization in chat",
-      "purchase_restore": "Passed on Amazon-installed TEST 1; actual charge and clean-state recovery unconfirmed",
+      "purchase_restore": "Functional purchase/restore and premium access passed; no-charge LAT criterion failed after reported billing discrepancy. Investigate before another purchase.",
       "evidence": "artifacts/fire-lat-verification.json"
     },
     "quality_central": {
