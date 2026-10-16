@@ -27,16 +27,15 @@
     "visible_no_charge_notice": false,
     "final_confirmation": "Completed directly by owner after reviewing displayed price and Amazon terms",
     "actual_charge_confirmed": true,
-    "actual_charge": "Withheld from public record; private confirmation exists",
-    "billing_evidence_source": "Owner report, not independently inspected billing record"
+    "actual_charge": 0,
+    "billing_evidence_source": "Owner explicitly clarified that no real charge occurred; billing record not independently inspected"
   },
   "local_data_reset": "Owner explicitly authorized erasure before clean Amazon LAT installation; owner recreated PIN privately. No further data erasure performed.",
   "initial_failure": "Previous sideloaded install had unavailable price and failed purchase-updates request. Clean Amazon installation resolved SDK communication; pre-purchase restore correctly returned no owned premium.",
   "pending": [
-    "Investigate charge during intended no-charge LAT test before any repeat checkout",
     "Restore after losing all local entitlement data",
     "Different real Amazon-account switching",
     "Store-driven refund/cancellation"
   ],
-  "no_charge_lat_validation": "FAILED: billing discrepancy reported; private confirmation retained outside public Git"
+  "no_charge_lat_validation": "PASS: owner confirmed no real charge"
 }

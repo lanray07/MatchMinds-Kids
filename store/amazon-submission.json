@@ -65,5 +65,5 @@
     "evidence": "artifacts/fire-cloud-verification.json"
   },
   "last_checked": "2026-10-16",
-  "lat_purchase_restore": "Functional purchase/receipt re-verification and premium access passed. No-charge LAT criterion FAILED after reported billing discrepancy; investigate test/account/IAP mode before repeating checkout. Clean-state recovery remains untested."
+  "lat_purchase_restore": "Passed on Amazon-installed TEST 1: purchase, fresh restore receipt verification and premium access. Owner confirmed no real charge. Clean-state recovery remains untested."
 }

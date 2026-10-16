@@ -21,7 +21,7 @@ Amazon production is Under Review. A dedicated Live App Test is Test submitted w
 
 ## Remaining verification
 
-LAT purchase and receipt re-verification now pass (see below). Actual billing, restore after local entitlement loss, refunds, real account switching, full accessibility, child usability, native translation review and forced low-memory performance remain unverified. The earlier interrupted/locked-device attempts are superseded by the successful 16 October 15-minute run below. Amazon SDK R8 stack-map warnings remain visible. No store approval or publication is claimed. Latest combined unit tests and lint passed in artifacts/extended-final-checks.log. Run tools/report_results.py for actual suite counts and APK hashes.
+LAT purchase and receipt re-verification now pass (see below). Restore after local entitlement loss, refunds, real account switching, full accessibility, child usability, native translation review and forced low-memory performance remain unverified. The earlier interrupted/locked-device attempts are superseded by the successful 16 October 15-minute run below. Amazon SDK R8 stack-map warnings remain visible. No store approval or publication is claimed. Latest combined unit tests and lint passed in artifacts/extended-final-checks.log. Run tools/report_results.py for actual suite counts and APK hashes.
 
 ## Amazon follow-up — 16 October 2026
 
@@ -43,6 +43,4 @@ Five process-cold launches of the installed publisher-signed release all passed.
 
 Purchase, fresh restore request/receipt re-verification and premium gameplay access passed on KFTRWI API 28 using Amazon TEST 1, installed by com.amazon.venezia. The owner completed Amazon checkout personally. The release showed both purchase-success and verified-restore messages; Ocean discoveries / Number garden opened. See artifacts/fire-lat-verification.json.
 
-The checkout displayed GBP 3.99 without an explicit no-charge notice; actual billing is not yet confirmed. Restore after loss of all local entitlement data, real account switching and store-driven refunds/cancellation remain unverified. The prior sandbox and callback fixtures remain distinct evidence. No credentials, private PINs, customer IDs or receipt IDs are included in public records.
-
-Billing follow-up: a charge was reported after the intended LAT purchase. Functional purchase/restore results stand, but the no-charge LAT criterion is **FAILED**, not fully validated. Specific billing confirmation remains private. Amazon documents no-charge LAT purchases, so app/tester/account/IAP mode requires investigation before another checkout. No refund has been requested or submitted. See https://developer.amazon.com/docs/in-app-purchasing/iap-testing-overview.html#live-app-testing-lat-mode .
+The checkout displayed GBP 3.99 without an explicit no-charge notice; the owner confirmed that no real charge occurred. Restore after loss of all local entitlement data, real account switching and store-driven refunds/cancellation remain unverified. The prior sandbox and callback fixtures remain distinct evidence. No credentials, private PINs, customer IDs or receipt IDs are included in public records.

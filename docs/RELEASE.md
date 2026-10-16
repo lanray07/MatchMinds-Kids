@@ -11,7 +11,7 @@ Amazon confirms UNDER REVIEW after the publisher explicitly certified export com
 - Amazon app review/approval remains pending. The premium item is Approved.
 - Final publisher-signed APK installation/launch passed on KFTRWI, API 28. Earlier debug-build gameplay and sandbox purchase/restore also passed; see artifacts/fire-release-launch.json.
 - Native educational and pronunciation review remains outstanding for ten non-English runtime variants and translated marketing copy. They are previews. Japanese and Swedish are listing-only translations; Chinese is purchase-copy only.
-- Broader accessibility/performance, actual billing, clean-state restore, refunds/account switching and child-usability checks remain outstanding.
+- Broader accessibility/performance, clean-state restore, refunds/account switching and child-usability checks remain outstanding.
 
 Desktop speech WAVs were removed. Default builds exclude microphone commands and permission. Parent PIN protection is not legal verification of parental consent. No scientifically proven developmental improvement is claimed.
 
@@ -25,6 +25,4 @@ On 16 October, LAT is in progress with invitation Delivered. Quality Central com
 
 The 16 October physical Fire continuation passed 15 minutes of debug UI gameplay (151 games, all 18 mode/difficulty combinations). Five launches of the hash-matched installed signed release passed, median Activity TotalTime 237 ms. Human accessibility/native-language review, remaining LAT commerce/account-switching cases and forced low-memory checks remain separate. See VERIFICATION.md.
 
-Amazon-installed LAT purchase, fresh restore verification and premium game access passed on 16 October. The owner completed checkout directly; actual billing is unconfirmed because the dialog displayed GBP 3.99 without a no-charge notice. Clean-state recovery, account switching and refunds remain separate. See artifacts/fire-lat-verification.json.
-
-Billing follow-up: a charge was reported after the intended LAT purchase. Functional purchase/restore results stand, but the no-charge LAT criterion is **FAILED**, not fully validated. Specific billing confirmation remains private. Amazon documents no-charge LAT purchases, so app/tester/account/IAP mode requires investigation before another checkout. No refund has been requested or submitted. See https://developer.amazon.com/docs/in-app-purchasing/iap-testing-overview.html#live-app-testing-lat-mode .
+Amazon-installed LAT purchase, fresh restore verification and premium game access passed on 16 October. The owner completed checkout directly; the owner confirmed no real charge despite the displayed GBP 3.99 price. Clean-state recovery, account switching and refunds remain separate. See artifacts/fire-lat-verification.json.
