@@ -1,4 +1,4 @@
-# Verification record — 15 October 2026
+# Verification record â€” 15 October 2026
 
 ## Current continuation results
 
@@ -22,3 +22,11 @@ Amazon production is Under Review. A dedicated Live App Test is Test submitted w
 ## Remaining verification
 
 Live commerce, refunds, real account switching, completed Live App Testing, full accessibility, child usability, native translation review and long-session/low-RAM performance remain unverified. A long-session attempt lost its Compose hierarchy when device focus was lost; a subsequent attempt was blocked by the lock screen. No passing soak is claimed. Amazon SDK R8 stack-map warnings remain visible. No store approval or publication is claimed. Latest combined unit tests and lint passed in artifacts/extended-final-checks.log. Run tools/report_results.py for actual suite counts and APK hashes.
+
+## Amazon follow-up — 16 October 2026
+
+Production remains Under Review, with no requested changes and the unchanged October 20 estimate. LAT is Test in-progress; the one authorized tester's invitation is Delivered.
+
+Quality Central completed its 43m12s run. Six models passed all three critical install/launch/exit checks with zero performance alerts: Fire HD 10 (2023), Fire Max 11 (2023), Fire 7 (2019), Fire HD 8 (2022), Fire HD 10 (2021), Fire HD 10 (2019). Average cold first-frame latency ranged 0.25–1.05s; average warm latency 0.06–0.28s. Average foreground memory ranged 110.46–168.12 MB. Full average/p50 foreground/background results are in `artifacts/fire-cloud-verification.json`.
+
+Fire 7 (2017) and Fire (2015), both FOS 5, failed installation and skipped launch/exit. The release minimum is API 26; both installation logs explicitly say the devices have API 22. These legacy-device results do not establish a gameplay crash. No lowering of the supported minimum or replacement APK was needed. Cloud tests cover controlled launch/exit and pre-login memory; they do not replace sustained interactive gameplay, native translation review, accessibility review or real LAT purchase/restore cases.

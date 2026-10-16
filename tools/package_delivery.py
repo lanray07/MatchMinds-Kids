@@ -17,7 +17,7 @@ with zipfile.ZipFile(source,'w',zipfile.ZIP_DEFLATED) as archive:
     for name in ['README.md','PRIVACY.md','DATA-DELETION.md','.gitignore','settings.gradle.kts','build.gradle.kts','gradle.properties','gradlew','gradlew.bat']:
         archive.write(root/name,name)
     if (root/'artifacts/verification.json').exists(): archive.write(root/'artifacts/verification.json','artifacts/verification.json')
-    for evidence in ['fire-offline-tests.xml','fire-release-launch.json','fire-sandbox-verification.json','fire-voice-availability.json','release-signature.txt','final-localized-checks.log','signed-release-build.log','extended-final-checks.log','fire-extended-verification.json','fire-billing-callbacks.json','fire-release-performance.json','accessibility-contrast.json','store-follow-up.json']:
+    for evidence in ['fire-offline-tests.xml','fire-release-launch.json','fire-sandbox-verification.json','fire-voice-availability.json','release-signature.txt','final-localized-checks.log','signed-release-build.log','extended-final-checks.log','fire-extended-verification.json','fire-billing-callbacks.json','fire-cloud-verification.json','fire-release-performance.json','accessibility-contrast.json','store-follow-up.json']:
         item=root/'artifacts'/evidence
         if item.exists(): archive.write(item,'artifacts/'+evidence)
 debug=root/'app/build/outputs/apk/debug/app-debug.apk'

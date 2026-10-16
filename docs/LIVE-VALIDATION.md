@@ -4,7 +4,7 @@ The submitted release remains distinct from debug QA fixtures. Native review pac
 
 ## Amazon production-environment testing
 
-A dedicated LAT copies release 1.0.0 and its signed APK. Amazon confirms **Test submitted** on 15 October 2026, with one tester in MatchMinds Kids Release Test. The publisher confirmed adulthood, consent and sharing rights, export certification and submission authorization. Amazon sends the invitation when the test becomes live. Keep the tester address and account screenshots out of public Git history.
+A dedicated LAT copies release 1.0.0 and its signed APK. Amazon confirms **Test in-progress** on 16 October 2026, with one tester in MatchMinds Kids Release Test. The publisher confirmed adulthood, consent and sharing rights, export certification and submission authorization. Amazon marks the authorized tester invitation Delivered. Keep the tester address and account screenshots out of public Git history.
 
 Amazon documents that purchases in LAT are free. Confirm the installed app is the LAT version before initiating checkout. A live-store checkout that may charge money requires an explicit spending limit or the user's participation. Never log customer or receipt identifiers.
 
@@ -25,7 +25,7 @@ Automated semantic-name and touch-target checks and 150% font host renders suppl
 
 Review the Amazon Quality Central device results individually. A queued test is not a pass, and virtual layouts are not new physical Fire models. Long-session debug gameplay uses explicit QA premium access to exercise all activities; it is not purchase evidence.
 
-Quality Central's Functional/Performance Fire Tablets run is In progress as of 15 October. The host review generated 72 additional scenes at 150% text, across 12 locales in portrait and landscape. It found minor header clipping (including Portuguese branding at 600dp) and the locked-content helper label's source-palette contrast is 3.82:1. These are recorded findings, not full accessibility approval; the submitted APK has not been replaced. Raw host text-layout warnings over-report clipping and require visual review.
+Quality Central completed on 16 October: six compatible FOS 7/8 models, two FOS 5 installation failures below the release minimum SDK. See artifacts/fire-cloud-verification.json. The host review generated 72 additional scenes at 150% text, across 12 locales in portrait and landscape. It found minor header clipping (including Portuguese branding at 600dp) and the locked-content helper label's source-palette contrast is 3.82:1. These are recorded findings, not full accessibility approval; the submitted APK has not been replaced. Raw host text-layout warnings over-report clipping and require visual review.
 
 ## Publication
 

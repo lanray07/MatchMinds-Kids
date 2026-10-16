@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "jvm_suites": [
     {
       "name": "com.matchminds.core.LocaleCommandTest",
@@ -175,6 +175,204 @@
     ],
     "scope": "Actual Android instrumentation with simulated Amazon SDK callbacks and fixture account IDs. No real account switching, checkout, refund or production receipt evidence. Debug verifier disabled."
   },
+  "fire-cloud-verification": {
+    "checked_date": "2026-10-16",
+    "run_id": "run#1792092775281",
+    "name": "MatchMinds Kids 1.0.0 Fire tablet release QA",
+    "status": "Complete",
+    "duration": "43 minutes 12 seconds",
+    "compatible": 6,
+    "non_compatible": 2,
+    "devices": [
+      {
+        "model": "Fire HD 10 (2023)",
+        "fire_os": 8,
+        "result": "Compatible",
+        "functional": {
+          "install": "Passed",
+          "launch": "Passed",
+          "exit": "Passed"
+        },
+        "performance_alerts": 0,
+        "cold_start_first_frame_seconds": {
+          "average": 0.31,
+          "p50": 0.31
+        },
+        "warm_start_first_frame_seconds": {
+          "average": 0.07,
+          "p50": 0.07
+        },
+        "foreground_memory_mb": {
+          "average": 166.65,
+          "p50": 166.47
+        },
+        "background_memory_mb": {
+          "average": 155.86,
+          "p50": 155.87
+        }
+      },
+      {
+        "model": "Fire Max 11 (2023)",
+        "fire_os": 8,
+        "result": "Compatible",
+        "functional": {
+          "install": "Passed",
+          "launch": "Passed",
+          "exit": "Passed"
+        },
+        "performance_alerts": 0,
+        "cold_start_first_frame_seconds": {
+          "average": 0.25,
+          "p50": 0.25
+        },
+        "warm_start_first_frame_seconds": {
+          "average": 0.09,
+          "p50": 0.08
+        },
+        "foreground_memory_mb": {
+          "average": 157.23,
+          "p50": 157.33
+        },
+        "background_memory_mb": {
+          "average": 135.66,
+          "p50": 135.67
+        }
+      },
+      {
+        "model": "Fire 7 (2019)",
+        "fire_os": 7,
+        "result": "Compatible",
+        "functional": {
+          "install": "Passed",
+          "launch": "Passed",
+          "exit": "Passed"
+        },
+        "performance_alerts": 0,
+        "cold_start_first_frame_seconds": {
+          "average": 1.05,
+          "p50": 1.04
+        },
+        "warm_start_first_frame_seconds": {
+          "average": 0.28,
+          "p50": 0.28
+        },
+        "foreground_memory_mb": {
+          "average": 110.46,
+          "p50": 110.61
+        },
+        "background_memory_mb": {
+          "average": 93.4,
+          "p50": 88.19
+        }
+      },
+      {
+        "model": "Fire HD 8 (2022)",
+        "fire_os": 8,
+        "result": "Compatible",
+        "functional": {
+          "install": "Passed",
+          "launch": "Passed",
+          "exit": "Passed"
+        },
+        "performance_alerts": 0,
+        "cold_start_first_frame_seconds": {
+          "average": 0.45,
+          "p50": 0.45
+        },
+        "warm_start_first_frame_seconds": {
+          "average": 0.06,
+          "p50": 0.06
+        },
+        "foreground_memory_mb": {
+          "average": 135.64,
+          "p50": 135.66
+        },
+        "background_memory_mb": {
+          "average": 127.99,
+          "p50": 128.3
+        }
+      },
+      {
+        "model": "Fire HD 10 (2021)",
+        "fire_os": 7,
+        "result": "Compatible",
+        "functional": {
+          "install": "Passed",
+          "launch": "Passed",
+          "exit": "Passed"
+        },
+        "performance_alerts": 0,
+        "cold_start_first_frame_seconds": {
+          "average": 0.39,
+          "p50": 0.39
+        },
+        "warm_start_first_frame_seconds": {
+          "average": 0.11,
+          "p50": 0.1
+        },
+        "foreground_memory_mb": {
+          "average": 168.12,
+          "p50": 168.21
+        },
+        "background_memory_mb": {
+          "average": 161.92,
+          "p50": 161.7
+        }
+      },
+      {
+        "model": "Fire HD 10 (2019)",
+        "fire_os": 7,
+        "result": "Compatible",
+        "functional": {
+          "install": "Passed",
+          "launch": "Passed",
+          "exit": "Passed"
+        },
+        "performance_alerts": 0,
+        "cold_start_first_frame_seconds": {
+          "average": 0.38,
+          "p50": 0.38
+        },
+        "warm_start_first_frame_seconds": {
+          "average": 0.11,
+          "p50": 0.11
+        },
+        "foreground_memory_mb": {
+          "average": 139.48,
+          "p50": 139.43
+        },
+        "background_memory_mb": {
+          "average": 132.7,
+          "p50": 132.72
+        }
+      },
+      {
+        "model": "Fire 7 (2017)",
+        "fire_os": 5,
+        "result": "Non-compatible",
+        "functional": {
+          "install": "Failed",
+          "launch": "Skipped",
+          "exit": "Skipped"
+        },
+        "performance": null,
+        "reason": "Installation log explicitly requires SDK 26; device SDK is 22 (INSTALL_FAILED_OLDER_SDK, return -12). Launch and exit skipped; no performance measurement."
+      },
+      {
+        "model": "Fire (2015)",
+        "fire_os": 5,
+        "result": "Non-compatible",
+        "functional": {
+          "install": "Failed",
+          "launch": "Skipped",
+          "exit": "Skipped"
+        },
+        "performance": null,
+        "reason": "Installation log explicitly requires SDK 26; device SDK is 22 (INSTALL_FAILED_OLDER_SDK, return -12). Launch and exit skipped; no performance measurement."
+      }
+    ],
+    "method": "Authenticated Amazon Quality Central device reports. Performance is controlled first-frame latency and pre-login memory, not gameplay frame rate or full-display latency. No user purchases or full gameplay certification."
+  },
   "accessibility-contrast": {
     "method": "sRGB relative luminance; sampled source palette pairs, not a full rendered-pixel audit",
     "pairs": [
@@ -211,25 +409,29 @@
     ]
   },
   "store-follow-up": {
-    "checked_date": "2026-10-15",
+    "checked_date": "2026-10-16",
     "production_status": "Under Review",
     "lat": {
       "name": "Release 1.0.0 - receipt and device verification",
       "release_id": "amzn1.devportal.apprelease.8f36f93ad7e349d9ad21173ad740cb50",
-      "status": "Test submitted",
+      "status": "Test in-progress",
       "tester_group": "MatchMinds Kids Release Test",
       "tester_count": 1,
-      "invitation": "Amazon sends invitation when test becomes live",
+      "invitation": "Delivered (Amazon tester-management status)",
       "publisher_certification": "Publisher confirmed tester adulthood, consent and sharing rights plus export certification and LAT submission authorization in chat"
     },
     "quality_central": {
       "name": "MatchMinds Kids 1.0.0 Fire tablet release QA",
-      "status": "In progress",
+      "status": "Complete",
       "suite": "Functional, Performance",
       "device_family": "Fire Tablets",
-      "submitted": "2026-10-15 12:32:55 PM PDT"
+      "submitted": "2026-10-15 12:32:55 PM PDT",
+      "compatible": 6,
+      "non_compatible": 2,
+      "evidence": "artifacts/fire-cloud-verification.json"
     },
-    "scope": "Console observations only; submitted or queued is not a test pass. Tester contact omitted."
+    "scope": "Console observations only; submitted or queued is not a test pass. Tester contact omitted.",
+    "production_update": "No new updates available requiring attention; estimate remains Oct 20 2026 10:30 AM PDT"
   },
   "host_render_tests": {
     "name": "com.matchminds.kids.StoreCaptureTest",

@@ -1,14 +1,15 @@
 """Record real test XML and APK hashes; never invent a passing device result."""
 from pathlib import Path
+from datetime import datetime, timezone
 import json, hashlib, xml.etree.ElementTree as ET, subprocess, sys, re
 root=Path(__file__).resolve().parents[1]
-results={'date':'2026-10-15','jvm_suites':[],'python_suites':[],'apks':[],'screenshots':'16 English host-native UI renders; 36 locale host renders and 30 localized store compositions plus 72 large-text host scenes are review previews.'}
+results={'date':datetime.now(timezone.utc).date().isoformat(),'jvm_suites':[],'python_suites':[],'apks':[],'screenshots':'16 English host-native UI renders; 36 locale host renders and 30 localized store compositions plus 72 large-text host scenes are review previews.'}
 device=root/'artifacts/fire-offline-tests.xml'
 if device.exists():
     suite=ET.parse(device).getroot()
     results['device_tests']={key:suite.attrib[key] for key in ['name','tests','failures','errors']}
     results['device_tests']['configuration']='Physical KFTRWI API 28; Wi-Fi disabled during offline suite'
-for name in ['fire-sandbox-verification','fire-voice-availability','fire-release-launch','fire-extended-verification','fire-billing-callbacks','fire-release-performance','accessibility-contrast','store-follow-up']:
+for name in ['fire-sandbox-verification','fire-voice-availability','fire-release-launch','fire-extended-verification','fire-billing-callbacks','fire-cloud-verification','fire-release-performance','accessibility-contrast','store-follow-up']:
     evidence=root/f'artifacts/{name}.json'
     if evidence.exists(): results[name]=json.loads(evidence.read_text(encoding='utf-8-sig'))
 for folder in ['core/build/test-results/test','app/build/test-results/testDebugUnitTest']:

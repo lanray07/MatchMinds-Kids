@@ -20,3 +20,5 @@ Optional animal recordings, mixed-category boards, timed challenges and world-sp
 ## Extended validation follow-up
 
 The dedicated LAT is Test submitted with one authorized adult tester. Amazon will invite that tester when live. Quality Central Fire Tablets Functional/Performance tests are In progress. An hourly thread follow-up checks meaningful changes and will inspect the public listing after approval. Native review workbooks and large-text accessibility findings are available; see LIVE-VALIDATION.md and VERIFICATION.md. No store-driven refund, real account-switch, additional physical Fire model or native reviewer approval is claimed.
+
+On 16 October, LAT is in progress with invitation Delivered. Quality Central completed: six FOS 7/8 models passed install/launch/exit without performance alerts; two FOS 5 models cannot install the API 26 minimum release. See VERIFICATION.md and artifacts/fire-cloud-verification.json. Production remains Under Review with no requested action.
