@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-16",
+  "submitted_runtime_changed": false,
+  "completed_this_follow_up": [
+    "Amazon LAT entitlement reset and store-driven premium revocation after explicit Restore",
+    "Amazon LAT checkout cancellation before final confirmation; no premium granted",
+    "Revoked premium stays locked on transition offline; Wi-Fi restored",
+    "Foreground RUNNING_CRITICAL and background COMPLETE trim callbacks; game remained usable and paused/resumed with face-up card preserved",
+    "12 runtime locale file structural audit against TSV source key set; ten translated catalogs each 289 entries",
+    "Static accessibility review and review of existing large-font render findings",
+    "Production review status checked: Under Review, no requested changes"
+  ],
+  "memory_trim": {
+    "device": "KFTRWI API 28",
+    "package": "com.matchminds.kids",
+    "build": "Amazon-installed LAT 1.0.0",
+    "foreground_callback": "RUNNING_CRITICAL accepted; first card flipped and Panda rendered",
+    "background_callback": "COMPLETE accepted after Home and background transition; returned to Adventure paused; Keep playing restored same face-up Panda",
+    "limitations": "Two early COMPLETE attempts were rejected while process was still foreground; subsequent background request succeeded. This injects trim callbacks; actual low-RAM exhaustion, low-memory-killer eviction and leak absence are not certified."
+  },
+  "technical_language_audit": {
+    "structural_pass": true,
+    "artifact": "artifacts/runtime-locale-audit.json",
+    "numeric_triage": "Two Arabic singular labels spell out one; exact values recorded in audit",
+    "native_approval": false
+  },
+  "accessibility_findings": [
+    {
+      "finding": "Locked-content helper contrast 3.82:1 at 13sp",
+      "location": "MainActivity.kt:268",
+      "status": "Open in submitted 1.0.0"
+    },
+    {
+      "finding": "Header brand/subtitle clipping at 150% font including Portuguese at 600dp",
+      "location": "MainActivity.kt:125-128",
+      "status": "Open in submitted 1.0.0"
+    }
+  ],
+  "remaining": [
+    {
+      "check": "Real Amazon-account switching",
+      "status": "Blocked: owner confirmed no second adult account"
+    },
+    {
+      "check": "Native educational/cultural and pronunciation approval",
+      "status": "Blocked: owner confirmed no reviewers; ten variants remain previews"
+    },
+    {
+      "check": "Human screen-reader usability and child usability",
+      "status": "Pending actual participants; automated semantics do not constitute human sign-off"
+    },
+    {
+      "check": "Owned LAT entitlement offline and process-restart transition",
+      "status": "Explicitly deferred by owner; do not initiate another checkout"
+    },
+    {
+      "check": "Actual memory exhaustion/OS low-memory eviction",
+      "status": "Not reproduced; trim callback and existing process-cold launch checks are narrower"
+    },
+    {
+      "check": "Real monetary refund",
+      "status": "Not applicable to no-charge LAT transaction; no refund request sent"
+    },
+    {
+      "check": "Public listing, localized assets/links and premium availability",
+      "status": "Waiting for production Live; existing hourly follow-up retained"
+    }
+  ],
+  "private_evidence": "Screenshots and UI dumps under ignored artifacts/submission; tester address, PIN and receipt/customer IDs excluded from public records"
+}

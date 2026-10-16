@@ -13,9 +13,9 @@ Amazon documents that purchases in LAT are free. Confirm the installed app is th
 | First purchase | Store checkout, production RVS verification, premium unlocked | App Tester sandbox and Amazon-installed LAT purchase passed, 16 October |
 | Restore | Clear only local test entitlement or reinstall test app, restore using original account | LAT purchase-updates and receipt re-verification passed, 16 October; automatic recovery after erase/reinstall also passed |
 | Different account | Owner A unlocks; an authorized account B cannot inherit A's premium; switching back restores A | SDK callback simulation passed on physical Fire; real account switching requires two adult accounts |
-| Cancel checkout | Exit before confirmation; no new premium granted | Failed callback simulation passed on physical Fire; real LAT checkout cancellation pending |
-| Revoke/refund | Amazon test-item reset or actual refund produces cancellation and revokes access on synchronization | RVS cancelled/HTTP 410 mocked tests pass; store-driven case pending |
-| Offline | Previously verified entitlement persists; unverified receipt cannot grant access | Offline Fire gameplay passed; store-specific offline transitions pending |
+| Cancel checkout | Exit before confirmation; no new premium granted | Real Amazon LAT checkout cancellation passed on 16 October; premium worlds and activities stayed locked |
+| Revoke/refund | Amazon test-item reset or actual refund produces cancellation and revokes access on synchronization | Amazon LAT entitlement reset and fresh restore revoked access on 16 October; no monetary refund was attempted |
+| Offline | Previously verified entitlement persists; unverified receipt cannot grant access | Offline Fire gameplay and failed-lookup cache fixture passed; revoked LAT access remained locked after transition offline; an owned LAT offline/restart case remains separate |
 
 Use Amazon's LAT tester controls to reset only this app's disposable test entitlement. A test-item reset is not evidence that a real refund was processed. Sign-in or switching Amazon accounts requires the account owner; never collect passwords in the repository.
 
@@ -48,3 +48,17 @@ The release displayed Premium is ready / All adventures are ready after purchase
 The owner expressly authorized erasing MatchMinds local data and reinstalling from Amazon TEST 1. Uninstall succeeded with no data-retention flag; the production package was absent before reinstall. Amazon Appstore installed a fresh copy (device timestamp 11:22:35, installer com.amazon.venezia).
 
 Automatic purchase synchronization on launch recovered premium through the release's production receipt-verification path. All three worlds were available and Ocean discoveries / Number garden / Level 1 opened without another purchase. Zero stars, the default Explorer and first-time parent PIN setup confirm local setup was reset. This is an automatic erased-state recovery pass; the earlier manual Restore Purchases receipt re-verification remains separate evidence. No post-reinstall manual Restore click was needed. The owner must recreate the parent PIN before using parent settings. See artifacts/fire-lat-verification.json.
+
+## Remaining-test follow-up — 16 October 2026
+
+The owner privately recreated the parent PIN. Amazon confirmed that this app's LAT tester entitlements were successfully reset at 11:31 AM. A fresh **Restore purchases** request changed the release from “All adventures are ready” to “A bigger world of play.” Ocean and Starlight worlds and four premium activities were locked. The initial incremental synchronization had retained cached access and reported no new purchase; this test establishes revocation after an explicit full restore, not immediate automatic propagation.
+
+The actual Amazon checkout then displayed GBP 3.99 and VERIFY AND PAY. Android Back exited before final confirmation. Premium remained locked; no payment confirmation was clicked and no second purchase was completed. The on-resume restore message superseded the checkout status, so the locked access state establishes the result. This is distinct from the earlier successful purchase.
+
+After revocation, a Wi-Fi-off transition kept premium worlds locked and the starter world available. Wi-Fi was restored. The owner explicitly chose to leave the owned LAT offline/restart check pending. Do not initiate another checkout for it.
+
+On the Amazon-installed release, Android accepted a foreground RUNNING_CRITICAL memory-trim callback; a card still flipped and rendered. After backgrounding, COMPLETE trim was accepted. Returning showed the paused adventure, and Keep playing preserved the face-up Panda. Two earlier COMPLETE requests were rejected while the process was still foreground. Callback injection does not reproduce actual RAM exhaustion, OS eviction or establish absence of leaks.
+
+The reproducible `python tools/audit_runtime_locales.py` audit passed for all twelve runtime locale files against the TSV source keys. It checks duplicate keys, missing/extra entries, empty text, placeholder multiplicity, numeric tokens, product names and problematic control characters. The ten translated catalogs each contain 289 entries; English resolves from source literals. Two Arabic singular labels spell out one and are explicitly recorded as numeric triage. Unchanged English words remain visible for review. These checks cannot approve naturalness, child comprehension, cultural fit or speech.
+
+The owner confirmed no second adult Amazon account and no available language or screen-reader reviewers. Real account switching and human sign-off remain pending; ten translated variants remain previews. The existing low-contrast helper and large-font header findings remain open in the submitted APK. No production binary was changed or resubmitted. Production was rechecked: **Under Review**, no requested changes, same October 20 estimate. Public listing checks wait for Live. Full status and limits: `artifacts/remaining-validation.json`.

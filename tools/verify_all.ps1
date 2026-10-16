@@ -10,6 +10,8 @@ try {
     if($LASTEXITCODE -ne 0) { throw 'Receipt verifier tests failed' }
     & python tools/localize.py
     if($LASTEXITCODE -ne 0) { throw 'Localisation report failed' }
+    & python tools/audit_runtime_locales.py
+    if($LASTEXITCODE -ne 0) { throw 'Runtime locale structural audit failed' }
     if($DeviceTests) {
         & .\gradlew.bat :app:connectedDebugAndroidTest --console=plain
         if($LASTEXITCODE -ne 0) { throw 'Instrumented tests failed' }

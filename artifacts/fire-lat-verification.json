@@ -30,11 +30,12 @@
     "actual_charge": 0,
     "billing_evidence_source": "Owner explicitly clarified that no real charge occurred; billing record not independently inspected"
   },
-  "local_data_reset": "Owner explicitly authorized both the initial clean LAT installation and the post-purchase erase/reinstall test. Local profiles/progress/PIN were reset; premium returned from Amazon. Parent PIN setup remains required.",
+  "local_data_reset": "Owner authorized initial clean LAT installation and post-purchase erase/reinstall. Local profiles/progress/PIN reset; premium recovered from Amazon. Owner privately recreated PIN afterwards.",
   "initial_failure": "Previous sideloaded install had unavailable price and failed purchase-updates request. Clean Amazon installation resolved SDK communication; pre-purchase restore correctly returned no owned premium.",
   "pending": [
-    "Different real Amazon-account switching",
-    "Store-driven refund/cancellation"
+    "Different real Amazon-account switching: owner has no second account",
+    "Owned LAT offline/restart transition: owner explicitly chose to leave pending; do not initiate reacquisition",
+    "Actual monetary refund: not applicable to the owner-confirmed zero-charge LAT transaction"
   ],
   "no_charge_lat_validation": "PASS: owner confirmed no real charge",
   "restore_after_reinstall_verified": true,
@@ -49,6 +50,26 @@
     "manual_restore_button_used_after_reinstall": false,
     "local_reset_evidence": "Zero stars, default Explorer profile, and first-time Create six-digit PIN / Repeat PIN setup",
     "premium_access_evidence": "All three worlds available; Ocean discoveries / Number garden / Level 1 opened with four face-down cards",
-    "private_pin": "Not recreated or read by agent; owner must create it again before using parent settings"
-  }
+    "private_pin": "Owner recreated private parent PIN after erased-state recovery; PIN never read or recorded by agent"
+  },
+  "checkout_cancellation": {
+    "passed": true,
+    "date": "2026-10-16",
+    "method": "Opened Amazon checkout displaying GBP 3.99 and VERIFY AND PAY, then Android Back before final confirmation",
+    "payment_confirmation_clicked": false,
+    "new_purchase_attempted_after_cancel": false,
+    "evidence": "Returned to unowned Premium screen; Ocean and Starlight worlds and four premium activities remained locked",
+    "message_limitation": "On-resume sync replaced the checkout status with the general verified-purchases message; access state, not that message, established cancellation outcome"
+  },
+  "store_driven_revocation": {
+    "passed": true,
+    "date": "2026-10-16",
+    "amazon_reset_displayed_time": "October 16th 2026, 11:31 AM",
+    "scope": "Only this app LAT tester entitlement; no financial refund",
+    "amazon_result": "Tester entitlements are successfully reset",
+    "app_result": "Fresh Restore Purchases changed All adventures are ready to A bigger world of play; premium worlds and activities were locked",
+    "sync_limitation": "Initial incremental sync reported no new purchase and retained cache. Explicit full Restore fetched the store cancellation and removed access. Immediate automatic reset propagation was not established.",
+    "offline_transition": "After revocation, Wi-Fi disabled and locked worlds remained locked; Wi-Fi restored in finally block"
+  },
+  "current_entitlement_state": "Revoked test entitlement; starter world available. Parent PIN recreated privately by owner."
 }

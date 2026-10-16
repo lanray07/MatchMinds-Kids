@@ -13,3 +13,5 @@ Review storefront copy in `store/amazon-locales`, purchase copy in `store/iap-lo
 `store-and-purchase-copy.csv` provides 163 individual review rows for the available marketplace and purchase fields, including those three languages. Runtime workbooks contain 289 rows per variant. No checkbox or generated audit substitutes for the reviewer name and contextual decision.
 
 The generator's structural checks and unchanged-English flags are triage aids. They cannot approve educational quality, pronunciation or cultural suitability. Keep all translated runtime variants labeled as previews until contextual review is complete.
+
+On 16 October 2026, the owner confirmed no reviewers are available yet. `python tools/audit_runtime_locales.py` passed the catalog structural checks; see `artifacts/runtime-locale-audit.json`. Its two exact Arabic number-word exceptions and unchanged-English flags remain visible for contextual review. No workbook decisions or reviewer identities were filled by the agent.

@@ -123,11 +123,12 @@
       "actual_charge": 0,
       "billing_evidence_source": "Owner explicitly clarified that no real charge occurred; billing record not independently inspected"
     },
-    "local_data_reset": "Owner explicitly authorized both the initial clean LAT installation and the post-purchase erase/reinstall test. Local profiles/progress/PIN were reset; premium returned from Amazon. Parent PIN setup remains required.",
+    "local_data_reset": "Owner authorized initial clean LAT installation and post-purchase erase/reinstall. Local profiles/progress/PIN reset; premium recovered from Amazon. Owner privately recreated PIN afterwards.",
     "initial_failure": "Previous sideloaded install had unavailable price and failed purchase-updates request. Clean Amazon installation resolved SDK communication; pre-purchase restore correctly returned no owned premium.",
     "pending": [
-      "Different real Amazon-account switching",
-      "Store-driven refund/cancellation"
+      "Different real Amazon-account switching: owner has no second account",
+      "Owned LAT offline/restart transition: owner explicitly chose to leave pending; do not initiate reacquisition",
+      "Actual monetary refund: not applicable to the owner-confirmed zero-charge LAT transaction"
     ],
     "no_charge_lat_validation": "PASS: owner confirmed no real charge",
     "restore_after_reinstall_verified": true,
@@ -142,8 +143,28 @@
       "manual_restore_button_used_after_reinstall": false,
       "local_reset_evidence": "Zero stars, default Explorer profile, and first-time Create six-digit PIN / Repeat PIN setup",
       "premium_access_evidence": "All three worlds available; Ocean discoveries / Number garden / Level 1 opened with four face-down cards",
-      "private_pin": "Not recreated or read by agent; owner must create it again before using parent settings"
-    }
+      "private_pin": "Owner recreated private parent PIN after erased-state recovery; PIN never read or recorded by agent"
+    },
+    "checkout_cancellation": {
+      "passed": true,
+      "date": "2026-10-16",
+      "method": "Opened Amazon checkout displaying GBP 3.99 and VERIFY AND PAY, then Android Back before final confirmation",
+      "payment_confirmation_clicked": false,
+      "new_purchase_attempted_after_cancel": false,
+      "evidence": "Returned to unowned Premium screen; Ocean and Starlight worlds and four premium activities remained locked",
+      "message_limitation": "On-resume sync replaced the checkout status with the general verified-purchases message; access state, not that message, established cancellation outcome"
+    },
+    "store_driven_revocation": {
+      "passed": true,
+      "date": "2026-10-16",
+      "amazon_reset_displayed_time": "October 16th 2026, 11:31 AM",
+      "scope": "Only this app LAT tester entitlement; no financial refund",
+      "amazon_result": "Tester entitlements are successfully reset",
+      "app_result": "Fresh Restore Purchases changed All adventures are ready to A bigger world of play; premium worlds and activities were locked",
+      "sync_limitation": "Initial incremental sync reported no new purchase and retained cache. Explicit full Restore fetched the store cancellation and removed access. Immediate automatic reset propagation was not established.",
+      "offline_transition": "After revocation, Wi-Fi disabled and locked worlds remained locked; Wi-Fi restored in finally block"
+    },
+    "current_entitlement_state": "Revoked test entitlement; starter world available. Parent PIN recreated privately by owner."
   },
   "fire-voice-availability": {
     "initialized": true,
@@ -644,8 +665,9 @@
       "tester_count": 1,
       "invitation": "Delivered (Amazon tester-management status)",
       "publisher_certification": "Publisher confirmed tester adulthood, consent and sharing rights plus export certification and LAT submission authorization in chat",
-      "purchase_restore": "Functional purchase/restore and premium access passed; no-charge LAT criterion failed after reported billing discrepancy. Investigate before another purchase.",
-      "evidence": "artifacts/fire-lat-verification.json"
+      "purchase_restore": "Passed: purchase, manual receipt re-verification, premium access and automatic premium recovery after authorized erase/reinstall. Owner confirmed no real charge.",
+      "evidence": "artifacts/fire-lat-verification.json",
+      "cancellation_revocation": "Passed: exited Amazon checkout before final confirmation; Amazon LAT entitlement reset plus explicit Restore removed premium. No monetary refund."
     },
     "quality_central": {
       "name": "MatchMinds Kids 1.0.0 Fire tablet release QA",
@@ -658,7 +680,200 @@
       "evidence": "artifacts/fire-cloud-verification.json"
     },
     "scope": "Console observations only; submitted or queued is not a test pass. Tester contact omitted.",
-    "production_update": "No new updates available requiring attention; estimate remains Oct 20 2026 10:30 AM PDT"
+    "production_update": "Rechecked 16 October 2026: Under Review; no new updates requiring attention; estimate Oct 20 2026 10:30 AM PDT"
+  },
+  "runtime-locale-audit": {
+    "scope": "Static catalog structure only; English resolves from source literals with US spelling substitutions",
+    "native_review_complete": false,
+    "locales": {
+      "ar": {
+        "entries": 289,
+        "sha256": "8b049657eda6b9fb3c14e63548251b0519b00494943dae462e6ef50dc9b999ab",
+        "unchanged_english_for_manual_triage": []
+      },
+      "de": {
+        "entries": 289,
+        "sha256": "0f7d3be6669c0d42692d0ecca649cee64b94401d5e5a6fb3b587543a5bedffc4",
+        "unchanged_english_for_manual_triage": [
+          "Pause",
+          "Level {0}",
+          "Giraffe",
+          "Zebra",
+          "Panda",
+          "Oval",
+          "Ball"
+        ]
+      },
+      "en-GB": {
+        "entries": 1,
+        "sha256": "8071d2edc13e56f315e8a3f7f1ac7e462b4c5f22f0ef73a4fdfb666a9925d899",
+        "unchanged_english_for_manual_triage": [
+          "Little matches.\nBig discoveries."
+        ]
+      },
+      "en-US": {
+        "entries": 1,
+        "sha256": "8071d2edc13e56f315e8a3f7f1ac7e462b4c5f22f0ef73a4fdfb666a9925d899",
+        "unchanged_english_for_manual_triage": [
+          "Little matches.\nBig discoveries."
+        ]
+      },
+      "es": {
+        "entries": 289,
+        "sha256": "f16283a1de45b90fc595cb1eaba84890fc7fabaab800b33de2607efaf77e197c",
+        "unchanged_english_for_manual_triage": [
+          "panda",
+          "coral"
+        ]
+      },
+      "fr": {
+        "entries": 289,
+        "sha256": "2ef9240f18e58365ac78e78671042bad8aed7e6fff7850740d08fa978bd6e1c1",
+        "unchanged_english_for_manual_triage": [
+          "Parents",
+          "Pause",
+          "lion",
+          "panda",
+          "triangle",
+          "rectangle"
+        ]
+      },
+      "hi": {
+        "entries": 289,
+        "sha256": "b5bed78855175af99bcbac32ac438baf1ccdf67ed262d0519b0194872ca8044c",
+        "unchanged_english_for_manual_triage": []
+      },
+      "it": {
+        "entries": 289,
+        "sha256": "643762c8dc1852c86a965f69af5d0ca4c39f5fd9f6e6c1c9c27fdc134fa5fd7d",
+        "unchanged_english_for_manual_triage": [
+          "zebra",
+          "panda"
+        ]
+      },
+      "nl": {
+        "entries": 289,
+        "sha256": "573f60b2a182928ca8c75f7acf0d2f54cabf0ec57b8a7560ae91ad0235dc8840",
+        "unchanged_english_for_manual_triage": [
+          "zebra",
+          "panda"
+        ]
+      },
+      "pl": {
+        "entries": 289,
+        "sha256": "55a4dbe36cbfcf5f7228a24a2ab9a9360fc024f118ba7c09ba4377fd951aa834",
+        "unchanged_english_for_manual_triage": [
+          "zebra",
+          "panda"
+        ]
+      },
+      "pt-BR": {
+        "entries": 289,
+        "sha256": "c1a255393c0249bc822cbcb33bfbd62b23937faccaaec4b4b42280ced74c9741",
+        "unchanged_english_for_manual_triage": [
+          "zebra",
+          "panda",
+          "oval",
+          "coral"
+        ]
+      },
+      "pt-PT": {
+        "entries": 289,
+        "sha256": "62a627ee923acbcded094e6853a276f414e1b23147e859ea3dbb9670063b5638",
+        "unchanged_english_for_manual_triage": [
+          "zebra",
+          "panda",
+          "oval",
+          "coral"
+        ]
+      }
+    },
+    "issues": [],
+    "numeric_word_triage": [
+      {
+        "locale": "ar",
+        "source": "Discover 1 level",
+        "target": "\u0627\u0643\u062a\u0634\u0641 \u0645\u0633\u062a\u0648\u0649 \u0648\u0627\u062d\u062f\u064b\u0627",
+        "reason": "Arabic singular expresses one in words; native contextual approval still pending"
+      },
+      {
+        "locale": "ar",
+        "source": "1 star",
+        "target": "\u0646\u062c\u0645\u0629 \u0648\u0627\u062d\u062f\u0629",
+        "reason": "Arabic singular expresses one in words; native contextual approval still pending"
+      }
+    ],
+    "structural_pass": true
+  },
+  "remaining-validation": {
+    "date": "2026-10-16",
+    "submitted_runtime_changed": false,
+    "completed_this_follow_up": [
+      "Amazon LAT entitlement reset and store-driven premium revocation after explicit Restore",
+      "Amazon LAT checkout cancellation before final confirmation; no premium granted",
+      "Revoked premium stays locked on transition offline; Wi-Fi restored",
+      "Foreground RUNNING_CRITICAL and background COMPLETE trim callbacks; game remained usable and paused/resumed with face-up card preserved",
+      "12 runtime locale file structural audit against TSV source key set; ten translated catalogs each 289 entries",
+      "Static accessibility review and review of existing large-font render findings",
+      "Production review status checked: Under Review, no requested changes"
+    ],
+    "memory_trim": {
+      "device": "KFTRWI API 28",
+      "package": "com.matchminds.kids",
+      "build": "Amazon-installed LAT 1.0.0",
+      "foreground_callback": "RUNNING_CRITICAL accepted; first card flipped and Panda rendered",
+      "background_callback": "COMPLETE accepted after Home and background transition; returned to Adventure paused; Keep playing restored same face-up Panda",
+      "limitations": "Two early COMPLETE attempts were rejected while process was still foreground; subsequent background request succeeded. This injects trim callbacks; actual low-RAM exhaustion, low-memory-killer eviction and leak absence are not certified."
+    },
+    "technical_language_audit": {
+      "structural_pass": true,
+      "artifact": "artifacts/runtime-locale-audit.json",
+      "numeric_triage": "Two Arabic singular labels spell out one; exact values recorded in audit",
+      "native_approval": false
+    },
+    "accessibility_findings": [
+      {
+        "finding": "Locked-content helper contrast 3.82:1 at 13sp",
+        "location": "MainActivity.kt:268",
+        "status": "Open in submitted 1.0.0"
+      },
+      {
+        "finding": "Header brand/subtitle clipping at 150% font including Portuguese at 600dp",
+        "location": "MainActivity.kt:125-128",
+        "status": "Open in submitted 1.0.0"
+      }
+    ],
+    "remaining": [
+      {
+        "check": "Real Amazon-account switching",
+        "status": "Blocked: owner confirmed no second adult account"
+      },
+      {
+        "check": "Native educational/cultural and pronunciation approval",
+        "status": "Blocked: owner confirmed no reviewers; ten variants remain previews"
+      },
+      {
+        "check": "Human screen-reader usability and child usability",
+        "status": "Pending actual participants; automated semantics do not constitute human sign-off"
+      },
+      {
+        "check": "Owned LAT entitlement offline and process-restart transition",
+        "status": "Explicitly deferred by owner; do not initiate another checkout"
+      },
+      {
+        "check": "Actual memory exhaustion/OS low-memory eviction",
+        "status": "Not reproduced; trim callback and existing process-cold launch checks are narrower"
+      },
+      {
+        "check": "Real monetary refund",
+        "status": "Not applicable to no-charge LAT transaction; no refund request sent"
+      },
+      {
+        "check": "Public listing, localized assets/links and premium availability",
+        "status": "Waiting for production Live; existing hourly follow-up retained"
+      }
+    ],
+    "private_evidence": "Screenshots and UI dumps under ignored artifacts/submission; tester address, PIN and receipt/customer IDs excluded from public records"
   },
   "host_render_tests": {
     "name": "com.matchminds.kids.StoreCaptureTest",

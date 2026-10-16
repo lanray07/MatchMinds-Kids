@@ -10,7 +10,8 @@
     "invitation": "Delivered (Amazon tester-management status)",
     "publisher_certification": "Publisher confirmed tester adulthood, consent and sharing rights plus export certification and LAT submission authorization in chat",
     "purchase_restore": "Passed: purchase, manual receipt re-verification, premium access and automatic premium recovery after authorized erase/reinstall. Owner confirmed no real charge.",
-    "evidence": "artifacts/fire-lat-verification.json"
+    "evidence": "artifacts/fire-lat-verification.json",
+    "cancellation_revocation": "Passed: exited Amazon checkout before final confirmation; Amazon LAT entitlement reset plus explicit Restore removed premium. No monetary refund."
   },
   "quality_central": {
     "name": "MatchMinds Kids 1.0.0 Fire tablet release QA",
@@ -23,5 +24,5 @@
     "evidence": "artifacts/fire-cloud-verification.json"
   },
   "scope": "Console observations only; submitted or queued is not a test pass. Tester contact omitted.",
-  "production_update": "No new updates available requiring attention; estimate remains Oct 20 2026 10:30 AM PDT"
+  "production_update": "Rechecked 16 October 2026: Under Review; no new updates requiring attention; estimate Oct 20 2026 10:30 AM PDT"
 }
