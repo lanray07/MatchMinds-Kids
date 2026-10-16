@@ -21,7 +21,7 @@ Amazon production is Under Review. A dedicated Live App Test is Test submitted w
 
 ## Remaining verification
 
-LAT purchase and receipt re-verification now pass (see below). Restore after local entitlement loss, refunds, real account switching, full accessibility, child usability, native translation review and forced low-memory performance remain unverified. The earlier interrupted/locked-device attempts are superseded by the successful 16 October 15-minute run below. Amazon SDK R8 stack-map warnings remain visible. No store approval or publication is claimed. Latest combined unit tests and lint passed in artifacts/extended-final-checks.log. Run tools/report_results.py for actual suite counts and APK hashes.
+LAT purchase and receipt re-verification now pass (see below). Refunds, real account switching, full accessibility, child usability, native translation review and forced low-memory performance remain unverified. The earlier interrupted/locked-device attempts are superseded by the successful 16 October 15-minute run below. Amazon SDK R8 stack-map warnings remain visible. No store approval or publication is claimed. Latest combined unit tests and lint passed in artifacts/extended-final-checks.log. Run tools/report_results.py for actual suite counts and APK hashes.
 
 ## Amazon follow-up — 16 October 2026
 
@@ -43,4 +43,10 @@ Five process-cold launches of the installed publisher-signed release all passed.
 
 Purchase, fresh restore request/receipt re-verification and premium gameplay access passed on KFTRWI API 28 using Amazon TEST 1, installed by com.amazon.venezia. The owner completed Amazon checkout personally. The release showed both purchase-success and verified-restore messages; Ocean discoveries / Number garden opened. See artifacts/fire-lat-verification.json.
 
-The checkout displayed GBP 3.99 without an explicit no-charge notice; the owner confirmed that no real charge occurred. Restore after loss of all local entitlement data, real account switching and store-driven refunds/cancellation remain unverified. The prior sandbox and callback fixtures remain distinct evidence. No credentials, private PINs, customer IDs or receipt IDs are included in public records.
+The checkout displayed GBP 3.99 without an explicit no-charge notice; the owner confirmed that no real charge occurred. Real account switching and store-driven refunds/cancellation remain unverified; erased-state entitlement recovery passed as described below. The prior sandbox and callback fixtures remain distinct evidence. No credentials, private PINs, customer IDs or receipt IDs are included in public records.
+
+## Restore after erase/reinstall — 16 October 2026
+
+The owner expressly authorized erasing MatchMinds local data and reinstalling from Amazon TEST 1. Uninstall succeeded with no data-retention flag; the production package was absent before reinstall. Amazon Appstore installed a fresh copy (device timestamp 11:22:35, installer com.amazon.venezia).
+
+Automatic purchase synchronization on launch recovered premium through the release's production receipt-verification path. All three worlds were available and Ocean discoveries / Number garden / Level 1 opened without another purchase. Zero stars, the default Explorer and first-time parent PIN setup confirm local setup was reset. This is an automatic erased-state recovery pass; the earlier manual Restore Purchases receipt re-verification remains separate evidence. No post-reinstall manual Restore click was needed. The owner must recreate the parent PIN before using parent settings. See artifacts/fire-lat-verification.json.

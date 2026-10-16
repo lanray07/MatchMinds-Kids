@@ -9,7 +9,7 @@
     "tester_count": 1,
     "invitation": "Delivered (Amazon tester-management status)",
     "publisher_certification": "Publisher confirmed tester adulthood, consent and sharing rights plus export certification and LAT submission authorization in chat",
-    "purchase_restore": "Purchase, receipt re-verification and premium access passed; owner confirmed no real charge. Clean-state entitlement recovery remains untested.",
+    "purchase_restore": "Passed: purchase, manual receipt re-verification, premium access and automatic premium recovery after authorized erase/reinstall. Owner confirmed no real charge.",
     "evidence": "artifacts/fire-lat-verification.json"
   },
   "quality_central": {

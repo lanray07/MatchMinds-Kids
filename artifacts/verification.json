@@ -113,7 +113,7 @@
     "restore_ui": "Restore finished. Verified purchases have been applied.",
     "premium_access": "Ocean discoveries > Number garden > Level 1 opened with four face-down cards",
     "verification_evidence": "Observed release UI messages emitted only after production verifier HTTP 200 and SKU/user/receipt validation in AmazonBilling.verifyReceipt. No raw receipt/customer IDs captured.",
-    "restore_scope": "Fresh Amazon purchase-updates request and receipt verification while the purchased entitlement was already cached. Recovery after a second data erasure/reinstall was not tested.",
+    "restore_scope": "Manual Restore Purchases re-verified the owned receipt before reinstall. After authorized uninstall and fresh Amazon reinstall, automatic on-launch synchronization recovered premium from an erased local state and a premium game opened. No second purchase or post-reinstall manual Restore click was required.",
     "checkout": {
       "displayed_currency": "GBP",
       "displayed_price": 3.99,
@@ -123,14 +123,27 @@
       "actual_charge": 0,
       "billing_evidence_source": "Owner explicitly clarified that no real charge occurred; billing record not independently inspected"
     },
-    "local_data_reset": "Owner explicitly authorized erasure before clean Amazon LAT installation; owner recreated PIN privately. No further data erasure performed.",
+    "local_data_reset": "Owner explicitly authorized both the initial clean LAT installation and the post-purchase erase/reinstall test. Local profiles/progress/PIN were reset; premium returned from Amazon. Parent PIN setup remains required.",
     "initial_failure": "Previous sideloaded install had unavailable price and failed purchase-updates request. Clean Amazon installation resolved SDK communication; pre-purchase restore correctly returned no owned premium.",
     "pending": [
-      "Restore after losing all local entitlement data",
       "Different real Amazon-account switching",
       "Store-driven refund/cancellation"
     ],
-    "no_charge_lat_validation": "PASS: owner confirmed no real charge"
+    "no_charge_lat_validation": "PASS: owner confirmed no real charge",
+    "restore_after_reinstall_verified": true,
+    "clean_state_restore": {
+      "passed": true,
+      "date": "2026-10-16",
+      "local_data_erasure": "Explicitly authorized by owner; adb uninstall without keeping data succeeded; package absent before reinstall",
+      "installer": "com.amazon.venezia",
+      "fresh_device_install_timestamp": "2026-10-16 11:22:35",
+      "restored_via": "Automatic on-launch Amazon purchase-updates synchronization and production receipt verification",
+      "new_purchase_attempted": false,
+      "manual_restore_button_used_after_reinstall": false,
+      "local_reset_evidence": "Zero stars, default Explorer profile, and first-time Create six-digit PIN / Repeat PIN setup",
+      "premium_access_evidence": "All three worlds available; Ocean discoveries / Number garden / Level 1 opened with four face-down cards",
+      "private_pin": "Not recreated or read by agent; owner must create it again before using parent settings"
+    }
   },
   "fire-voice-availability": {
     "initialized": true,
