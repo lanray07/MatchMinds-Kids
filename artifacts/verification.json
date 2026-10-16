@@ -65,8 +65,8 @@
     },
     {
       "path": "app\\build\\outputs\\apk\\androidTest\\debug\\app-debug-androidTest.apk",
-      "bytes": 1114043,
-      "sha256": "5c62669d3505313ec7d004637a0f75a8078f4c229e7d1a5b0245e057a2d03cb0",
+      "bytes": 1115605,
+      "sha256": "eefa6b5ad317a4ea8d85774013b631101253268d7fd8aae6788131a6f71742d9",
       "release_signing": "debug key"
     },
     {
@@ -147,18 +147,156 @@
     "scope": "Signed production APK installation and launch smoke check; earlier offline gameplay and sandbox purchase/restore evidence is separate"
   },
   "fire-extended-verification": {
-    "passed": false,
-    "status": "Blocked pending tablet unlock",
+    "passed": true,
+    "elapsed_ms": 905704,
+    "games_completed": 151,
+    "ui_clicks": 1979,
+    "accessible_controls_checked": 2508,
+    "mode_difficulty_combinations": 18,
+    "max_sampled_pss_kb": 140828,
+    "memory_samples": [
+      {
+        "elapsed_ms": 24265,
+        "games": 6,
+        "pss_kb": 121393
+      },
+      {
+        "elapsed_ms": 60955,
+        "games": 12,
+        "pss_kb": 127494
+      },
+      {
+        "elapsed_ms": 116068,
+        "games": 18,
+        "pss_kb": 132047
+      },
+      {
+        "elapsed_ms": 136647,
+        "games": 24,
+        "pss_kb": 132415
+      },
+      {
+        "elapsed_ms": 171819,
+        "games": 30,
+        "pss_kb": 131756
+      },
+      {
+        "elapsed_ms": 226430,
+        "games": 36,
+        "pss_kb": 136998
+      },
+      {
+        "elapsed_ms": 245952,
+        "games": 42,
+        "pss_kb": 133343
+      },
+      {
+        "elapsed_ms": 280740,
+        "games": 48,
+        "pss_kb": 133720
+      },
+      {
+        "elapsed_ms": 335278,
+        "games": 54,
+        "pss_kb": 135512
+      },
+      {
+        "elapsed_ms": 355904,
+        "games": 60,
+        "pss_kb": 132972
+      },
+      {
+        "elapsed_ms": 390646,
+        "games": 66,
+        "pss_kb": 134144
+      },
+      {
+        "elapsed_ms": 444952,
+        "games": 72,
+        "pss_kb": 140551
+      },
+      {
+        "elapsed_ms": 464326,
+        "games": 78,
+        "pss_kb": 139219
+      },
+      {
+        "elapsed_ms": 498876,
+        "games": 84,
+        "pss_kb": 137957
+      },
+      {
+        "elapsed_ms": 553187,
+        "games": 90,
+        "pss_kb": 135925
+      },
+      {
+        "elapsed_ms": 573624,
+        "games": 96,
+        "pss_kb": 136597
+      },
+      {
+        "elapsed_ms": 608480,
+        "games": 102,
+        "pss_kb": 137516
+      },
+      {
+        "elapsed_ms": 662465,
+        "games": 108,
+        "pss_kb": 139916
+      },
+      {
+        "elapsed_ms": 681974,
+        "games": 114,
+        "pss_kb": 140828
+      },
+      {
+        "elapsed_ms": 716683,
+        "games": 120,
+        "pss_kb": 134988
+      },
+      {
+        "elapsed_ms": 770650,
+        "games": 126,
+        "pss_kb": 137633
+      },
+      {
+        "elapsed_ms": 790922,
+        "games": 132,
+        "pss_kb": 136585
+      },
+      {
+        "elapsed_ms": 825687,
+        "games": 138,
+        "pss_kb": 138955
+      },
+      {
+        "elapsed_ms": 880289,
+        "games": 144,
+        "pss_kb": 135383
+      },
+      {
+        "elapsed_ms": 899629,
+        "games": 150,
+        "pss_kb": 137423
+      }
+    ],
+    "premium_fixture": "Debug qaPremium; not purchase evidence",
+    "scope": "Automated accessible names, >=47dp measured touch bounds, pause/resume, sustained UI gameplay. Activity recreation is covered separately. Not human TalkBack or child usability approval.",
+    "checked_date": "2026-10-16",
     "device_model": "KFTRWI",
     "android_api": 28,
-    "target_duration_ms": 900000,
-    "completed_duration_ms": null,
-    "last_attempt_seconds": 12.423,
-    "last_attempt": "No Compose hierarchies; dumpsys showed Asleep, StatusBar focus and dreaming lockscreen",
-    "earlier_attempt_seconds": 327.729,
-    "earlier_attempt": "Interrupted with no Compose hierarchy; no completed-soak assertion",
-    "harness_change": "Removed repeated Activity recreation from soak, retained screen-on flag, added running checkpoints. Separate offline suite already covers recreation. Fresh test APK built and installed.",
-    "scope": "Debug QA fixture; no passing long-session or low-RAM result is claimed."
+    "instrumentation_result": "OK (1 test)",
+    "instrumentation_seconds": 907.996,
+    "test_apk_sha256": "eefa6b5ad317a4ea8d85774013b631101253268d7fd8aae6788131a6f71742d9",
+    "debug_app_sha256": "d9015e774b63ca65bcaa85a15a09710a651fbda92716adeaa5153af4a6477cd2",
+    "harness_regression": "Original performScrollTo stalled at medium animals, card 10. Focused startGame=6/maxGames=1 passed in 11.502s after replacement with bounded touch swipes and visibility assertion. Full 15-minute rerun then passed.",
+    "limitations": [
+      "Debug QA premium fixture; no purchase evidence",
+      "PSS includes debug and instrumentation overhead",
+      "No forced low-memory pressure, frame-rate or leak certification",
+      "Human TalkBack, native-language and child-usability approval remain pending"
+    ]
   },
   "fire-billing-callbacks": {
     "device_model": "KFTRWI",
@@ -372,6 +510,39 @@
       }
     ],
     "method": "Authenticated Amazon Quality Central device reports. Performance is controlled first-frame latency and pre-login memory, not gameplay frame rate or full-display latency. No user purchases or full gameplay certification."
+  },
+  "fire-release-performance": {
+    "device_model": "KFTRWI",
+    "android_api": 28,
+    "package": "com.matchminds.kids",
+    "passed": true,
+    "launches": [
+      {
+        "TotalTime": 366,
+        "WaitTime": 439
+      },
+      {
+        "TotalTime": 249,
+        "WaitTime": 320
+      },
+      {
+        "TotalTime": 232,
+        "WaitTime": 290
+      },
+      {
+        "TotalTime": 231,
+        "WaitTime": 300
+      },
+      {
+        "TotalTime": 237,
+        "WaitTime": 300
+      }
+    ],
+    "median_process_cold_total_time_ms": 237,
+    "last_launch_pss_kb": 67017,
+    "scope": "5 force-stopped process launches; not an OS-cold boot or gameplay frame-rate measurement.",
+    "apk_sha256": "9a25af9689793c890b83b4ace88420a1e479cd1cd5db062ca88903f36e1df6e6",
+    "installed_apk_sha256": "9a25af9689793c890b83b4ace88420a1e479cd1cd5db062ca88903f36e1df6e6"
   },
   "accessibility-contrast": {
     "method": "sRGB relative luminance; sampled source palette pairs, not a full rendered-pixel audit",

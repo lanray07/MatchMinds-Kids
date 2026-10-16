@@ -32,3 +32,5 @@ Quality Central completed on 16 October: six compatible FOS 7/8 models, two FOS 
 When Amazon reports Live, obtain its actual public listing link. Verify title, category, free-app pricing, all available localized copy, asset order, privacy/deletion/support links and premium product availability. Record marketplace and date. Screenshots must accurately represent the app; translations remain previews until contextual review.
 
 References: [LAT setup](https://developer.amazon.com/docs/app-testing/live-app-testing-getting-started.html), [LAT in-app purchasing](https://developer.amazon.com/docs/in-app-purchasing/iap-lat.html), [Quality Central](https://developer.amazon.com/docs/app-testing/get-started-appstore-quality-central.html).
+
+On 16 October, sustained physical Fire debug gameplay passed for 15 minutes (151 games, all 18 activity/difficulty combinations). The signed installed release also passed five process-cold launches with its APK hash checked. These close the baseline sustained-session and release-launch measurements; forced low-memory pressure, screen-reader usability, native review and store-driven LAT commerce remain pending.

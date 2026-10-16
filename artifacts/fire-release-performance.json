@@ -1,0 +1,33 @@
+{
+  "device_model": "KFTRWI",
+  "android_api": 28,
+  "package": "com.matchminds.kids",
+  "passed": true,
+  "launches": [
+    {
+      "TotalTime": 366,
+      "WaitTime": 439
+    },
+    {
+      "TotalTime": 249,
+      "WaitTime": 320
+    },
+    {
+      "TotalTime": 232,
+      "WaitTime": 290
+    },
+    {
+      "TotalTime": 231,
+      "WaitTime": 300
+    },
+    {
+      "TotalTime": 237,
+      "WaitTime": 300
+    }
+  ],
+  "median_process_cold_total_time_ms": 237,
+  "last_launch_pss_kb": 67017,
+  "scope": "5 force-stopped process launches; not an OS-cold boot or gameplay frame-rate measurement.",
+  "apk_sha256": "9a25af9689793c890b83b4ace88420a1e479cd1cd5db062ca88903f36e1df6e6",
+  "installed_apk_sha256": "9a25af9689793c890b83b4ace88420a1e479cd1cd5db062ca88903f36e1df6e6"
+}

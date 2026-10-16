@@ -26,6 +26,13 @@ def main():
         raise RuntimeError('Exactly one authorized test device is required')
     model = adb('shell', 'getprop', 'ro.product.model').strip()
     api = int(adb('shell', 'getprop', 'ro.build.version.sdk').strip())
+    expected_hash = hashlib.sha256((ROOT/'app/build/outputs/apk/release/app-release.apk').read_bytes()).hexdigest()
+    paths = adb('shell', 'pm', 'path', PACKAGE).splitlines()
+    if len(paths) != 1 or not paths[0].startswith('package:'):
+        raise RuntimeError('Expected one installed release APK')
+    installed_hash = adb('shell', 'sha256sum', paths[0].removeprefix('package:')).split()[0]
+    if installed_hash != expected_hash:
+        raise RuntimeError('Installed APK differs from the signed release artifact')
     launches = []
     for _ in range(args.runs):
         adb('shell', 'am', 'force-stop', PACKAGE)
@@ -33,6 +40,10 @@ def main():
         if 'Status: ok' not in output:
             raise RuntimeError('Release activity did not start')
         launches.append({key: int(re.search(r'^' + key + r':\s*(\d+)', output, re.M).group(1)) for key in ['TotalTime', 'WaitTime']})
+        power = adb('shell', 'dumpsys', 'power')
+        window = adb('shell', 'dumpsys', 'window')
+        if 'mWakefulness=Awake' not in power or not any(PACKAGE in line for line in window.splitlines() if 'mCurrentFocus=' in line):
+            raise RuntimeError('Release is obscured or the device is asleep; unlock before measuring')
     resumed = adb('shell', 'dumpsys', 'activity', 'activities')
     if not any(PACKAGE + '/.MainActivity' in line for line in resumed.splitlines() if 'mResumedActivity' in line):
         raise RuntimeError('Release is not the foreground activity')
@@ -41,8 +52,8 @@ def main():
     report = {'device_model': model, 'android_api': api, 'package': PACKAGE, 'passed': True,
               'launches': launches, 'median_process_cold_total_time_ms': statistics.median(x['TotalTime'] for x in launches),
               'last_launch_pss_kb': int(pss.group(1)) if pss else None,
-              'scope': 'Five force-stopped process launches; not an OS-cold boot or gameplay frame-rate measurement.',
-              'apk_sha256': hashlib.sha256((ROOT/'app/build/outputs/apk/release/app-release.apk').read_bytes()).hexdigest()}
+              'scope': f'{args.runs} force-stopped process launches; not an OS-cold boot or gameplay frame-rate measurement.',
+              'apk_sha256': expected_hash, 'installed_apk_sha256': installed_hash}
     (ROOT/'artifacts/fire-release-performance.json').write_text(json.dumps(report, indent=2)+'\n', encoding='utf-8')
     print(json.dumps(report, indent=2))
 

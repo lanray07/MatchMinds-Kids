@@ -35,15 +35,19 @@ class ExtendedDeviceTest {
         runBlocking {LocalStore(compose.activity).update {LocalState(settings=Settings(locale="en-GB",narration=false,sounds=false,reducedMotion=true))}}
         compose.runOnIdle {vm.qaPremium=true;vm.navigate(Screen.WELCOME)}
         val started=SystemClock.elapsedRealtime()
+        val startGame=args.getString("startGame")?.toInt() ?: 0
+        val maxGames=args.getString("maxGames")?.toInt() ?: Int.MAX_VALUE
         var games=0;var clicks=0;var controls=0;var maxPss=0L
+        fun stage(value:String) {File(compose.activity.cacheDir,"extended-device-stage.txt").writeText("game=$games stage=$value elapsed_ms=${SystemClock.elapsedRealtime()-started}")}
         val covered=mutableSetOf<String>()
         val samples=org.json.JSONArray()
-        while(SystemClock.elapsedRealtime()-started<duration) {
-            val mode=Mode.entries[games%Mode.entries.size]
-            val difficulty=Difficulty.entries[(games/Mode.entries.size)%Difficulty.entries.size]
+        while(SystemClock.elapsedRealtime()-started<duration && games<maxGames) {
+            val sequence=startGame+games
+            val mode=Mode.entries[sequence%Mode.entries.size]
+            val difficulty=Difficulty.entries[(sequence/Mode.entries.size)%Difficulty.entries.size]
             compose.runOnIdle {vm.profileDifficulty(difficulty)}
             compose.waitUntil(5000) {vm.local.value.profile.difficulty==difficulty}
-            compose.runOnIdle {vm.start(mode,1+games%12,1000+games)}
+            compose.runOnIdle {vm.start(mode,1+sequence%12,1000+sequence)}
             compose.waitForIdle()
             assertEquals(Screen.GAME,vm.play.value.screen)
             val density=compose.activity.resources.displayMetrics.density
@@ -71,7 +75,21 @@ class ExtendedDeviceTest {
                 for(pair in board.cards.groupBy {it.pair}.values) {
                     for(card in pair) {
                         val index=board.cards.indexOf(card)+1
-                        compose.onNodeWithContentDescription("Card $index, face down").performScrollTo().performClick();clicks++
+                        stage("scroll card $index")
+                        val cardNode=compose.onNodeWithContentDescription("Card $index, face down")
+                        // performScrollTo stalled on this nested layout on the Fire test device.
+                        // Bounded real touch gestures fail visibly instead of hanging the soak.
+                        repeat(6) {
+                            if(!cardNode.isDisplayed()) {
+                                val cardBounds=cardNode.getUnclippedBoundsInRoot()
+                                val rootBounds=compose.onRoot().getUnclippedBoundsInRoot()
+                                val below=cardBounds.top+cardBounds.bottom > rootBounds.top+rootBounds.bottom
+                                compose.onRoot().performTouchInput {if(below) swipeUp() else swipeDown()}
+                            }
+                        }
+                        cardNode.assertIsDisplayed()
+                        stage("click card $index")
+                        compose.onNodeWithContentDescription("Card $index, face down").performClick();clicks++
                     }
                     compose.waitUntil(5000) {vm.play.value.board?.resolving==false}
                 }
@@ -88,7 +106,7 @@ class ExtendedDeviceTest {
                 .put("passed",false).put("status","running").put("games_completed",games)
                 .put("elapsed_ms",SystemClock.elapsedRealtime()-started).toString(2))
         }
-        assertEquals("All six activities and three difficulties must be exercised",18,covered.size)
+        if(maxGames==Int.MAX_VALUE) assertEquals("All six activities and three difficulties must be exercised",18,covered.size)
         val result=JSONObject().put("passed",true).put("elapsed_ms",SystemClock.elapsedRealtime()-started)
             .put("games_completed",games).put("ui_clicks",clicks).put("accessible_controls_checked",controls)
             .put("mode_difficulty_combinations",covered.size).put("max_sampled_pss_kb",maxPss)

@@ -21,7 +21,7 @@ Amazon production is Under Review. A dedicated Live App Test is Test submitted w
 
 ## Remaining verification
 
-Live commerce, refunds, real account switching, completed Live App Testing, full accessibility, child usability, native translation review and long-session/low-RAM performance remain unverified. A long-session attempt lost its Compose hierarchy when device focus was lost; a subsequent attempt was blocked by the lock screen. No passing soak is claimed. Amazon SDK R8 stack-map warnings remain visible. No store approval or publication is claimed. Latest combined unit tests and lint passed in artifacts/extended-final-checks.log. Run tools/report_results.py for actual suite counts and APK hashes.
+Live commerce, refunds, real account switching, completed Live App Testing, full accessibility, child usability, native translation review and forced low-memory performance remain unverified. The earlier interrupted/locked-device attempts are superseded by the successful 16 October 15-minute run below. Amazon SDK R8 stack-map warnings remain visible. No store approval or publication is claimed. Latest combined unit tests and lint passed in artifacts/extended-final-checks.log. Run tools/report_results.py for actual suite counts and APK hashes.
 
 ## Amazon follow-up — 16 October 2026
 
@@ -30,3 +30,11 @@ Production remains Under Review, with no requested changes and the unchanged Oct
 Quality Central completed its 43m12s run. Six models passed all three critical install/launch/exit checks with zero performance alerts: Fire HD 10 (2023), Fire Max 11 (2023), Fire 7 (2019), Fire HD 8 (2022), Fire HD 10 (2021), Fire HD 10 (2019). Average cold first-frame latency ranged 0.25–1.05s; average warm latency 0.06–0.28s. Average foreground memory ranged 110.46–168.12 MB. Full average/p50 foreground/background results are in `artifacts/fire-cloud-verification.json`.
 
 Fire 7 (2017) and Fire (2015), both FOS 5, failed installation and skipped launch/exit. The release minimum is API 26; both installation logs explicitly say the devices have API 22. These legacy-device results do not establish a gameplay crash. No lowering of the supported minimum or replacement APK was needed. Cloud tests cover controlled launch/exit and pre-login memory; they do not replace sustained interactive gameplay, native translation review, accessibility review or real LAT purchase/restore cases.
+
+## Physical Fire continuation — 16 October 2026
+
+The authorized, unlocked KFTRWI/API 28 completed the sustained debug UI test in 907.996 seconds. Gameplay elapsed time was 905.704 seconds: 151 completed games, 1,979 UI actions, all 18 mode/difficulty combinations, pause/resume, and 2,508 enabled-control name/touch-bound checks (47dp minimum measurement tolerance). Sampled peak PSS was 140,828 KiB (137.5 MiB). The test passed; see `artifacts/fire-extended-verification.json`.
+
+An unbounded Compose performScrollTo call stalled the original harness at medium animals/card 10. The minimized same-seed round passed in 11.502s using bounded touch swipes and an explicit visibility assertion, then the original full 15-minute loop passed. Only test tooling changed; the production APK was unchanged.
+
+Five process-cold launches of the installed publisher-signed release all passed. Android am start TotalTime values were 366, 249, 232, 231 and 237 ms (median 237 ms). The final PSS snapshot was 67,017 KiB (65.4 MiB). Installed APK SHA-256 matched the signed release artifact. See `artifacts/fire-release-performance.json`. These measurements cover Activity launch, not OS-cold boot, full-content readiness or gameplay frame rate. Debug memory includes instrumentation overhead; neither run certifies absence of leaks or forced-low-memory behavior.
