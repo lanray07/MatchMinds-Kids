@@ -1,6 +1,6 @@
 {
   "checked_date": "2026-10-16",
-  "production_status": "Under Review",
+  "production_status": "Under Review (main status badge); submission-history message reports approval",
   "lat": {
     "name": "Release 1.0.0 - receipt and device verification",
     "release_id": "amzn1.devportal.apprelease.8f36f93ad7e349d9ad21173ad740cb50",
@@ -24,5 +24,8 @@
     "evidence": "artifacts/fire-cloud-verification.json"
   },
   "scope": "Console observations only; submitted or queued is not a test pass. Tester contact omitted.",
-  "production_update": "Rechecked 16 October 2026: Under Review; no new updates requiring attention; estimate Oct 20 2026 10:30 AM PDT"
+  "production_update": "Your app is approved and is expected to go live within 24hrs.",
+  "approval_message_observed_at": "2026-10-16T17:54:37.649589+00:00",
+  "publication_verified": false,
+  "status_discrepancy": "Main badge remains UNDER REVIEW and old Oct 20 estimate is still displayed; no Live status or public listing verification yet."
 }

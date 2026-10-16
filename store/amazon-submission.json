@@ -19,8 +19,8 @@
   "image_assets": "artifacts/store-assets/manifest.json",
   "image_upload_status": "Eight English tablet screenshots, icons and banner; localized additions saved for German, French, Spanish, Spanish (Mexico), Italian and Portuguese (Brazil). Other markets use English fallback.",
   "remaining_inputs_or_checks": [
-    "Amazon app review and approval",
-    "Native educational/pronunciation review and broader device/accessibility/performance sign-off"
+    "Production Live status and public listing verification",
+    "Native educational/pronunciation review and remaining human/device checks"
   ],
   "app_id": "amzn1.devportal.mobileapp.999497c006704f4181ae2d7eb3d8128a",
   "release_id": "amzn1.devportal.apprelease.d3c7b5637b7e45528951c84f60ca51e6",
@@ -65,5 +65,9 @@
     "evidence": "artifacts/fire-cloud-verification.json"
   },
   "last_checked": "2026-10-16",
-  "lat_purchase_restore": "Passed on Amazon TEST 1: purchase, manual restore receipt verification, premium access, and automatic recovery from erased local state after Amazon reinstall. Owner confirmed no real charge."
+  "lat_purchase_restore": "Passed on Amazon TEST 1: purchase, manual restore receipt verification, premium access, and automatic recovery from erased local state after Amazon reinstall. Owner confirmed no real charge.",
+  "latest_review_message": "Your app is approved and is expected to go live within 24hrs.",
+  "approval_message_observed_at": "2026-10-16T17:54:37.649589+00:00",
+  "publication_verified": false,
+  "status_discrepancy": "Main badge remains UNDER REVIEW and old Oct 20 estimate is still displayed; no Live status or public listing verification yet."
 }

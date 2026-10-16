@@ -656,7 +656,7 @@
   },
   "store-follow-up": {
     "checked_date": "2026-10-16",
-    "production_status": "Under Review",
+    "production_status": "Under Review (main status badge); submission-history message reports approval",
     "lat": {
       "name": "Release 1.0.0 - receipt and device verification",
       "release_id": "amzn1.devportal.apprelease.8f36f93ad7e349d9ad21173ad740cb50",
@@ -680,7 +680,10 @@
       "evidence": "artifacts/fire-cloud-verification.json"
     },
     "scope": "Console observations only; submitted or queued is not a test pass. Tester contact omitted.",
-    "production_update": "Rechecked 16 October 2026: Under Review; no new updates requiring attention; estimate Oct 20 2026 10:30 AM PDT"
+    "production_update": "Your app is approved and is expected to go live within 24hrs.",
+    "approval_message_observed_at": "2026-10-16T17:54:37.649589+00:00",
+    "publication_verified": false,
+    "status_discrepancy": "Main badge remains UNDER REVIEW and old Oct 20 estimate is still displayed; no Live status or public listing verification yet."
   },
   "runtime-locale-audit": {
     "scope": "Static catalog structure only; English resolves from source literals with US spelling substitutions",
@@ -793,13 +796,13 @@
       {
         "locale": "ar",
         "source": "Discover 1 level",
-        "target": "\u0627\u0643\u062a\u0634\u0641 \u0645\u0633\u062a\u0648\u0649 \u0648\u0627\u062d\u062f\u064b\u0627",
+        "target": "اكتشف مستوى واحدًا",
         "reason": "Arabic singular expresses one in words; native contextual approval still pending"
       },
       {
         "locale": "ar",
         "source": "1 star",
-        "target": "\u0646\u062c\u0645\u0629 \u0648\u0627\u062d\u062f\u0629",
+        "target": "نجمة واحدة",
         "reason": "Arabic singular expresses one in words; native contextual approval still pending"
       }
     ],
