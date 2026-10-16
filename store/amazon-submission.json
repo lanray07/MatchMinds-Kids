@@ -64,5 +64,6 @@
     "non_compatible": 2,
     "evidence": "artifacts/fire-cloud-verification.json"
   },
-  "last_checked": "2026-10-16"
+  "last_checked": "2026-10-16",
+  "lat_purchase_restore": "Passed on Amazon-installed TEST 1, 16 October: purchase, fresh restore re-verification and premium access. Actual charge and clean-state recovery not confirmed."
 }

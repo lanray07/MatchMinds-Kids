@@ -10,8 +10,8 @@ Amazon documents that purchases in LAT are free. Confirm the installed app is th
 
 | Scenario | Required evidence | Current evidence |
 | --- | --- | --- |
-| First purchase | Store checkout, production RVS verification, premium unlocked | App Tester sandbox purchase/restore passed; LAT pending |
-| Restore | Clear only local test entitlement or reinstall test app, restore using original account | App Tester sandbox passed; LAT pending |
+| First purchase | Store checkout, production RVS verification, premium unlocked | App Tester sandbox and Amazon-installed LAT purchase passed, 16 October |
+| Restore | Clear only local test entitlement or reinstall test app, restore using original account | LAT purchase-updates and receipt re-verification passed, 16 October; recovery after clearing local entitlement remains pending |
 | Different account | Owner A unlocks; an authorized account B cannot inherit A's premium; switching back restores A | SDK callback simulation passed on physical Fire; real account switching requires two adult accounts |
 | Cancel checkout | Exit before confirmation; no new premium granted | Failed callback simulation passed on physical Fire; real LAT checkout cancellation pending |
 | Revoke/refund | Amazon test-item reset or actual refund produces cancellation and revokes access on synchronization | RVS cancelled/HTTP 410 mocked tests pass; store-driven case pending |
@@ -33,4 +33,12 @@ When Amazon reports Live, obtain its actual public listing link. Verify title, c
 
 References: [LAT setup](https://developer.amazon.com/docs/app-testing/live-app-testing-getting-started.html), [LAT in-app purchasing](https://developer.amazon.com/docs/in-app-purchasing/iap-lat.html), [Quality Central](https://developer.amazon.com/docs/app-testing/get-started-appstore-quality-central.html).
 
-On 16 October, sustained physical Fire debug gameplay passed for 15 minutes (151 games, all 18 activity/difficulty combinations). The signed installed release also passed five process-cold launches with its APK hash checked. These close the baseline sustained-session and release-launch measurements; forced low-memory pressure, screen-reader usability, native review and store-driven LAT commerce remain pending.
+On 16 October, sustained physical Fire debug gameplay passed for 15 minutes (151 games, all 18 activity/difficulty combinations). The signed installed release also passed five process-cold launches with its APK hash checked. These close the baseline sustained-session and release-launch measurements; forced low-memory pressure, screen-reader usability, native review, clean-state entitlement recovery and remaining store-driven LAT cases remain pending.
+
+## LAT purchase and restore — 16 October 2026
+
+A clean installation from Amazon TEST 1 is confirmed by installer com.amazon.venezia. The earlier sideloaded copy could not load price or restore; a clean Amazon installation resolved that connection. The owner expressly authorized the initial data erasure and privately recreated the parent PIN.
+
+Before purchase, restore correctly reported no owned premium. Amazon then supplied the GBP 3.99 product price. The owner completed the final VERIFY AND PAY confirmation directly; no no-charge notice was visible. Actual billing is unverified and must not be reported as zero without evidence.
+
+The release displayed Premium is ready / All adventures are ready after purchase verification, then Restore finished. Verified purchases have been applied after a new restore request. Ocean discoveries / Number garden opened successfully. See artifacts/fire-lat-verification.json. This verifies a fresh restore request with the entitlement still cached, not recovery after a second data erasure. Account switching and refunds remain separate checks. Never publish receipt or customer IDs.

@@ -21,7 +21,7 @@ Amazon production is Under Review. A dedicated Live App Test is Test submitted w
 
 ## Remaining verification
 
-Live commerce, refunds, real account switching, completed Live App Testing, full accessibility, child usability, native translation review and forced low-memory performance remain unverified. The earlier interrupted/locked-device attempts are superseded by the successful 16 October 15-minute run below. Amazon SDK R8 stack-map warnings remain visible. No store approval or publication is claimed. Latest combined unit tests and lint passed in artifacts/extended-final-checks.log. Run tools/report_results.py for actual suite counts and APK hashes.
+LAT purchase and receipt re-verification now pass (see below). Actual billing, restore after local entitlement loss, refunds, real account switching, full accessibility, child usability, native translation review and forced low-memory performance remain unverified. The earlier interrupted/locked-device attempts are superseded by the successful 16 October 15-minute run below. Amazon SDK R8 stack-map warnings remain visible. No store approval or publication is claimed. Latest combined unit tests and lint passed in artifacts/extended-final-checks.log. Run tools/report_results.py for actual suite counts and APK hashes.
 
 ## Amazon follow-up — 16 October 2026
 
@@ -38,3 +38,9 @@ The authorized, unlocked KFTRWI/API 28 completed the sustained debug UI test in 
 An unbounded Compose performScrollTo call stalled the original harness at medium animals/card 10. The minimized same-seed round passed in 11.502s using bounded touch swipes and an explicit visibility assertion, then the original full 15-minute loop passed. Only test tooling changed; the production APK was unchanged.
 
 Five process-cold launches of the installed publisher-signed release all passed. Android am start TotalTime values were 366, 249, 232, 231 and 237 ms (median 237 ms). The final PSS snapshot was 67,017 KiB (65.4 MiB). Installed APK SHA-256 matched the signed release artifact. See `artifacts/fire-release-performance.json`. These measurements cover Activity launch, not OS-cold boot, full-content readiness or gameplay frame rate. Debug memory includes instrumentation overhead; neither run certifies absence of leaks or forced-low-memory behavior.
+
+## Amazon-installed LAT commerce — 16 October 2026
+
+Purchase, fresh restore request/receipt re-verification and premium gameplay access passed on KFTRWI API 28 using Amazon TEST 1, installed by com.amazon.venezia. The owner completed Amazon checkout personally. The release showed both purchase-success and verified-restore messages; Ocean discoveries / Number garden opened. See artifacts/fire-lat-verification.json.
+
+The checkout displayed GBP 3.99 without an explicit no-charge notice; actual billing is not yet confirmed. Restore after loss of all local entitlement data, real account switching and store-driven refunds/cancellation remain unverified. The prior sandbox and callback fixtures remain distinct evidence. No credentials, private PINs, customer IDs or receipt IDs are included in public records.

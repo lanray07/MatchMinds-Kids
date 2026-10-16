@@ -8,7 +8,9 @@
     "tester_group": "MatchMinds Kids Release Test",
     "tester_count": 1,
     "invitation": "Delivered (Amazon tester-management status)",
-    "publisher_certification": "Publisher confirmed tester adulthood, consent and sharing rights plus export certification and LAT submission authorization in chat"
+    "publisher_certification": "Publisher confirmed tester adulthood, consent and sharing rights plus export certification and LAT submission authorization in chat",
+    "purchase_restore": "Passed on Amazon-installed TEST 1; actual charge and clean-state recovery unconfirmed",
+    "evidence": "artifacts/fire-lat-verification.json"
   },
   "quality_central": {
     "name": "MatchMinds Kids 1.0.0 Fire tablet release QA",

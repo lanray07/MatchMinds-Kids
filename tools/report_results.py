@@ -9,7 +9,7 @@ if device.exists():
     suite=ET.parse(device).getroot()
     results['device_tests']={key:suite.attrib[key] for key in ['name','tests','failures','errors']}
     results['device_tests']['configuration']='Physical KFTRWI API 28; Wi-Fi disabled during offline suite'
-for name in ['fire-sandbox-verification','fire-voice-availability','fire-release-launch','fire-extended-verification','fire-billing-callbacks','fire-cloud-verification','fire-release-performance','accessibility-contrast','store-follow-up']:
+for name in ['fire-sandbox-verification','fire-lat-verification','fire-voice-availability','fire-release-launch','fire-extended-verification','fire-billing-callbacks','fire-cloud-verification','fire-release-performance','accessibility-contrast','store-follow-up']:
     evidence=root/f'artifacts/{name}.json'
     if evidence.exists(): results[name]=json.loads(evidence.read_text(encoding='utf-8-sig'))
 for folder in ['core/build/test-results/test','app/build/test-results/testDebugUnitTest']:

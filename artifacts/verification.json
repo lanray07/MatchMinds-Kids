@@ -91,6 +91,46 @@
     "endpoint": "https://matchminds-kids-verifier.vercel.app/api/sandbox",
     "real_money_charged": false
   },
+  "fire-lat-verification": {
+    "checked_date": "2026-10-16",
+    "device_model": "KFTRWI",
+    "android_api": 28,
+    "app_version": "1.0.0",
+    "version_code": 1,
+    "installer": "com.amazon.venezia",
+    "amazon_installed_apk_sha256": "752705ac5f8d976546205e3faf9bf19be1de90bff000712c0461076c4d746d1c",
+    "test_listing": "Amazon TEST 1",
+    "test_asin": "B0HN5G9K86",
+    "sku": "matchminds.premium.lifetime",
+    "sandbox_mode": false,
+    "purchase_verified": true,
+    "restore_verified": true,
+    "premium_access_verified": true,
+    "purchase_ui": [
+      "Premium is ready. Enjoy your adventures!",
+      "All adventures are ready"
+    ],
+    "restore_ui": "Restore finished. Verified purchases have been applied.",
+    "premium_access": "Ocean discoveries > Number garden > Level 1 opened with four face-down cards",
+    "verification_evidence": "Observed release UI messages emitted only after production verifier HTTP 200 and SKU/user/receipt validation in AmazonBilling.verifyReceipt. No raw receipt/customer IDs captured.",
+    "restore_scope": "Fresh Amazon purchase-updates request and receipt verification while the purchased entitlement was already cached. Recovery after a second data erasure/reinstall was not tested.",
+    "checkout": {
+      "displayed_currency": "GBP",
+      "displayed_price": 3.99,
+      "visible_no_charge_notice": false,
+      "final_confirmation": "Completed directly by owner after reviewing displayed price and Amazon terms",
+      "actual_charge_confirmed": false,
+      "actual_charge": null
+    },
+    "local_data_reset": "Owner explicitly authorized erasure before clean Amazon LAT installation; owner recreated PIN privately. No further data erasure performed.",
+    "initial_failure": "Previous sideloaded install had unavailable price and failed purchase-updates request. Clean Amazon installation resolved SDK communication; pre-purchase restore correctly returned no owned premium.",
+    "pending": [
+      "Actual billing/no-charge confirmation",
+      "Restore after losing all local entitlement data",
+      "Different real Amazon-account switching",
+      "Store-driven refund/cancellation"
+    ]
+  },
   "fire-voice-availability": {
     "initialized": true,
     "method": "Installed offline voice metadata plus completed synthesis; pronunciation quality still needs human review",
@@ -589,7 +629,9 @@
       "tester_group": "MatchMinds Kids Release Test",
       "tester_count": 1,
       "invitation": "Delivered (Amazon tester-management status)",
-      "publisher_certification": "Publisher confirmed tester adulthood, consent and sharing rights plus export certification and LAT submission authorization in chat"
+      "publisher_certification": "Publisher confirmed tester adulthood, consent and sharing rights plus export certification and LAT submission authorization in chat",
+      "purchase_restore": "Passed on Amazon-installed TEST 1; actual charge and clean-state recovery unconfirmed",
+      "evidence": "artifacts/fire-lat-verification.json"
     },
     "quality_central": {
       "name": "MatchMinds Kids 1.0.0 Fire tablet release QA",
